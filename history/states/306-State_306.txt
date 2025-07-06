@@ -1,25 +1,10 @@
-state = {
-	id = 306
-	name = "STATE_306"
-	manpower = 124860
-
-	state_category = town
-
-	provinces = {
-		924 1150 3436 4554 5141 5457 5886 6313 6708 7866 9411 9870 15070 15125 15158 15187 15244 15245 15356 15364 
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		611 835 2871 3129 5042 6592 7015 8670 8830 12018 14594 15499 17241 17293 17318 17322 17421 17456 17494 17498 17512 17537 17538 17553 
 	}
-
-	history = {
-		owner = NOK
-		
-		victory_points = { 3436 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NOK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

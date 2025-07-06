@@ -1,27 +1,10 @@
-state = {
-	id = 384
-	name = "STATE_384"
-	manpower = 119605
-
-	state_category = town
-
-	provinces = {
-		1228 7607 8261 12314 12362 12417 12442 
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		367 860 2499 3261 4036 4066 4182 4501 4784 5935 6698 7386 8414 8778 8941 9447 9453 9855 10482 10795 10809 11996 12431 14741 15620 17795 17865 17917 17980 18048 18177 18178 18230 18378 18450 18465 18541 18554 18669 
 	}
-
-	history = {
-		owner = KGR
-		
-		victory_points = { 1228 15 }
-		victory_points = { 12417 15 }
-		victory_points = { 12442 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KGR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

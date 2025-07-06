@@ -1,0 +1,19 @@
+state={
+	id=1092
+	name="STATE_1092"
+	history={
+		owner = STP
+		add_core_of = STP
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		875 1120 2345 2688 2715 3347 5640 5653 5945 6222 6574 6591 7134 7183 8407 8874 10792 11823 12388 12638 13055 13526 14033 14206 15165 15447 15820 25159 25311 25385 25444 25459 25506 25513 25550 25639 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

@@ -1,23 +1,10 @@
-state = {
-	id = 522
-	name = "STATE_522"
-	manpower = 18280
-
-	state_category = town
-
-	provinces = {
-		3705 4599 6206 7511 7733 8359 8542 8913 9278 15895 15919 15936 15937 15953 15962 15965 15997 16043 
+state={
+	id=522
+	name="STATE_522"
+	provinces={
+		305 516 826 1386 1864 2014 3220 3652 4255 4356 4686 4716 6406 8080 8455 8900 9084 9162 9844 10190 12118 12381 13724 15733 19196 19314 19411 19507 19508 19542 19722 19743 19797 19873 19891 19959 20018 20019 
 	}
-
-	history = {
-		owner = ALR
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ALR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

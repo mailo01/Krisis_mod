@@ -1,30 +1,10 @@
-state = {
-	id = 160
-	name = "STATE_160"
-	manpower = 648543
-
-	state_category = large_town
-
-	provinces = {
-		2023 2462 2986 3827 4798 5801 7271 7703 8907 14863 14984 15019 15025 
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		1322 2041 2528 2806 3153 4488 4664 5409 6947 7644 9443 10201 10281 13582 16126 16150 
 	}
-
-	resources = {
-		steel = 75
-		oil = 105
-	}
-
-	history = {
-		owner = AKT
-		
-		victory_points = { 7703 50 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = AKT
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

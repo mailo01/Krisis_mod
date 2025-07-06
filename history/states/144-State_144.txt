@@ -1,25 +1,10 @@
-state = {
-	id = 144
-	name = "STATE_144"
-	manpower = 118520
-
-	state_category = large_town
-
-	provinces = {
-		2269 2338 2589 4140 5320 6157 6456 7338 7355 7480 8065 8228 8533 8651 8892 9852 15631 15632 15670 15731 15751 15784 15843 15844 15867 
+state={
+	id=144
+	name="STATE_144"
+	provinces={
+		992 1699 2000 2134 3155 3848 3879 4898 5639 7996 8726 10226 11382 12570 13383 13420 14256 15955 15961 
 	}
-
-	history = {
-		owner = HAK
-		
-		victory_points = { 8651 15 }
-		
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
-		
-		add_core_of = HAK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

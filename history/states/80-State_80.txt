@@ -1,30 +1,10 @@
-state = {
-	id = 80
-	name = "STATE_80"
-	manpower = 255448
-
-	state_category = large_town
-
-	provinces = {
-		7105 8711 9513 11613 
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		1479 6750 
 	}
-
-	resources = {
-		steel = 23
-		rubber = 33
-	}
-
-	history = {
-		owner = MGO
-		
-		victory_points = { 11613 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = MGO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

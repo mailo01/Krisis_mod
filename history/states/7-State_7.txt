@@ -1,30 +1,10 @@
-state = {
-	id = 7
-	name = "STATE_7"
-	manpower = 406068
-
-	state_category = large_town
-
-	provinces = {
-		494 1018 1105 2706 2774 2775 11832 11836 11886 
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		2220 2370 4522 9516 10993 11216 11606 15932 15934 15935 15936 
 	}
-
-	resources = {
-		aluminium = 3
-		rubber = 54
-	}
-
-	history = {
-		owner = KIO
-		
-		victory_points = { 2706 15 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-		}
-		
-		add_core_of = KIO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

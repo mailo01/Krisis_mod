@@ -1,29 +1,10 @@
-state = {
-	id = 505
-	name = "STATE_505"
-	manpower = 267650
-
-	state_category = town
-
-	provinces = {
-		777 8767 9972 11547 11548 11614 11644 
+state={
+	id=505
+	name="STATE_505"
+	provinces={
+		3770 4842 8132 9309 10763 10944 12015 14455 14956 19035 19055 19099 19189 19226 19274 19300 19364 19373 19488 19565 19628 19739 
 	}
-
-	resources = {
-		rubber = 21
-	}
-
-	history = {
-		owner = TVR
-		
-		victory_points = { 8767 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = TVR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

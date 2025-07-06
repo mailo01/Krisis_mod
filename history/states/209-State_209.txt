@@ -1,28 +1,10 @@
-state = {
-	id = 209
-	name = "STATE_209"
-	manpower = 1106668
-
-	state_category = large_town
-
-	provinces = {
-		3029 4169 5863 6027 6172 6229 6494 7358 8522 10072 12850 12924 12950 12997 13018 13064 13089 13104 13141 13159 13224 13280 
+state={
+	id=209
+	name="STATE_209"
+	provinces={
+		1331 1383 3246 3446 3746 4240 5979 6715 15910 16492 16508 16561 16565 
 	}
-
-	history = {
-		owner = TAM
-		
-		victory_points = { 5863 50 }
-		victory_points = { 7358 15 }
-		victory_points = { 10072 15 }
-		victory_points = { 12924 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = TAM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

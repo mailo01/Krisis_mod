@@ -1,29 +1,10 @@
-state = {
-	id = 169
-	name = "STATE_169"
-	manpower = 7821352
-
-	state_category = metropolis
-
-	provinces = {
-		3478 
+state={
+	id=169
+	name="STATE_169"
+	provinces={
+		264 977 3234 3483 4074 4673 9974 12370 13872 
 	}
-
-	resources = {
-		steel = 98
-	}
-
-	history = {
-		owner = PGD
-		
-		victory_points = { 3478 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-		}
-		
-		add_core_of = PGD
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 548
-	name = "STATE_548"
-	manpower = 110530
-
-	state_category = town
-
-	provinces = {
-		3824 4576 12438 12556 
+state={
+	id=548
+	name="STATE_548"
+	provinces={
+		734 757 1670 2330 4791 5425 5808 6455 7082 8381 9588 10014 10393 10413 10505 11005 11485 11489 11504 11692 11898 13733 14927 15320 15364 19340 19454 19535 19545 19617 19618 19662 19689 19690 19704 19727 19772 19847 19886 19894 19932 19974 20029 20048 20069 20090 20134 20158 20177 
 	}
-
-	history = {
-		owner = KRS
-		
-		victory_points = { 4576 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KRS
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

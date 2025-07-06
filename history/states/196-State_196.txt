@@ -1,29 +1,10 @@
-state = {
-	id = 196
-	name = "STATE_196"
-	manpower = 2431604
-
-	state_category = large_town
-
-	provinces = {
-		551 3198 3200 3785 4170 6121 7689 9384 9581 9753 13235 13303 13309 13402 13528 
+state={
+	id=196
+	name="STATE_196"
+	provinces={
+		24 7192 8752 12074 13627 16325 16403 
 	}
-
-	resources = {
-		oil = 240
-	}
-
-	history = {
-		owner = TAT
-		
-		victory_points = { 551 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-		}
-		
-		add_core_of = TAT
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

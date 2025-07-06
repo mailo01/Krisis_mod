@@ -1,25 +1,10 @@
-state = {
-	id = 312
-	name = "STATE_312"
-	manpower = 111402
-
-	state_category = town
-
-	provinces = {
-		1478 1914 2423 2767 4818 5101 5390 7540 7591 7918 8159 9713 15630 15666 15681 15693 15725 15735 15741 15749 15801 15828 15855 15865 15900 15924 
+state={
+	id=312
+	name="STATE_312"
+	provinces={
+		4962 5579 6193 6587 6798 6838 10312 10649 10724 11602 12325 12663 12827 13345 14266 14499 14604 17395 17402 17403 17449 17486 17500 17514 17540 17545 17579 17580 17600 17689 
 	}
-
-	history = {
-		owner = PAO
-		
-		victory_points = { 5101 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = PAO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

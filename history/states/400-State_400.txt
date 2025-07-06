@@ -1,23 +1,10 @@
-state = {
-	id = 400
-	name = "STATE_400"
-	manpower = 21706
-
-	state_category = town
-
-	provinces = {
-		102 389 1256 2425 2889 2892 3521 4177 4670 5077 5106 6023 6657 6844 6963 6978 7710 7919 8115 8175 8223 9386 9670 10290 10299 10300 10308 10315 10317 10320 10328 10330 10336 10350 10351 10357 10358 10366 10367 10372 10375 10384 10387 10391 10393 10396 10401 
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		4004 4180 6298 7389 9152 9981 10544 10650 11350 12526 13011 13255 14164 18311 18407 18408 18452 18479 18526 
 	}
-
-	history = {
-		owner = KCH
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KCH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

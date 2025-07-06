@@ -1,0 +1,19 @@
+state={
+	id=753
+	name="STATE_753"
+	history={
+		owner = OIL
+		add_core_of = OIL
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1711 1863 1897 2586 4206 4371 4578 6351 7522 8057 8146 9211 9942 10320 11155 12043 12299 12327 13516 15597 15851 21663 21664 21773 21802 21848 21856 21857 21863 21910 21930 22049 22050 22054 22084 22096 22141 22161 22232 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

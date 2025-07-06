@@ -1,25 +1,10 @@
-state = {
-	id = 277
-	name = "STATE_277"
-	manpower = 199919
-
-	state_category = town
-
-	provinces = {
-		3156 8786 12922 13071 
+state={
+	id=277
+	name="STATE_277"
+	provinces={
+		1165 1960 2056 2503 2625 5228 6461 6575 6790 8034 8260 9842 10440 10769 11689 13339 13571 13684 14299 14636 15205 15374 15513 15882 16987 17027 17056 17073 17112 17116 17152 17171 17197 17226 17227 17240 17308 17317 17350 17390 17465 
 	}
-
-	history = {
-		owner = IFO
-		
-		victory_points = { 8786 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = IFO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

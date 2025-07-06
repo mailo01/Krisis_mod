@@ -1,23 +1,10 @@
-state = {
-	id = 241
-	name = "STATE_241"
-	manpower = 187460
-
-	state_category = town
-
-	provinces = {
-		16747 16749 16753 16756 
+state={
+	id=241
+	name="STATE_241"
+	provinces={
+		1142 2069 6096 8974 9386 10207 16671 16708 16757 16766 16787 16794 
 	}
-
-	history = {
-		owner = EST
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-		}
-		
-		add_core_of = EST
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

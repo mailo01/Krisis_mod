@@ -1,26 +1,10 @@
-state = {
-	id = 467
-	name = "STATE_467"
-	manpower = 1093878
-
-	state_category = town
-
-	provinces = {
-		5086 6606 7298 9781 14296 14297 14416 14471 
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		4704 4712 5168 5812 6107 6111 6752 7736 8497 8698 8820 10419 10565 11152 12240 12538 12882 12924 12996 13832 14236 14870 15436 15579 15798 18801 19031 19123 19243 19329 
 	}
-
-	history = {
-		owner = CHL
-		
-		victory_points = { 9781 15 }
-		victory_points = { 14416 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-		}
-		
-		add_core_of = CHL
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,29 +1,10 @@
-state = {
-	id = 156
-	name = "STATE_156"
-	manpower = 510454
-
-	state_category = town
-
-	provinces = {
-		2073 6158 8834 9533 14916 14971 14979 15038 
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		1477 2482 2519 6718 10484 13838 13972 16041 
 	}
-
-	resources = {
-		oil = 140
-	}
-
-	history = {
-		owner = ATY
-		
-		victory_points = { 15038 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-		}
-		
-		add_core_of = ATY
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

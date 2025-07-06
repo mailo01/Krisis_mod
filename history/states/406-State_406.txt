@@ -1,25 +1,10 @@
-state = {
-	id = 406
-	name = "STATE_406"
-	manpower = 123433
-
-	state_category = town
-
-	provinces = {
-		1808 3714 5471 5958 6407 6446 7430 15376 15429 15485 15523 15541 
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		1685 1848 2080 2530 3487 3783 4104 4106 4491 4533 5173 5451 5890 6264 6409 6551 6876 7362 7611 7619 8176 8267 8984 9107 9310 9725 10853 11813 12101 12454 13952 14249 14703 14780 14980 15706 18035 18043 18121 18152 18220 18251 18252 18304 18353 18377 18411 18474 18514 18571 18701 18877 19060 
 	}
-
-	history = {
-		owner = HAK
-		
-		victory_points = { 6446 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = HAK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

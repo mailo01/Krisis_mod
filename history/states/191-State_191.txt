@@ -1,32 +1,10 @@
-state = {
-	id = 191
-	name = "STATE_191"
-	manpower = 292425
-
-	state_category = large_town
-
-	provinces = {
-		1425 2118 2142 2198 3439 3560 3743 4573 6613 6704 8750 9180 9509 9549 14922 14954 14965 15009 15030 15045 15062 15073 15076 15082 15100 15127 15132 15136 15166 
+state={
+	id=191
+	name="STATE_191"
+	provinces={
+		28 52 1141 1364 2176 2474 2754 2860 2899 3218 3681 3857 3977 4143 4201 4367 4376 4435 4450 4639 5161 6244 6989 7504 7990 8118 9245 9420 9679 10309 10407 10823 11133 11175 11215 12453 13566 13591 14165 14389 14414 14616 15086 15552 15688 15825 16172 16197 16209 16215 16229 16237 16271 16283 16284 16294 16309 16310 16356 16358 16370 16385 16388 
 	}
-
-	resources = {
-		tungsten = 97
-	}
-
-	history = {
-		owner = PRI
-		
-		victory_points = { 9180 15 }
-		victory_points = { 9509 15 }
-		victory_points = { 15100 15 }
-		victory_points = { 15132 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = PRI
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 150
-	name = "STATE_150"
-	manpower = 290344
-
-	state_category = large_town
-
-	provinces = {
-		4429 5935 7034 14884 14924 14932 14933 14992 14993 
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		299 421 449 2015 3496 4279 4342 4469 4755 5147 5948 6341 6972 7908 9131 9307 10249 10457 10638 10985 11082 11194 11265 11578 12292 12749 13079 14035 14883 15304 15514 15983 15991 16000 16001 16006 16007 16012 16014 16015 16017 16029 16040 
 	}
-
-	history = {
-		owner = NOK
-		
-		victory_points = { 4429 50 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-		}
-		
-		add_core_of = NOK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

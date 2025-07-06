@@ -1,30 +1,10 @@
-state = {
-	id = 95
-	name = "STATE_95"
-	manpower = 1698971
-
-	state_category = metropolis
-
-	provinces = {
-		7306 
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		3058 3404 4415 6759 10460 10844 13442 15444 15502 23704 23713 23779 23780 23844 23861 23862 23942 23956 
 	}
-
-	resources = {
-		steel = 16
-		tungsten = 32
-	}
-
-	history = {
-		owner = MIN
-		
-		victory_points = { 7306 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-		}
-		
-		add_core_of = MIN
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,29 +1,10 @@
-state = {
-	id = 341
-	name = "STATE_341"
-	manpower = 584827
-
-	state_category = town
-
-	provinces = {
-		156 3147 4786 5768 6740 6810 9122 9868 14795 14840 14887 14896 14945 14946 15117 16921 
+state={
+	id=341
+	name="STATE_341"
+	provinces={
+		2787 6843 7637 8301 8376 9728 10836 11982 12393 13219 15815 17696 17735 17775 17863 
 	}
-
-	resources = {
-		oil = 21
-	}
-
-	history = {
-		owner = DST
-		
-		victory_points = { 9122 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = DST
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

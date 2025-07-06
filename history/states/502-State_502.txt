@@ -1,29 +1,10 @@
-state = {
-	id = 502
-	name = "STATE_502"
-	manpower = 1095498
-
-	state_category = town
-
-	provinces = {
-		254 2547 3609 5360 7056 8214 13685 13686 13752 13815 13848 13874 13948 13949 14012 
+state={
+	id=502
+	name="STATE_502"
+	provinces={
+		29 1895 3178 4659 4829 5539 5976 7148 7653 8461 8859 9151 10880 12481 12521 12599 13052 14426 14539 14898 15701 19044 19132 19150 19213 19230 19240 19291 19301 19376 19388 19393 19394 19420 19461 19468 19478 19495 19515 19561 19584 19631 19638 19649 19731 19769 
 	}
-
-	resources = {
-		rubber = 17
-	}
-
-	history = {
-		owner = EKB
-		
-		victory_points = { 7056 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = EKB
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

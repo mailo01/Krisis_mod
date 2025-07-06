@@ -1,25 +1,10 @@
-state = {
-	id = 271
-	name = "STATE_271"
-	manpower = 115252
-
-	state_category = town
-
-	provinces = {
-		54 6665 6771 8603 9915 12567 12874 12976 13195 
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		6376 10333 10966 12061 13338 14337 15509 16977 17035 17045 17064 17070 17098 17123 17137 17167 17214 
 	}
-
-	history = {
-		owner = VOL
-		
-		victory_points = { 54 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = VOL
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

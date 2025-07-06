@@ -1,0 +1,19 @@
+state={
+	id=1133
+	name="STATE_1133"
+	history={
+		owner = OVA
+		add_core_of = OVA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1556 3455 4154 5088 5251 7006 7480 10233 13146 13678 25651 25663 25674 25683 25696 25717 25738 25742 25765 25799 25815 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

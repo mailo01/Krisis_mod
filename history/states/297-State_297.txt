@@ -1,25 +1,10 @@
-state = {
-	id = 297
-	name = "STATE_297"
-	manpower = 182981
-
-	state_category = town
-
-	provinces = {
-		1952 3189 3342 3608 4780 5266 5398 7893 8166 8860 16292 16296 16300 16309 16313 16319 16323 16332 16339 
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		158 255 492 2430 4587 4592 6803 6910 7043 8560 9230 9270 9756 9968 10006 11284 11973 12862 13520 14061 14117 14148 14205 14493 14787 15313 17095 17124 17125 17181 17208 17230 17231 17257 17276 17291 17298 17305 17314 17353 17371 17398 17415 17473 17490 17562 17585 
 	}
-
-	history = {
-		owner = ZHM
-		
-		victory_points = { 3342 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ZHM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

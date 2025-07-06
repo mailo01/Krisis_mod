@@ -1,29 +1,10 @@
-state = {
-	id = 412
-	name = "STATE_412"
-	manpower = 549227
-
-	state_category = town
-
-	provinces = {
-		35 1643 3145 4354 5872 6386 9383 14554 14578 14601 14640 14657 14688 14701 14771 14809 14834 14877 14891 14937 
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		793 1152 1728 2935 2945 4237 4335 5476 5647 6489 6793 7142 9120 9743 10013 10019 10237 10540 10614 12836 13070 13634 14077 14797 18332 18367 18381 18392 18419 18444 18459 18489 18504 18536 18544 18559 18573 18591 18609 18614 18621 18664 18671 18717 
 	}
-
-	resources = {
-		steel = 107
-	}
-
-	history = {
-		owner = CHL
-		
-		victory_points = { 14601 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = CHL
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

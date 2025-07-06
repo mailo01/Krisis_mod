@@ -1,29 +1,10 @@
-state = {
-	id = 553
-	name = "STATE_553"
-	manpower = 68455
-
-	state_category = town
-
-	provinces = {
-		320 2193 2528 2694 2752 3112 3466 3812 5034 5267 6125 6514 7907 8960 9390 12565 12639 12698 12769 12770 12798 
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		2431 5283 13002 13037 14261 19555 19639 19676 19698 19763 19779 19851 19871 20005 
 	}
-
-	resources = {
-		steel = 37
-	}
-
-	history = {
-		owner = NNG
-		
-		victory_points = { 6514 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NNG
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

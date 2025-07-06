@@ -1,26 +1,10 @@
-state = {
-	id = 358
-	name = "STATE_358"
-	manpower = 335518
-
-	state_category = town
-
-	provinces = {
-		8471 13232 13400 17557 17656 17788 18421 18435 18436 18437 18438 18440 18441 18442 18444 
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		5108 7374 7392 7423 8004 12819 17798 17951 17971 18090 
 	}
-
-	history = {
-		owner = KRM
-		
-		victory_points = { 13232 15 }
-		victory_points = { 13400 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KRM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

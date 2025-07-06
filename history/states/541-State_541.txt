@@ -1,29 +1,10 @@
-state = {
-	id = 541
-	name = "STATE_541"
-	manpower = 115971
-
-	state_category = town
-
-	provinces = {
-		44 999 1420 4343 6486 7422 7475 8004 8150 9070 9876 14598 14648 14747 14760 14778 14854 
+state={
+	id=541
+	name="STATE_541"
+	provinces={
+		32 1155 5703 11734 11757 11870 12679 13767 15729 19670 19745 19785 19960 
 	}
-
-	resources = {
-		tungsten = 17
-	}
-
-	history = {
-		owner = BUR
-		
-		victory_points = { 14854 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = BUR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

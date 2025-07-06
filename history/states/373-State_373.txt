@@ -1,25 +1,10 @@
-state = {
-	id = 373
-	name = "STATE_373"
-	manpower = 228704
-
-	state_category = town
-
-	provinces = {
-		2186 6425 13409 17623 17742 17810 17885 17905 
+state={
+	id=373
+	name="STATE_373"
+	provinces={
+		2779 2786 4809 6600 6932 7310 8227 9770 11532 12637 12672 13613 13626 14043 14200 15230 15405 17996 18040 18041 18052 18084 18085 18100 18115 18142 18143 18176 18195 18203 18229 18243 18244 18267 18300 18361 18399 18431 
 	}
-
-	history = {
-		owner = LNR
-		
-		victory_points = { 17885 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = LNR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

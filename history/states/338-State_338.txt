@@ -1,25 +1,10 @@
-state = {
-	id = 338
-	name = "STATE_338"
-	manpower = 448081
-
-	state_category = town
-
-	provinces = {
-		28 9665 17482 17535 17632 17872 17875 17880 17887 17892 17903 17907 18098 
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		3030 4621 5138 6396 7831 8140 11975 14045 14327 15538 15830 17587 17629 17639 17644 17705 17720 17757 17770 17783 17789 17862 17875 
 	}
-
-	history = {
-		owner = KBK
-		
-		victory_points = { 28 50 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KBK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

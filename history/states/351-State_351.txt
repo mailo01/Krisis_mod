@@ -1,29 +1,10 @@
-state = {
-	id = 351
-	name = "STATE_351"
-	manpower = 351783
-
-	state_category = town
-
-	provinces = {
-		9720 15013 17489 17674 18427 18433 
+state={
+	id=351
+	name="STATE_351"
+	provinces={
+		564 1620 1688 2612 5335 6016 6291 6743 9272 9281 9387 9758 10292 12141 13744 17909 17938 17990 18168 18196 
 	}
-
-	resources = {
-		oil = 22
-	}
-
-	history = {
-		owner = CCH
-		
-		victory_points = { 15013 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = CCH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

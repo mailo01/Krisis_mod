@@ -1,25 +1,10 @@
-state = {
-	id = 385
-	name = "STATE_385"
-	manpower = 158120
-
-	state_category = town
-
-	provinces = {
-		95 1461 1553 1615 2917 3233 4816 9844 10395 10739 11998 12107 12189 16624 16627 16628 16652 16655 16656 16658 16659 16663 16668 16674 16682 16685 16690 16692 16702 16727 
+state={
+	id=385
+	name="STATE_385"
+	provinces={
+		1720 2522 2907 2927 3716 3758 3940 6322 8649 9962 10161 10611 11075 12164 12832 14264 14380 14658 18014 18073 18102 18106 18170 18212 18223 18262 18275 18283 18317 18322 18323 18331 18346 18401 18443 18510 
 	}
-
-	history = {
-		owner = ODO
-		
-		victory_points = { 1553 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ODO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

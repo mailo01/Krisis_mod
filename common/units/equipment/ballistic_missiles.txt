@@ -8,6 +8,14 @@ equipments = {
 				limit = {
 					has_dlc = "Gotterdammerung"
 				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
 			}
 		}
 
@@ -74,6 +82,8 @@ equipments = {
 		air_agility = 10
 		air_bombing = 700
 	}
+
+	#MM: Unused
 	ballistic_missile_equipment_3 = {
 		year = 1945
 

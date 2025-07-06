@@ -1,29 +1,10 @@
-state = {
-	id = 539
-	name = "STATE_539"
-	manpower = 301501
-
-	state_category = town
-
-	provinces = {
-		648 1813 2734 2946 3073 4284 5960 6123 6379 8721 8740 8782 9267 9298 15445 15511 15550 15558 15609 15655 15685 
+state={
+	id=539
+	name="STATE_539"
+	provinces={
+		552 1175 7118 8386 10738 19744 19798 19917 
 	}
-
-	resources = {
-		steel = 40
-	}
-
-	history = {
-		owner = ALK
-		
-		victory_points = { 9267 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ALK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

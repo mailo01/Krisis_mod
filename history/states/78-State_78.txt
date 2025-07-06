@@ -1,26 +1,10 @@
-state = {
-	id = 78
-	name = "STATE_78"
-	manpower = 791260
-
-	state_category = large_town
-
-	provinces = {
-		354 5442 5608 9380 9629 11363 
+state={
+	id=78
+	name="STATE_78"
+	provinces={
+		628 2120 7505 12137 13285 13410 15130 15902 19023 19040 19083 19091 19092 19102 19205 19261 19353 
 	}
-
-	history = {
-		owner = KGD
-		
-		victory_points = { 5442 50 }
-		victory_points = { 11363 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = KGD
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

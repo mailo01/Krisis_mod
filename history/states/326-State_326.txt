@@ -1,25 +1,10 @@
-state = {
-	id = 326
-	name = "STATE_326"
-	manpower = 192036
-
-	state_category = town
-
-	provinces = {
-		1161 3085 4724 5136 6576 8014 9808 9851 15580 15619 15621 15654 15720 15734 
+state={
+	id=326
+	name="STATE_326"
+	provinces={
+		732 935 2165 2327 6468 7035 7529 9485 10757 13847 14931 15626 17504 17526 17581 17595 17601 17615 17616 17620 17652 17662 17708 17734 
 	}
-
-	history = {
-		owner = AKM
-		
-		victory_points = { 3085 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = AKM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

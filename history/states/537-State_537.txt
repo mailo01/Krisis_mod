@@ -1,29 +1,10 @@
-state = {
-	id = 537
-	name = "STATE_537"
-	manpower = 174335
-
-	state_category = town
-
-	provinces = {
-		947 2007 5932 7318 9578 
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		288 1761 2130 2347 2968 3247 3791 6510 6772 8458 9093 9559 10382 11280 12319 12792 19113 19171 19180 19252 19395 19463 19482 19589 19783 19824 19872 19997 
 	}
-
-	resources = {
-		steel = 9
-	}
-
-	history = {
-		owner = TLO
-		
-		victory_points = { 9578 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = TLO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

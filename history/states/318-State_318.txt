@@ -1,23 +1,10 @@
-state = {
-	id = 318
-	name = "STATE_318"
-	manpower = 18230
-
-	state_category = town
-
-	provinces = {
-		493 1559 3386 4586 5328 5333 5964 9564 9981 15191 15225 15243 15339 15372 
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		2361 2752 4952 5238 5361 8395 10275 13402 14282 17469 17487 17488 17496 17522 17532 17547 17564 17569 17589 17619 17640 17646 
 	}
-
-	history = {
-		owner = ATY
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ATY
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

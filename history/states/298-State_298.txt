@@ -1,25 +1,10 @@
-state = {
-	id = 298
-	name = "STATE_298"
-	manpower = 449009
-
-	state_category = town
-
-	provinces = {
-		2579 2746 2850 3388 3631 3938 4590 6538 6638 7154 7574 7670 7870 8599 16209 16227 16247 16277 16287 16299 16302 16311 16320 16322 
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		618 3463 4124 5354 7464 7489 7814 8712 8774 9293 9787 17169 17221 17222 17280 17303 17342 17346 17405 
 	}
-
-	history = {
-		owner = ALO
-		
-		victory_points = { 16322 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ALO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

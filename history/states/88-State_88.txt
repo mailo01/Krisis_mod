@@ -1,29 +1,10 @@
-state = {
-	id = 88
-	name = "STATE_88"
-	manpower = 200849
-
-	state_category = large_town
-
-	provinces = {
-		518 1404 1890 2360 2762 3001 3225 3613 3877 4160 4266 4681 4823 4999 5214 5348 5764 5929 6346 6455 6633 6832 6871 7510 7764 8033 8291 8664 8687 11348 11409 11434 11460 11484 11501 11525 11542 11590 11618 11624 11704 11768 11787 11851 11855 11875 11913 11914 11936 12102 12109 16843 
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		10319 22622 
 	}
-
-	resources = {
-		steel = 312
-	}
-
-	history = {
-		owner = VGD
-		
-		victory_points = { 8687 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-		}
-		
-		add_core_of = VGD
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

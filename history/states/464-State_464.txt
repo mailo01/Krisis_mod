@@ -1,25 +1,10 @@
-state = {
-	id = 464
-	name = "STATE_464"
-	manpower = 10000
-
-	state_category = town
-
-	provinces = {
-		1988 4034 13676 13684 
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		830 3926 4002 7309 7629 8199 9705 10883 10937 12117 12771 14667 15312 15362 15890 18771 18846 18896 18970 18983 18992 19050 19063 19336 
 	}
-
-	history = {
-		owner = UDM
-		
-		victory_points = { 1988 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = UDM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

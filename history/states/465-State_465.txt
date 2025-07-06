@@ -1,29 +1,10 @@
-state = {
-	id = 465
-	name = "STATE_465"
-	manpower = 397202
-
-	state_category = town
-
-	provinces = {
-		567 866 2038 4776 6803 7964 9240 14456 14461 14538 
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		1061 4173 4337 5266 5745 5802 8046 8194 9057 11172 11201 11339 13947 14289 14615 15470 19029 19030 19134 19135 19232 19313 19354 19355 19422 19442 19497 
 	}
-
-	resources = {
-		aluminium = 27
-	}
-
-	history = {
-		owner = BSH
-		
-		victory_points = { 4776 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = BSH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

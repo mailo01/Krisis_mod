@@ -1,25 +1,10 @@
-state = {
-	id = 333
-	name = "STATE_333"
-	manpower = 291553
-
-	state_category = town
-
-	provinces = {
-		265 815 1293 3553 4210 4532 5215 5472 5828 6782 6841 7791 14917 14989 14996 15010 15020 15039 15074 15093 15121 
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		1402 1994 3327 3888 4090 4263 4944 4958 6569 6728 7151 8331 9724 9822 10720 12607 13308 13629 13858 14971 15410 15424 15715 15784 17700 17701 17704 17719 17761 17778 17788 17805 17814 17840 17869 17912 17946 
 	}
-
-	history = {
-		owner = KOS
-		
-		victory_points = { 14989 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KOS
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

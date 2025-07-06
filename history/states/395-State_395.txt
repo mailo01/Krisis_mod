@@ -1,27 +1,10 @@
-state = {
-	id = 395
-	name = "STATE_395"
-	manpower = 330480
-
-	state_category = town
-
-	provinces = {
-		358 922 1993 2215 2502 2550 3915 4045 4059 4888 4992 5033 5124 5149 5167 5194 5462 5602 5938 6147 6252 6672 7028 7192 7282 8147 8156 8287 8586 8625 8879 8979 9105 9171 9478 9985 13869 13906 13998 14073 14074 14081 14090 14154 14169 14186 14220 14228 14293 14302 14311 14321 14359 14390 14443 14494 14503 14517 14518 14552 14564 14615 14663 14717 
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		822 2381 5162 6028 7881 9740 9949 12739 13811 15864 18215 18319 18327 18370 18396 
 	}
-
-	resources = {
-		tungsten = 20
-	}
-
-	history = {
-		owner = ZBK
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ZBK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

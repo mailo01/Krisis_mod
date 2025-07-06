@@ -1,28 +1,10 @@
-state = {
-	id = 398
-	name = "STATE_398"
-	manpower = 225742
-
-	state_category = town
-
-	provinces = {
-		52 544 631 864 1282 2935 2997 3333 4152 4328 4340 4351 4379 4497 4713 5437 5509 5530 5627 5631 5842 6143 6355 6738 6750 7373 7680 7691 7795 8011 8801 8824 8933 8965 9129 9397 9410 9529 9679 9717 9748 9982 10548 10565 10600 10633 10636 10656 10677 10697 10724 10749 10758 10779 10784 10801 10808 10851 10867 10886 10923 10924 10933 10944 10960 10965 11001 11013 11019 
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		1844 1977 3274 4519 5717 6133 7697 9236 9788 12129 12582 13054 18351 
 	}
-
-	history = {
-		owner = KCH
-		
-		victory_points = { 5627 5 }
-		victory_points = { 6738 15 }
-		victory_points = { 10801 50 }
-		victory_points = { 10867 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KCH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

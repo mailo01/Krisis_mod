@@ -1,25 +1,10 @@
-state = {
-	id = 550
-	name = "STATE_550"
-	manpower = 106330
-
-	state_category = town
-
-	provinces = {
-		9415 12366 
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		7337 9029 9356 10266 14682 19673 19757 19808 19818 19907 19964 19985 20120 20196 
 	}
-
-	history = {
-		owner = IVO
-		
-		victory_points = { 12366 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = IVO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

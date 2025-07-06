@@ -1,26 +1,10 @@
-state = {
-	id = 310
-	name = "STATE_310"
-	manpower = 85430
-
-	state_category = town
-
-	provinces = {
-		53 654 2643 2831 2880 2936 3888 4003 4048 4475 5110 5851 6356 6802 7389 8657 9595 14958 14991 15057 15069 15084 15102 15118 15128 15140 15181 15199 15295 
+state={
+	id=310
+	name="STATE_310"
+	provinces={
+		237 390 489 3580 3691 3735 3908 4425 4986 5169 6085 6295 6637 6905 7323 7534 7584 7983 8051 8302 8788 8861 9637 9654 9923 11725 12035 12513 14567 14603 14623 15124 15172 15694 15769 15824 15869 17410 17427 17454 17464 17509 17519 17520 17542 17557 17576 17596 17610 17617 17654 17667 
 	}
-
-	history = {
-		owner = NOK
-		
-		victory_points = { 53 15 }
-		victory_points = { 15069 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NOK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

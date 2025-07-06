@@ -1,30 +1,10 @@
-state = {
-	id = 468
-	name = "STATE_468"
-	manpower = 147024
-
-	state_category = town
-
-	provinces = {
-		20 329 1504 1541 2382 3916 4084 6477 6846 7552 8724 9336 13989 14067 14102 14120 14282 14291 14346 14383 14426 
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		4622 8588 8896 12788 19074 19075 19236 19248 
 	}
-
-	resources = {
-		rubber = 9
-	}
-
-	history = {
-		owner = ORO
-		
-		victory_points = { 2382 15 }
-		victory_points = { 3916 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ORO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

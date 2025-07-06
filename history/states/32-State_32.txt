@@ -1,33 +1,10 @@
-state = {
-	id = 32
-	name = "STATE_32"
-	manpower = 1195007
-
-	state_category = large_town
-
-	provinces = {
-		23 1811 4790 4843 5310 5440 5989 5995 9205 9704 12531 12558 12597 12634 12659 12753 12768 12791 
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		26464 
 	}
-
-	resources = {
-		rubber = 12
-	}
-
-	history = {
-		owner = RYZ
-		
-		victory_points = { 12531 15 }
-		victory_points = { 12558 50 }
-		victory_points = { 12597 15 }
-		victory_points = { 12659 15 }
-		victory_points = { 12753 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		
-		add_core_of = RYZ
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

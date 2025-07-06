@@ -1,25 +1,10 @@
-state = {
-	id = 504
-	name = "STATE_504"
-	manpower = 105474
-
-	state_category = town
-
-	provinces = {
-		284 949 956 1744 1907 2753 3402 3500 4121 4173 4918 5742 5836 5871 6088 8863 9130 9633 9829 11965 12100 12124 12155 12207 12215 12269 12306 12431 
+state={
+	id=504
+	name="STATE_504"
+	provinces={
+		3363 3381 6781 13513 15576 19089 19176 19177 19237 19309 19325 19362 19413 19447 
 	}
-
-	history = {
-		owner = VGD
-		
-		victory_points = { 12215 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = VG
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

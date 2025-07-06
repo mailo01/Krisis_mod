@@ -1,0 +1,10 @@
+state={
+	id=885
+	name="STATE_885"
+	provinces={
+		1800 3241 6120 7182 7581 12297 13424 14311 22989 23038 23155 23214 23242 23316 23317 23342 23355 23396 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
+}

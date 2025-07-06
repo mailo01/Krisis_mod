@@ -1,25 +1,10 @@
-state = {
-	id = 445
-	name = "STATE_445"
-	manpower = 183447
-
-	state_category = town
-
-	provinces = {
-		4868 4977 5484 6537 6847 9335 11226 11323 
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		1094 3135 3150 3309 3568 3875 4814 6644 7327 8029 8844 9615 9885 10133 10850 12159 12363 12899 13518 14400 14728 15113 18523 18529 18589 18598 18640 18709 18736 18742 18748 18790 18799 18808 18832 18901 18919 18933 18950 18951 18961 18978 
 	}
-
-	history = {
-		owner = PSK
-		
-		victory_points = { 6537 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = PSK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

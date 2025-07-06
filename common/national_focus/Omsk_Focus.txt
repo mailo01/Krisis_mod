@@ -1,0 +1,678 @@
+focus_tree = {
+	id = Omsk_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OMS
+		}
+	}
+	default = no
+	focus = {
+		id = oms_foc_start
+		icon = GFX_focus_generic_military_dictatorship
+		cost = 10
+		x = 27
+		y = 0
+
+	}
+	focus = {
+		id = oms_foc_ind_base
+		icon = GFX_focus_generic_low_cost_housing
+		cost = 10
+		x = 47
+		y = 0
+
+	}
+	focus = {
+		id = oms_foc_neut_gr7_3
+		icon = GFX_focus_CHL_expand_the_forestry
+		prerequisite = {
+			focus = oms_foc_neut_gr5_2
+		}
+		cost = 10
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_polit_choice
+		icon = GFX_focus_ARG_keep_it_in_the_party
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_start
+		}
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = oms_foc_polit_com
+		icon = GFX_focus_generic_join_comintern
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_choice
+		}
+		mutually_exclusive = {
+			focus = oms_foc_polit_neut
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = oms_foc_polit_com4_1
+		icon = GFX_focus_ITA_il_sol_dell_avvenire
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_com_gr5_1
+		icon = GFX_focus_NOR_moscows_education_centers
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com4_1
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_com_gr6_1
+		icon = GFX_focus_GER_strengthen_the_proletarian_international
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr5_1
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_com_gr5_2
+		icon = GFX_focus_ITA_peasants_rise
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com4_1
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_polit_com4_2
+		icon = GFX_focus_SOV_the_supreme_soviet
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_com_adm5_1
+		icon = GFX_focus_GER_legacy_of_the_spartacus_league
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com4_2
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_com_gr6_3
+		icon = GFX_focus_HUN_officialize_the_rakosi_battalion
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_adm5_1
+		}
+		prerequisite = {
+			focus = oms_foc_polit_com4_1
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_com_adm5_2
+		icon = GFX_focus_GER_the_peoples_victory
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com4_2
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_com_adm6_1
+		icon = GFX_focus_por_workers_of_iberia
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_adm5_2
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_com_adm7_1
+		icon = GFX_focus_GER_proletarian_dictatorship
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_adm6_1
+		}
+		prerequisite = {
+			focus = oms_foc_com_adm5_1
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_com_adm5_3
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com4_2
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_com_adm6_2
+		icon = GFX_SOV_strengthen_the_mobilization_plan_ccp_2d_sov_compatibility
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_adm5_3
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_com_adm7_2
+		icon = GFX_focus_CHL_departemento_de_las_tropas_nacistas_de_asalto
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_adm6_2
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_polit_neut
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_choice
+		}
+		mutually_exclusive = {
+			focus = oms_foc_polit_com
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = oms_foc_polit_repres4
+		icon = GFX_goal_continuous_suppression
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_com
+			focus = oms_foc_polit_neut
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_polit_propaganda5
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_repres4
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_polit_ideolog6
+		icon = GFX_focus_generic_full_employment
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_propaganda5
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_polit_voen_propaganda7
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_ideolog6
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_com_task8
+		icon = GFX_focus_CHL_union_of_hispanic_republics
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_voen_propaganda7
+		}
+		prerequisite = {
+			focus = oms_foc_com_adm7_2
+		}
+		mutually_exclusive = {
+			focus = oms_foc_neut_task8
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_polit_neut4_1
+		icon = GFX_focus_BRA_reach_out_to_military_dem
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_neut_adm5_1
+		icon = GFX_focus_NOR_bring_back_quisling
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut4_1
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_neut_adm6_1
+		icon = GFX_focus_SOV_restore_cossack_units
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_adm5_1
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_neut_adm7_1
+		icon = GFX_focus_URG_turmoil_of_paso_morlan
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_adm6_1
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_neut_task8
+		icon = GFX_focus_COG_force_publique_mutiny
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_voen_propaganda7
+		}
+		prerequisite = {
+			focus = oms_foc_neut_adm7_1
+		}
+		mutually_exclusive = {
+			focus = oms_foc_com_task8
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_neut_adm5_2
+		icon = GFX_focus_BRA_tribunal
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut4_1
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_neut_adm5_3
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut4_1
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_neut_adm6_2
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_adm5_3
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_neut_adm7_2
+		icon = GFX_focus_GER_total_control_over_domestic_affairs
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_adm6_2
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_polit_neut4_2
+		icon = GFX_focus_generic_army_doctrines_2
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_neut_gr5_1
+		icon = GFX_focus_SWI_establish_pro_helvetia
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut4_2
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_neut_gr6_1
+		icon = GFX_focus_COG_the_ma_loango
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_adm5_3
+		}
+		prerequisite = {
+			focus = oms_foc_neut_gr5_1
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_neut_gr7_1
+		icon = GFX_focus_generic_treaty
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr5_1
+		}
+		x = 39
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_neut_gr8_1
+		icon = GFX_focus_generic_whispers
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr7_1
+		}
+		prerequisite = {
+			focus = oms_foc_neut_gr6_1
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_neut_gr8_2
+		icon = GFX_focus_ETH_peacekeeping_forces
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr7_1
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_neut_gr5_2
+		icon = GFX_focus_BRA_cafe_com_leite_politics
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_polit_neut4_2
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = oms_foc_neut_gr6_2
+		icon = GFX_focus_SWE_state_paid_vacation
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr5_2
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_neut_gr7_2
+		icon = GFX_focus_CHL_focus_on_cattle_and_wool
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr6_2
+		}
+		x = 41
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_neut_gr8_3
+		icon = GFX_focus_SWE_rations
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_neut_gr7_2
+		}
+		prerequisite = {
+			focus = oms_foc_neut_gr7_3
+		}
+		x = 42
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_ind_gr_choise
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_base
+		}
+		x = 46
+		y = 1
+
+	}
+	focus = {
+		id = oms_foc_ind_gr_rest4
+		icon = GFX_goal_generic_production2
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_gr_choise
+		}
+		mutually_exclusive = {
+			focus = oms_foc_ind_build4
+		}
+		x = 45
+		y = 2
+
+	}
+	focus = {
+		id = oms_foc_ind_build4
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_gr_choise
+		}
+		mutually_exclusive = {
+			focus = oms_foc_ind_gr_rest4
+		}
+		x = 47
+		y = 2
+
+	}
+	focus = {
+		id = oms_foc_ind_gr5
+		icon = GFX_focus_POL_warsaw_main_station
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_build4
+			focus = oms_foc_ind_gr_rest4
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = oms_foc_ind_voen
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_base
+		}
+		x = 48
+		y = 1
+
+	}
+	focus = {
+		id = oms_foc_task_choise9
+		icon = GFX_focus_generic_advanced_military_studies
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_task8
+			focus = oms_foc_neut_task8
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = oms_foc_com_gr6_2
+		icon = GFX_focus_generic_university_1
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr5_1
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = oms_foc_com_gr7_2
+		icon = GFX_focus_ARG_women_in_industry
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr6_2
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_com_gr7_1
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr6_1
+		}
+		prerequisite = {
+			focus = oms_foc_com_gr6_2
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_com_gr7_3
+		icon = GFX_focus_generic_farmland
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr6_3
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = oms_foc_com_gr8_2
+		icon = GFX_focus_AUS_danubian_socialist_communes
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr7_3
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_com_gr8_1
+		icon = GFX_focus_ARG_legitimize_the_PCA
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr7_1
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = oms_foc_com_gr9_1
+		icon = GFX_focus_dayr_colonize_pustosh
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_com_gr8_2
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = oms_foc_ind_voen_kust5
+		icon = GFX_focus_dayr_kustar_weapon_revolver
+		cost = 10
+		prerequisite = {
+			focus = oms_foc_ind_voen
+		}
+		x = 49
+		y = 2
+
+	}
+}
+

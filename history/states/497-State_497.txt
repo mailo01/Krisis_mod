@@ -1,25 +1,10 @@
-state = {
-	id = 497
-	name = "STATE_497"
-	manpower = 113740
-
-	state_category = town
-
-	provinces = {
-		2185 2551 4595 7109 7296 7565 11315 11459 11567 
+state={
+	id=497
+	name="STATE_497"
+	provinces={
+		181 705 820 917 1537 1823 2089 2367 2422 3240 3434 4470 5815 6578 6723 6882 6892 7106 9683 10569 11238 12238 12259 12927 14809 14864 18935 18998 19093 19186 19197 19244 19330 19356 19392 19469 19484 19499 19524 19543 19575 19632 19659 
 	}
-
-	history = {
-		owner = NVG
-		
-		victory_points = { 2185 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NVG
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

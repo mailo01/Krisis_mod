@@ -1,25 +1,10 @@
-state = {
-	id = 328
-	name = "STATE_328"
-	manpower = 200846
-
-	state_category = town
-
-	provinces = {
-		424 761 847 1094 2057 2334 2677 3022 3496 3554 4118 4126 5022 5200 5458 6196 6262 6747 7472 8036 8391 8394 8882 9303 9430 9984 10039 14883 14904 15031 15067 15087 15114 15120 15133 15148 15178 15186 15208 15212 15232 15251 15273 15286 15299 15310 15332 15335 15362 
+state={
+	id=328
+	name="STATE_328"
+	provinces={
+		760 6944 7575 11546 12419 14410 14799 14953 17485 17554 17633 17658 17706 17711 17712 17763 17772 17826 
 	}
-
-	history = {
-		owner = AKT
-		
-		victory_points = { 3496 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = AKT
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

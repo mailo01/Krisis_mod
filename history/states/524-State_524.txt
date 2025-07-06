@@ -1,29 +1,10 @@
-state = {
-	id = 524
-	name = "STATE_524"
-	manpower = 265660
-
-	state_category = town
-
-	provinces = {
-		47 448 1786 3551 3701 3737 3931 4926 5020 5209 5770 6389 6703 7155 10062 14504 14622 14627 14674 14736 14772 14822 
+state={
+	id=524
+	name="STATE_524"
+	provinces={
+		784 1946 1967 2460 3095 6534 6941 6974 7341 8724 9576 10947 11171 11742 11855 11943 12834 15119 15759 19574 19695 19759 19792 19867 19950 19975 20030 20122 
 	}
-
-	resources = {
-		steel = 32
-	}
-
-	history = {
-		owner = KGS
-		
-		victory_points = { 448 50 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KGS
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

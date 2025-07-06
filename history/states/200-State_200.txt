@@ -1,29 +1,10 @@
-state = {
-	id = 200
-	name = "STATE_200"
-	manpower = 2102167
-
-	state_category = large_town
-
-	provinces = {
-		1702 3901 5057 13208 13301 17593 17657 17660 17698 17729 17821 17910 17914 18188 18244 18321 18357 18359 18387 
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		1304 1753 1785 2556 2626 2901 3678 3700 4370 4695 5113 5765 6530 6690 8316 9001 9694 12048 12290 13376 14051 15569 15854 16291 16314 16336 16341 16364 16365 16384 16416 16444 16466 16472 
 	}
-
-	resources = {
-		steel = 160
-	}
-
-	history = {
-		owner = DNR
-		
-		victory_points = { 13208 50 }
-		
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 4
-		}
-		
-		add_core_of = DNR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

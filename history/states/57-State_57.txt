@@ -1,26 +1,10 @@
-state = {
-	id = 57
-	name = "STATE_57"
-	manpower = 343555
-
-	state_category = large_town
-
-	provinces = {
-		3967 3992 9998 12050 12074 
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		26475 
 	}
-
-	history = {
-		owner = YAR
-		
-		victory_points = { 12050 15 }
-		victory_points = { 12074 50 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = YAR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

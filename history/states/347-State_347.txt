@@ -1,29 +1,10 @@
-state = {
-	id = 347
-	name = "STATE_347"
-	manpower = 53552
-
-	state_category = town
-
-	provinces = {
-		17731 18119 
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		4065 4295 4534 8780 8876 9886 11522 12076 13013 13713 14101 17813 17884 17888 17894 17929 17970 17988 18029 18076 18089 18129 
 	}
-
-	resources = {
-		tungsten = 22
-	}
-
-	history = {
-		owner = ING
-		
-		victory_points = { 18119 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ING
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

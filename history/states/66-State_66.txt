@@ -1,12 +1,10 @@
-state = {
-	id = 66
-	name = "STATE_66"
-	manpower = 10000
-
-	state_category = large_town
-
-	provinces = {
-		622 2033 4824 6179 8473 8903 16821 
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		9133 10401 12108 14431 15875 17510 17523 17577 17605 17611 17655 
 	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

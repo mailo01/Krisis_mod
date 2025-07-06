@@ -1,25 +1,10 @@
-state = {
-	id = 17
-	name = "STATE_17"
-	manpower = 73194
-
-	state_category = rural
-
-	provinces = {
-		2012 4492 8342 9872 
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		4333 6071 6655 6761 9080 10868 11828 13668 14744 16114 16121 
 	}
-
-	history = {
-		owner = EAO
-		
-		victory_points = { 8342 50 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-		}
-		
-		add_core_of = EAO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 480
-	name = "STATE_480"
-	manpower = 193302
-
-	state_category = town
-
-	provinces = {
-		403 1583 3295 9649 12021 
+state={
+	id=480
+	name="STATE_480"
+	provinces={
+		1779 3161 3654 4316 4405 4770 5142 5199 7297 7417 10240 12308 12321 13987 14251 14664 15782 19007 19152 19163 19173 
 	}
-
-	history = {
-		owner = BRY
-		
-		victory_points = { 3295 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = BRY
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 409
-	name = "STATE_409"
-	manpower = 418918
-
-	state_category = town
-
-	provinces = {
-		187 1407 1687 2731 2815 2960 3760 4482 4872 4897 4923 5363 6827 6982 7653 8379 8807 9660 14527 14530 14559 14560 14602 14632 14676 14782 14835 
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		164 2103 3891 6657 6794 9653 9868 10409 13942 18492 18493 18538 18539 18545 18546 18561 18586 18595 18625 18677 18747 18755 
 	}
-
-	history = {
-		owner = OMO
-		
-		victory_points = { 14782 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = OMO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

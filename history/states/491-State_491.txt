@@ -1,25 +1,10 @@
-state = {
-	id = 491
-	name = "STATE_491"
-	manpower = 572802
-
-	state_category = town
-
-	provinces = {
-		533 865 3698 3983 4509 4933 5355 5833 6395 6806 7293 7771 8128 8751 8797 9342 10033 12758 12820 12839 12898 12970 13036 13136 13187 13201 
+state={
+	id=491
+	name="STATE_491"
+	provinces={
+		5120 6218 6709 7541 11636 14359 14446 15515 19021 19109 19190 19227 19342 19374 19430 19431 19476 19560 
 	}
-
-	history = {
-		owner = PRM
-		
-		victory_points = { 3983 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = PRM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

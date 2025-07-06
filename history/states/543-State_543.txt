@@ -1,25 +1,10 @@
-state = {
-	id = 543
-	name = "STATE_543"
-	manpower = 192334
-
-	state_category = town
-
-	provinces = {
-		918 1417 2386 2535 2719 2808 2953 3430 4008 4293 5053 5125 5197 5573 5748 6733 7856 7968 8163 8185 8334 8341 8403 8507 8819 8840 8858 9127 9572 12779 12846 12951 12980 12981 12986 13024 13052 13056 13083 13118 13154 13205 13222 13284 13324 13330 13334 13429 13447 13469 13485 13536 
+state={
+	id=543
+	name="STATE_543"
+	provinces={
+		819 3425 5391 7976 9329 12941 13200 13990 19600 19653 19685 19723 19736 19771 19786 19816 19834 19853 19874 19918 19943 
 	}
-
-	history = {
-		owner = HMO
-		
-		victory_points = { 2953 5 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = HMO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

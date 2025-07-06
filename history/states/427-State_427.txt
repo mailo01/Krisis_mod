@@ -1,25 +1,10 @@
-state = {
-	id = 427
-	name = "STATE_427"
-	manpower = 309223
-
-	state_category = town
-
-	provinces = {
-		4903 6564 9100 11841 
+state={
+	id=427
+	name="STATE_427"
+	provinces={
+		243 491 918 1411 1493 4156 5093 5514 5742 6308 6442 7381 9755 10221 15147 15394 18743 18861 18876 18891 18987 
 	}
-
-	history = {
-		owner = ZHT
-		
-		victory_points = { 4903 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ZHT
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

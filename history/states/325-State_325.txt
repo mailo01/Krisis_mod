@@ -1,23 +1,10 @@
-state = {
-	id = 325
-	name = "STATE_325"
-	manpower = 81158
-
-	state_category = town
-
-	provinces = {
-		875 1129 1344 2110 2418 2501 5119 5164 5490 5601 6702 7305 7340 7406 7927 8582 9667 9994 10045 15327 15442 15456 15457 15476 15497 15548 15568 15613 15626 15648 15663 15665 15688 15697 
+state={
+	id=325
+	name="STATE_325"
+	provinces={
+		6991 8005 10151 10512 12787 13601 15707 17612 17649 17657 17684 17692 17693 
 	}
-
-	history = {
-		owner = AKM
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = AKM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

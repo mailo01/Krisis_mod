@@ -1,22 +1,10 @@
-state = {
-	id = 84
-	name = "STATE_84"
-	manpower = 788930
-
-	state_category = large_town
-
-	provinces = {
-		624 862 3549 4645 4731 5707 6079 6505 6578 6692 7120 7948 8362 8523 9685 11649 11655 11685 11722 11752 11767 11803 11833 11864 11874 11890 11934 11935 11999 12043 17782 18620 
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		12946 21751 21771 21829 
 	}
-
-	history = {
-		owner = TVR
-		
-		victory_points = { 4731 15 }
-		victory_points = { 6578 50 }
-		victory_points = { 11655 15 }
-		
-		add_core_of = TVR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

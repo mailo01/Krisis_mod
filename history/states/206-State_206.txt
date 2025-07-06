@@ -1,31 +1,10 @@
-state = {
-	id = 206
-	name = "STATE_206"
-	manpower = 890000
-
-	state_category = large_town
-
-	provinces = {
-		5023 12884 12962 13034 17559 18313 18330 18333 
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		1 1225 1528 5667 7683 8423 11008 11355 11540 12583 15710 16373 16504 16535 
 	}
-
-	resources = {
-		steel = 70
-		aluminium = 128
-	}
-
-	history = {
-		owner = ZPZ
-		
-		victory_points = { 12884 50 }
-		victory_points = { 13034 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-		}
-		
-		add_core_of = ZPZ
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

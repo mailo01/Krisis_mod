@@ -1,31 +1,10 @@
-state = {
-	id = 132
-	name = "STATE_132"
-	manpower = 972583
-
-	state_category = large_town
-
-	provinces = {
-		772 1791 2430 3864 5246 5255 5375 6153 6155 6296 6424 6604 6780 7528 7910 8459 8474 8676 8812 8987 15606 15620 15649 15706 15711 15721 15730 15743 15744 15750 15767 15783 15807 15813 15816 15832 15841 15848 15850 15906 
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		335 719 1527 3300 8936 14621 15665 
 	}
-
-	resources = {
-		tungsten = 8
-	}
-
-	history = {
-		owner = ALK
-		
-		victory_points = { 772 15 }
-		victory_points = { 15620 15 }
-		victory_points = { 15649 50 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		
-		add_core_of = ALK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

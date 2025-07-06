@@ -1,7 +1,0 @@
-region_devel = {
-	icon = decision_generic_consumer_goods
-
-	visible = {
-
-	}
-}

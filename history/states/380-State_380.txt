@@ -1,25 +1,10 @@
-state = {
-	id = 380
-	name = "STATE_380"
-	manpower = 6947
-
-	state_category = town
-
-	provinces = {
-		6618 8930 11157 
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		353 981 2240 4137 5446 5883 7809 8094 9350 10199 10691 10726 11334 12544 12798 12922 13816 14218 14247 15110 15488 17910 17927 17961 17976 18015 18024 18038 18075 18087 18134 18135 18156 18191 18213 18224 18263 18270 18296 18324 18325 18391 18435 18451 18515 
 	}
-
-	history = {
-		owner = NAO
-		
-		victory_points = { 6618 5 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NAO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

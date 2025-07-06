@@ -1,27 +1,10 @@
-state = {
-	id = 99
-	name = "STATE_99"
-	manpower = 634480
-
-	state_category = large_town
-
-	provinces = {
-		1008 2888 2981 3178 3906 4435 5531 6718 6862 6927 6952 8847 10772 10788 10840 10991 11053 11104 
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		26495 
 	}
-
-	history = {
-		owner = EST
-		
-		victory_points = { 1008 50 }
-		victory_points = { 6862 15 }
-		victory_points = { 10991 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-		}
-		
-		add_core_of = EST
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,30 +1,10 @@
-state = {
-	id = 30
-	name = "STATE_30"
-	manpower = 279517
-
-	state_category = large_town
-
-	provinces = {
-		464 3699 4913 12717 
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		183 1802 1874 2773 3621 6208 7925 11663 13836 13924 16362 16363 16382 16397 16407 16413 16419 16446 16459 16475 
 	}
-
-	resources = {
-		steel = 114
-		aluminium = 132
-	}
-
-	history = {
-		owner = BGR
-		
-		victory_points = { 464 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = BGR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

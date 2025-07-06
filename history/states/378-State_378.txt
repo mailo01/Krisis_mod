@@ -1,25 +1,10 @@
-state = {
-	id = 378
-	name = "STATE_378"
-	manpower = 268804
-
-	state_category = town
-
-	provinces = {
-		4640 8723 12321 12334 12360 16574 16575 16576 16577 16579 16580 16586 16587 16592 16593 16594 16595 16598 16599 16600 16604 16640 
+state={
+	id=378
+	name="STATE_378"
+	provinces={
+		6492 18083 18138 18139 18200 
 	}
-
-	history = {
-		owner = ODO
-		
-		victory_points = { 16640 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = ODO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 25
-	name = "STATE_25"
-	manpower = 332510
-
-	state_category = rural
-
-	provinces = {
-		2813 12633 
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		1104 2638 5468 10064 12972 13222 15800 16214 16228 16239 16240 16253 
 	}
-
-	history = {
-		owner = KHR
-		
-		victory_points = { 2813 50 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-		}
-		
-		add_core_of = KHR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

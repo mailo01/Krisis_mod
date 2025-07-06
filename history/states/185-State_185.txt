@@ -1,31 +1,10 @@
-state = {
-	id = 185
-	name = "STATE_185"
-	manpower = 270037
-
-	state_category = large_town
-
-	provinces = {
-		288 1978 2274 2998 3903 4236 5412 5528 6110 6452 6688 7060 7376 9118 9636 9908 10051 14273 14340 14509 14519 14566 14569 14625 14681 14689 14702 18647 18649 
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		65 214 351 445 589 1090 1512 1752 2255 2466 2840 3056 3143 3299 3548 4027 4157 5568 6022 7472 7872 9143 10099 10514 12294 12444 15097 15528 15575 16169 16202 16245 16321 16330 16342 16343 16369 16377 16430 16431 
 	}
-
-	resources = {
-		chromium = 1
-		steel = 107
-		tungsten = 12
-	}
-
-	history = {
-		owner = CHL
-		
-		victory_points = { 10051 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-		}
-		
-		add_core_of = CHL
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

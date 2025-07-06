@@ -1,31 +1,10 @@
-state = {
-	id = 199
-	name = "STATE_199"
-	manpower = 1865331
-
-	state_category = large_town
-
-	provinces = {
-		649 1057 5279 5739 5853 5911 7659 8365 9726 9976 10012 13128 13178 13229 13251 13287 13387 
+state={
+	id=199
+	name="STATE_199"
+	provinces={
+		180 244 1153 1209 2051 2845 3341 4217 4465 5701 7570 8232 10062 10332 10587 13603 13691 16247 16266 16293 16311 16327 16338 16347 16352 16379 16381 16393 16410 16435 16443 16479 
 	}
-
-	resources = {
-		steel = 171
-	}
-
-	history = {
-		owner = UDM
-		
-		victory_points = { 8365 50 }
-		victory_points = { 9726 15 }
-		victory_points = { 10012 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		
-		add_core_of = UDM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

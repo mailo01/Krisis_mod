@@ -1,29 +1,10 @@
-state = {
-	id = 345
-	name = "STATE_345"
-	manpower = 116891
-
-	state_category = town
-
-	provinces = {
-		14669 17479 17528 17582 17888 17909 17944 
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		173 344 520 548 750 965 1350 1431 1444 2336 2623 2681 2767 2898 2933 3233 3384 3526 3739 3912 4091 4236 4456 4548 4588 5488 5611 6517 8452 8790 9153 10054 10834 11031 11103 11312 12031 12376 12933 12954 12983 13475 13955 14210 15199 17234 17332 17392 17407 17444 17452 17472 17573 17737 17745 17758 17766 17792 17821 17959 17975 18006 18042 18067 18190 18274 18362 
 	}
-
-	resources = {
-		tungsten = 13
-	}
-
-	history = {
-		owner = KBK
-		
-		victory_points = { 14669 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KBK
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

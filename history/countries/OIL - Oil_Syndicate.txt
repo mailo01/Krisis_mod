@@ -1,0 +1,87 @@
+﻿capital = 403
+
+oob = "OIL_1990"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.6
+set_war_support = 0.3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+    last_election = "1936.6.10"
+    election_frequency = 60
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	fascism = 0
+	communism = 15
+	neutrality = 70
+}
+
+create_country_leader = {
+    name = "Oleg Ivanov"
+    desc = "POLITICS_OLEG_IVANOV_DESC"
+    picture = "gfx/leaders/portrait_default.dds"
+    expire = "2017.1.1"
+    ideology = stalinism
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Grigoriy Kretchetov"
+    desc = "POLITICS_GRIGORIY_KRETCHETOV_DESC"
+    picture = "gfx/leaders/portrait_default.dds"
+    expire = "2017.1.1"
+    ideology = fascism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Filip Samoselov"
+    desc = "POLITICS_FILIP_SAMOSELOV_DESC"
+    picture = "gfx/leaders/portrait_OIL_neut.dds"
+    expire = "2017.1.1"
+    ideology = centrism
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Andrey Sidorov"
+    desc = "POLITICS_ANDREY_SIDOROV_DESC"
+    picture = "gfx/leaders/portrait_default.dds"
+    expire = "2017.1.1"
+    ideology = conservatism
+    traits = {
+        #
+    }
+}
+
+create_faction = Oil_Syndicate
+add_to_faction = OIL
+

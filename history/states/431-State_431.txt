@@ -1,26 +1,10 @@
-state = {
-	id = 431
-	name = "STATE_431"
-	manpower = 193500
-
-	state_category = town
-
-	provinces = {
-		453 1001 2351 2388 2477 2544 3414 3703 3781 4511 8945 9345 9395 9707 13894 13987 13988 14101 14145 14146 14188 14205 
+state={
+	id=431
+	name="STATE_431"
+	provinces={
+		3387 4980 5086 6059 6092 6319 7191 7610 8178 8218 8554 8571 9554 9810 10111 10901 10934 11887 11969 13012 13282 13617 13698 14201 14391 14420 15659 15895 18337 18434 18484 18494 18522 18532 18579 18582 18597 18627 18633 18649 18656 18722 18731 18766 18775 18798 18805 18818 18836 18837 18910 18922 
 	}
-
-	history = {
-		owner = SAR
-		
-		victory_points = { 13894 15 }
-		victory_points = { 13987 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = SAR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

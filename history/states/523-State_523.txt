@@ -1,26 +1,10 @@
-state = {
-	id = 523
-	name = "STATE_523"
-	manpower = 794135
-
-	state_category = town
-
-	provinces = {
-		1864 2565 3447 4392 4454 4463 4931 7270 8209 9255 9555 9567 15204 15306 15375 15395 15401 15428 15444 15452 15483 
+state={
+	id=523
+	name="STATE_523"
+	provinces={
+		3064 4081 5650 5863 7104 7378 8587 8623 10551 12851 14038 14367 14831 15032 15480 15656 19455 19621 19655 19674 19729 19751 19844 19887 
 	}
-
-	history = {
-		owner = NSB
-		
-		victory_points = { 3447 15 }
-		victory_points = { 15428 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NSB
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

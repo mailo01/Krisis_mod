@@ -1,25 +1,10 @@
-state = {
-	id = 479
-	name = "STATE_479"
-	manpower = 73201
-
-	state_category = town
-
-	provinces = {
-		3481 4656 8779 11873 11933 
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		195 303 824 1097 2305 2765 3189 4329 5540 6199 6535 6998 7031 7571 9052 9644 10560 11448 11770 11968 13486 13896 13954 14466 14552 15381 15874 19024 19145 19179 19194 19262 19267 19278 19322 19390 19391 19451 19462 19492 19540 19541 19549 19570 19605 19612 19665 19683 19734 
 	}
-
-	history = {
-		owner = SML
-		
-		victory_points = { 8779 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = SML
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

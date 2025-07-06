@@ -1,35 +1,10 @@
-state = {
-	id = 192
-	name = "STATE_192"
-	manpower = 1319012
-
-	state_category = large_town
-
-	provinces = {
-		1945 2030 2039 2471 2693 4401 4942 4973 4981 5147 5403 5413 5800 5827 6320 6332 6402 6757 6838 6960 7288 7658 7676 7913 8943 9077 9827 9918 13901 13947 14003 14024 14085 14130 14156 14182 14216 14225 14259 14285 14312 14384 14392 14404 14420 14489 
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		1011 1399 1425 1655 1813 1843 2107 2109 3133 4270 4301 4432 4768 4797 4854 4943 5728 6080 6480 6656 7320 9394 10298 10308 11214 11286 12169 12174 14073 15493 15795 16238 16255 16262 16295 16308 16332 16349 16353 16386 16391 16401 16481 
 	}
-
-	resources = {
-		oil = 42
-	}
-
-	history = {
-		owner = BSH
-		
-		victory_points = { 2471 15 }
-		victory_points = { 4981 15 }
-		victory_points = { 6402 15 }
-		victory_points = { 6757 50 }
-		victory_points = { 7288 15 }
-		victory_points = { 8943 15 }
-		victory_points = { 14024 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-		}
-		
-		add_core_of = BSH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,29 +1,10 @@
-state = {
-	id = 167
-	name = "STATE_167"
-	manpower = 26432
-
-	state_category = rural
-
-	provinces = {
-		117 819 1264 2058 2212 2899 3987 4159 4785 4865 4877 5009 5794 6508 6875 6911 7096 7263 7437 7652 7668 8189 8407 8986 9008 9815 9847 11094 11132 11289 11307 11350 11355 11380 11394 11402 11420 11435 11451 11497 11515 11516 11558 11569 16825 16827 
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		615 968 1002 1475 1501 3211 3245 5627 5680 5917 5947 6982 8393 9004 9430 10462 11104 13317 16074 16094 16098 16105 16113 16132 16143 16148 16178 
 	}
-
-	resources = {
-		oil = 170
-	}
-
-	history = {
-		owner = NAO
-		
-		victory_points = { 7437 5 }
-		
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
-		
-		add_core_of = NAO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

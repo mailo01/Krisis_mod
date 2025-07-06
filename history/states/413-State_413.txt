@@ -1,29 +1,10 @@
-state = {
-	id = 413
-	name = "STATE_413"
-	manpower = 20364
-
-	state_category = town
-
-	provinces = {
-		5638 6593 
+state={
+	id=413
+	name="STATE_413"
+	provinces={
+		2391 3015 3663 3707 3910 5300 5681 6448 9206 10644 11524 13182 18116 18373 
 	}
-
-	resources = {
-		steel = 23
-	}
-
-	history = {
-		owner = KGS
-		
-		victory_points = { 6593 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KGS
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

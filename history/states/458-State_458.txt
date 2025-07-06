@@ -1,23 +1,10 @@
-state = {
-	id = 458
-	name = "STATE_458"
-	manpower = 18374
-
-	state_category = town
-
-	provinces = {
-		3886 5822 14398 
+state={
+	id=458
+	name="STATE_458"
+	provinces={
+		1067 2524 2734 3297 4538 6692 13018 14844 15878 18868 18936 18989 19104 19114 19220 19324 19357 
 	}
-
-	history = {
-		owner = EAO
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = EAO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,18 +1,10 @@
-state = {
-	id = 239
-	name = "STATE_239"
-	manpower = 335585
-
-	state_category = town
-
-	provinces = {
-		901 1897 2152 2931 4234 5172 6572 6696 7041 7372 8063 9121 9304 11185 11197 11202 11211 11254 11285 11302 11346 11408 11449 
+state={
+	id=239
+	name="STATE_239"
+	provinces={
+		439 1363 3337 3840 4386 4626 4662 4866 6976 7613 8356 9308 10032 10804 11408 14740 15286 16682 16712 16848 16849 16874 16948 17074 
 	}
-
-	history = {
-		owner = LNO
-		
-		add_core_of = LNO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

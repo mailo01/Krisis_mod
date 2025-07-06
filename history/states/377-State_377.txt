@@ -1,25 +1,10 @@
-state = {
-	id = 377
-	name = "STATE_377"
-	manpower = 649693
-
-	state_category = town
-
-	provinces = {
-		2833 4527 6555 6983 12690 12815 
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		4246 6411 6670 6768 11788 12422 13912 15160 17945 17972 18030 18031 18091 18108 18130 18161 18194 18239 18240 18256 
 	}
-
-	history = {
-		owner = DPR
-		
-		victory_points = { 12690 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = DPR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 508
-	name = "STATE_508"
-	manpower = 62133
-
-	state_category = town
-
-	provinces = {
-		6626 8088 12221 12236 
+state={
+	id=508
+	name="STATE_508"
+	provinces={
+		179 1896 3171 3971 4190 4354 4448 4564 4847 5868 6867 7852 8482 10658 10916 11621 12368 12491 12685 13276 14815 14856 14984 15111 15664 18984 18985 19018 19117 19129 19200 19307 19308 19351 19387 19398 19417 19429 19503 19519 19536 19596 19646 19647 19716 19773 19807 
 	}
-
-	history = {
-		owner = VLM
-		
-		victory_points = { 8088 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = VLM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

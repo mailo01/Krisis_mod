@@ -1,0 +1,54 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_NAME_DESC"
+		date = 1995.9.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "OMS"
+		default = yes
+		
+        "IRO"={
+			history = "IRO_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"OIL"={
+			history = "OIL_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"OMS"={
+			history = "OMS_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"OVA"={
+			history = "OVA_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}	
+	}
+}

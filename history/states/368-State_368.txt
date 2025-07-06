@@ -1,25 +1,10 @@
-state = {
-	id = 368
-	name = "STATE_368"
-	manpower = 973226
-
-	state_category = town
-
-	provinces = {
-		6035 13300 13342 17638 17706 17722 18327 18335 18336 18338 18360 18362 18365 
+state={
+	id=368
+	name="STATE_368"
+	provinces={
+		3159 3505 4273 6641 8523 11811 11906 11963 12979 14557 15442 17824 17861 17928 17943 18061 18082 18118 18125 18136 18192 18236 18254 18305 
 	}
-
-	history = {
-		owner = DNR
-		
-		victory_points = { 13342 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = DNR
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,29 +1,10 @@
-state = {
-	id = 417
-	name = "STATE_417"
-	manpower = 302332
-
-	state_category = town
-
-	provinces = {
-		8076 9045 9194 15011 15141 
+state={
+	id=417
+	name="STATE_417"
+	provinces={
+		163 412 1174 1671 1909 2251 3951 8743 9816 10864 11865 11949 12658 13220 14128 18198 18235 18303 18464 18496 18513 18616 
 	}
-
-	resources = {
-		oil = 21
-	}
-
-	history = {
-		owner = OMO
-		
-		victory_points = { 8076 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = OMO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

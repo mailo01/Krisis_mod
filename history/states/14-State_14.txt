@@ -1,32 +1,10 @@
-state = {
-	id = 14
-	name = "STATE_14"
-	manpower = 647230
-
-	state_category = town
-
-	provinces = {
-		1911 2377 3849 4171 4570 5740 6478 8191 8364 9289 9745 9760 9842 9932 10060 15357 15398 15406 15472 15484 15512 15520 15540 15571 15582 15617 15651 15656 15695 15700 15714 
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		1780 4127 5992 6634 7817 10961 15994 
 	}
-
-	resources = {
-		steel = 228
-	}
-
-	history = {
-		owner = KMO
-		
-		victory_points = { 4171 15 }
-		victory_points = { 4570 15 }
-		victory_points = { 15512 15 }
-		victory_points = { 15520 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = KMO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

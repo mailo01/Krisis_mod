@@ -1,25 +1,10 @@
-state = {
-	id = 418
-	name = "STATE_418"
-	manpower = 522806
-
-	state_category = town
-
-	provinces = {
-		4 215 2028 2707 5342 6966 7801 8202 8417 8673 9177 9490 9825 10008 15233 15263 15325 15369 15370 15412 
+state={
+	id=418
+	name="STATE_418"
+	provinces={
+		542 1926 2288 2751 3086 3482 3599 4381 5989 6296 6687 6940 7481 8704 8914 9365 10910 12088 13793 13932 18329 18486 18576 18604 18629 18641 18867 
 	}
-
-	history = {
-		owner = NSB
-		
-		victory_points = { 15325 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NSB
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

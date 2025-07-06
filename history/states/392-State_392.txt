@@ -1,28 +1,10 @@
-state = {
-	id = 392
-	name = "STATE_392"
-	manpower = 229067
-
-	state_category = town
-
-	provinces = {
-		975 1208 1521 2224 2557 2807 5013 5786 6225 6731 6756 6992 7030 7062 8876 9393 9489 9610 9792 11607 11681 11726 11792 11797 12220 12351 16845 
+state={
+	id=392
+	name="STATE_392"
+	provinces={
+		3743 4111 4511 4539 5474 6955 7673 8891 12472 13699 18005 18216 18250 18343 18495 
 	}
-
-	history = {
-		owner = NIO
-		
-		victory_points = { 7030 5 }
-		victory_points = { 16845 10 }
-		victory_points = { 8876 10 }
-		victory_points = { 12351 10	 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = NIO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

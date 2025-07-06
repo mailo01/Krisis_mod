@@ -1,27 +1,10 @@
-state = {
-	id = 509
-	name = "STATE_509"
-	manpower = 57800
-
-	state_category = town
-
-	provinces = {
-		5897 
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		2694 3140 3808 4009 4409 5212 8074 8480 8499 8970 10169 10200 10215 12613 12677 14254 14365 14534 19103 19111 19162 19178 19193 19206 19231 19242 19266 19277 19288 19321 19328 19378 19379 19404 19481 19522 19552 19553 
 	}
-
-	resources = {
-		steel = 19
-	}
-
-	history = {
-		owner = IVO
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = IVO
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

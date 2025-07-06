@@ -1,18 +1,10 @@
-state = {
-	id = 10
-	name = "STATE_10"
-	manpower = 54343
-
-	state_category = large_town
-
-	provinces = {
-		6431 8027 12761 16805 16813 16838 16848 16868 16909 
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		3112 3115 8703 10493 
 	}
-
-	history = {
-		owner = SAH
-		
-		add_core_of = SAH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

@@ -1,25 +1,10 @@
-state = {
-	id = 272
-	name = "STATE_272"
-	manpower = 328442
-
-	state_category = town
-
-	provinces = {
-		302 936 1253 3861 5525 6384 7601 7903 9066 12168 12290 12464 
+state={
+	id=272
+	name="STATE_272"
+	provinces={
+		1986 4170 4678 9280 9291 9958 11396 12230 12857 17069 17088 17122 17175 
 	}
-
-	history = {
-		owner = LVV
-		
-		victory_points = { 1253 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = LVV
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

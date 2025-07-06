@@ -1,25 +1,10 @@
-state = {
-	id = 381
-	name = "STATE_381"
-	manpower = 288031
-
-	state_category = town
-
-	provinces = {
-		1649 11595 
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		468 1504 1904 2606 11072 11818 12021 12250 13177 13523 13534 15835 18002 18039 18065 18098 18127 18166 18175 18188 18189 18228 18259 
 	}
-
-	history = {
-		owner = HML
-		
-		victory_points = { 1649 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = HML
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

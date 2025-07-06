@@ -1,32 +1,10 @@
-state = {
-	id = 28
-	name = "STATE_28"
-	manpower = 575276
-
-	state_category = large_town
-
-	provinces = {
-		813 1525 2063 6378 6567 8492 12651 12684 12703 12723 
+state={
+	id=28
+	name="STATE_28"
+	provinces={
+		721 1496 6629 10004 11638 14437 16507 
 	}
-
-	resources = {
-		steel = 151
-		rubber = 79
-	}
-
-	history = {
-		owner = LPC
-		
-		victory_points = { 2063 15 }
-		victory_points = { 12684 15 }
-		victory_points = { 12723 15 }
-		
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-		}
-		
-		add_core_of = LPC
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

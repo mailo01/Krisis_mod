@@ -78,7 +78,7 @@ upgrades = {
 
 		level_requirements = {
 			6 = {
-				# is_special_project_completed = sp:sp_naval_anechoic_tiles
+				is_special_project_completed = sp:sp_naval_anechoic_tiles
 			}	
 		}
 	}
@@ -92,7 +92,7 @@ upgrades = {
 		sub_visibility = 0.05
 		level_requirements = {
 			6 = {
-				# is_special_project_completed = sp:sp_naval_aip_engine
+				is_special_project_completed = sp:sp_naval_aip_engine
 			}
 		}
 	}

@@ -2,34 +2,64 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2030.1.1.12
+		date = 1990.9.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "MOS"
+		default_country = "OMS"
 		default = yes
 		
-		"MOS"={
-			history = "OTHER_GATHERING_STORM_DESC"
+        "IRO"={
+			history = "IRO_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
 		}
-		"EKB"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"OIL"={
+			history = "OIL_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
 		}
-		"PGD"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"OMS"={
+			history = "OMS_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			    oms_foc_polit_com
+				oms_foc_polit_choice
+				oms_foc_polit_neut
+			}		
 		}
-		"AMR"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"OVA"={
+			history = "OVA_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
 		}
-		"ALM"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"STP"={
+			history = "STP_GATHERING_STORM_DESC"
+			ideology = neutral
+			ideas = {
+			}	
+			focuses = {
+			}		
 		}
-		"KIV"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
-		"MIN"={
-			history = "OTHER_GATHERING_STORM_DESC"
-		}
+
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}	
 	}
 }

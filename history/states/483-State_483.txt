@@ -1,25 +1,10 @@
-state = {
-	id = 483
-	name = "STATE_483"
-	manpower = 268353
-
-	state_category = town
-
-	provinces = {
-		1992 2135 4100 6515 7013 8299 9279 12889 
+state={
+	id=483
+	name="STATE_483"
+	provinces={
+		991 4976 5867 8524 9122 11234 19158 19258 
 	}
-
-	history = {
-		owner = VZH
-		
-		victory_points = { 8299 50 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = VZH
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

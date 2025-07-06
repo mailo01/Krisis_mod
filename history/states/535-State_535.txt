@@ -1,25 +1,10 @@
-state = {
-	id = 535
-	name = "STATE_535"
-	manpower = 258781
-
-	state_category = town
-
-	provinces = {
-		2428 5054 9571 
+state={
+	id=535
+	name="STATE_535"
+	provinces={
+		5654 7709 7777 10383 13074 14916 19640 19764 
 	}
-
-	history = {
-		owner = TAM
-		
-		victory_points = { 5054 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = TAM
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }

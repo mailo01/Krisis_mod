@@ -1,26 +1,10 @@
-state = {
-	id = 438
-	name = "STATE_438"
-	manpower = 641129
-
-	state_category = town
-
-	provinces = {
-		1532 1805 2230 3711 3947 5308 5879 6045 8091 13908 13956 13974 13994 14033 14050 14084 14100 14129 14171 14231 
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		252 861 1441 1445 3795 5489 6386 7829 8674 10957 11154 11615 12456 14250 14459 18352 18363 18471 18530 18553 18612 18672 18681 18689 18811 18850 18934 
 	}
-
-	history = {
-		owner = VLG
-		
-		victory_points = { 1532 15 }
-		victory_points = { 13956 15 }
-		
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-		}
-		
-		add_core_of = VLG
-	}
-
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = rural
 }
