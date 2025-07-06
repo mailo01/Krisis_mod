@@ -1,0 +1,25 @@
+state = {
+	id = 424
+	name = "STATE_424"
+	manpower = 300137
+
+	state_category = town
+
+	provinces = {
+		4471 6101 
+	}
+
+	history = {
+		owner = KIO
+		
+		victory_points = { 4471 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KIO
+	}
+
+}

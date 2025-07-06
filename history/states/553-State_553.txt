@@ -1,0 +1,29 @@
+state = {
+	id = 553
+	name = "STATE_553"
+	manpower = 68455
+
+	state_category = town
+
+	provinces = {
+		320 2193 2528 2694 2752 3112 3466 3812 5034 5267 6125 6514 7907 8960 9390 12565 12639 12698 12769 12770 12798 
+	}
+
+	resources = {
+		steel = 37
+	}
+
+	history = {
+		owner = NNG
+		
+		victory_points = { 6514 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = NNG
+	}
+
+}

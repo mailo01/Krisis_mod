@@ -1,0 +1,30 @@
+state = {
+	id = 194
+	name = "STATE_194"
+	manpower = 605473
+
+	state_category = large_town
+
+	provinces = {
+		1048 2397 2463 2612 3288 3689 4548 4940 5401 5554 5912 7546 8371 8689 8883 9106 9591 9925 14347 14452 14482 14508 14556 14592 14662 14705 14714 14766 14831 
+	}
+
+	resources = {
+		steel = 267
+		oil = 186
+	}
+
+	history = {
+		owner = ORO
+		
+		victory_points = { 4940 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		add_core_of = ORO
+	}
+
+}

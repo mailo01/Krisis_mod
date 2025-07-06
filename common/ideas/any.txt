@@ -1,0 +1,386 @@
+ideas = {
+
+	political_advisor = {
+	
+		neu_guy_adv = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { democratic_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
+
+		fas_guy_adv = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+		}
+
+		dem_guy_adv = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+		}
+
+
+		com_guy_adv = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { staunch_monarchist }
+
+			do_effect = {
+				NOT = {
+					has_government = neutrality
+				}
+			}
+		}
+
+
+		war_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { war_industrialist }
+		}
+
+
+		ind_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+
+		bac_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { backroom_backstabber }
+		}
+
+
+		eng_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { fortification_engineer }
+		}
+
+
+		ide_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { ideological_crusader }
+		}
+
+
+		tal_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+
+
+		pro_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { propaganda_expert }
+		}
+
+
+		tec_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { technocrat }
+		}
+
+
+		hor_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+
+		ter_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+
+		com_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+
+		arm_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { armaments_organizer }
+		}
+
+
+		rel_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { reluctant_interventionist }
+		}
+
+
+		fin_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { financial_expert }
+		}
+
+
+		eco_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { economist }
+		}
+
+
+		edi_cap = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { editor }
+		}
+
+
+		org_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_organizational_2 }
+		}
+
+
+		dri_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_drill_2 }
+		}
+
+
+		ref_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_reform_2 }
+		}
+
+
+		old_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_old_guard }
+		}
+
+
+		def_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_defensive_1 }
+		}
+
+
+		off_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_offensive_1 }
+		}
+
+
+		mor_lead = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		inf_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		arm_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		art_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		com_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		cav_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		cmb_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		reg_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		con_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+
+
+		log_com = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			traits = { army_chief_morale_2 }
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 218
+	name = "STATE_218"
+	manpower = 222181
+
+	state_category = large_town
+
+	provinces = {
+		5578 11852 11894 
+	}
+
+	history = {
+		owner = ZAK
+		
+		victory_points = { 11894 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZAK
+	}
+
+}

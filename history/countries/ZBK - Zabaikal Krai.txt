@@ -1,0 +1,61 @@
+capital = 195
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "ZBK_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 5
+	communism = 20
+	democratic = 65
+	neutrality = 10
+}
+recruit_character = ZBK_1_advisor_civilian
+recruit_character = ZBK_2_advisor_civilian
+recruit_character = ZBK_3_advisor_civilian
+recruit_character = ZBK_4_advisor_civilian
+recruit_character = ZBK_5_advisor_civilian
+recruit_character = ZBK_6_advisor_civilian
+recruit_character = ZBK_7_advisor_civilian
+recruit_character = ZBK_8_advisor_civilian
+recruit_character = ZBK_9_advisor_civilian
+recruit_character = ZBK_10_advisor_civilian
+recruit_character = ZBK_11_advisor_civilian
+recruit_character = ZBK_12_advisor_civilian
+recruit_character = ZBK_13_advisor_civilian
+recruit_character = ZBK_14_advisor_civilian
+recruit_character = ZBK_15_advisor_civilian
+recruit_character = ZBK_16_advisor_civilian
+recruit_character = ZBK_17_advisor_civilian
+recruit_character = ZBK_18_advisor_civilian
+recruit_character = ZBK_19_advisor_civilian
+recruit_character = ZBK_20_advisor_civilian
+recruit_character = ZBK_1_army_chief
+recruit_character = ZBK_2_army_chief
+recruit_character = ZBK_3_army_chief
+recruit_character = ZBK_4_army_chief
+recruit_character = ZBK_5_army_chief
+recruit_character = ZBK_6_army_chief
+recruit_character = ZBK_7_army_chief
+recruit_character = ZBK_1_high_command
+recruit_character = ZBK_2_high_command
+recruit_character = ZBK_3_high_command
+recruit_character = ZBK_4_high_command
+recruit_character = ZBK_5_high_command
+recruit_character = ZBK_6_high_command
+recruit_character = ZBK_7_high_command
+recruit_character = ZBK_8_high_command
+recruit_character = ZBK_9_high_command
+
+
+

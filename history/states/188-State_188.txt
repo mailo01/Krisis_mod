@@ -1,0 +1,30 @@
+state = {
+	id = 188
+	name = "STATE_188"
+	manpower = 1117753
+
+	state_category = large_town
+
+	provinces = {
+		6569 8873 13520 13579 13586 13621 13673 13722 17837 17891 17916 17943 
+	}
+
+	resources = {
+		steel = 18
+	}
+
+	history = {
+		owner = RST
+		
+		victory_points = { 13579 15 }
+		victory_points = { 13621 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		add_core_of = RST
+	}
+
+}

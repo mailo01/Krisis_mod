@@ -1,0 +1,27 @@
+state = {
+	id = 410
+	name = "STATE_410"
+	manpower = 308226
+
+	state_category = town
+
+	provinces = {
+		1292 1563 1703 1912 1922 3144 3280 4524 4567 5304 5492 5497 6997 7438 7481 7752 8551 8959 9208 9944 14039 14135 14164 14202 14217 14226 14283 14342 14348 14370 14393 14395 14401 14412 14457 
+	}
+
+	resources = {
+		rubber = 35
+	}
+
+	history = {
+		owner = TYM
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TYM
+	}
+
+}

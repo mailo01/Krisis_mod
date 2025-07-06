@@ -1,0 +1,25 @@
+state = {
+	id = 357
+	name = "STATE_357"
+	manpower = 252888
+
+	state_category = town
+
+	provinces = {
+		1600 2126 2261 4358 4762 6816 7213 7444 7625 7961 9155 14476 14580 14644 14687 14693 14732 14749 14780 14830 
+	}
+
+	history = {
+		owner = STV
+		
+		victory_points = { 14580 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = STV
+	}
+
+}

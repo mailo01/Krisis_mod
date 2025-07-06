@@ -1,0 +1,25 @@
+state = {
+	id = 315
+	name = "STATE_315"
+	manpower = 243830
+
+	state_category = town
+
+	provinces = {
+		1542 3383 8161 8444 16161 16177 16192 
+	}
+
+	history = {
+		owner = VOK
+		
+		victory_points = { 16192 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VOK
+	}
+
+}

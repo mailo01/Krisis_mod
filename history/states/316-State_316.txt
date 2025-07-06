@@ -1,0 +1,25 @@
+state = {
+	id = 316
+	name = "STATE_316"
+	manpower = 108596
+
+	state_category = town
+
+	provinces = {
+		837 872 1888 2498 4488 4537 5685 6289 6737 6759 7185 7435 7812 8021 8078 8137 8701 14455 14479 14488 14529 14565 14577 14639 14661 14720 14750 14765 14785 14808 14870 14901 14912 
+	}
+
+	history = {
+		owner = ZOK
+		
+		victory_points = { 14479 15 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZOK
+	}
+
+}

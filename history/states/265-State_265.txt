@@ -1,0 +1,25 @@
+state = {
+	id = 265
+	name = "STATE_265"
+	manpower = 235047
+
+	state_category = town
+
+	provinces = {
+		1117 4362 9569 11375 11465 11494 11519 
+	}
+
+	history = {
+		owner = VIT
+		
+		victory_points = { 11494 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VIT
+	}
+
+}

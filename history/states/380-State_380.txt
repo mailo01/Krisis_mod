@@ -1,0 +1,25 @@
+state = {
+	id = 380
+	name = "STATE_380"
+	manpower = 6947
+
+	state_category = town
+
+	provinces = {
+		6618 8930 11157 
+	}
+
+	history = {
+		owner = NAO
+		
+		victory_points = { 6618 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = NAO
+	}
+
+}

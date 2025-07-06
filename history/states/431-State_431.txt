@@ -1,0 +1,26 @@
+state = {
+	id = 431
+	name = "STATE_431"
+	manpower = 193500
+
+	state_category = town
+
+	provinces = {
+		453 1001 2351 2388 2477 2544 3414 3703 3781 4511 8945 9345 9395 9707 13894 13987 13988 14101 14145 14146 14188 14205 
+	}
+
+	history = {
+		owner = SAR
+		
+		victory_points = { 13894 15 }
+		victory_points = { 13987 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SAR
+	}
+
+}

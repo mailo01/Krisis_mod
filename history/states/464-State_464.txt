@@ -1,0 +1,25 @@
+state = {
+	id = 464
+	name = "STATE_464"
+	manpower = 10000
+
+	state_category = town
+
+	provinces = {
+		1988 4034 13676 13684 
+	}
+
+	history = {
+		owner = UDM
+		
+		victory_points = { 1988 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = UDM
+	}
+
+}

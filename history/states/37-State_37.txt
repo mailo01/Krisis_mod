@@ -1,0 +1,25 @@
+state = {
+	id = 37
+	name = "STATE_37"
+	manpower = 302932
+
+	state_category = rural
+
+	provinces = {
+		5312 5396 7660 8501 12282 12344 12379 
+	}
+
+	history = {
+		owner = ORL
+		
+		victory_points = { 7660 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ORL
+	}
+
+}

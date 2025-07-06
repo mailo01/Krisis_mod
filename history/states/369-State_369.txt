@@ -1,0 +1,25 @@
+state = {
+	id = 369
+	name = "STATE_369"
+	manpower = 1081116
+
+	state_category = town
+
+	provinces = {
+		9232 13207 17488 17501 17502 17508 17543 17616 18213 18274 18281 18283 18289 18293 18361 18414 18418 18420 
+	}
+
+	history = {
+		owner = KRM
+		
+		victory_points = { 9232 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KRM
+	}
+
+}

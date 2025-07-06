@@ -1,0 +1,25 @@
+state = {
+	id = 338
+	name = "STATE_338"
+	manpower = 448081
+
+	state_category = town
+
+	provinces = {
+		28 9665 17482 17535 17632 17872 17875 17880 17887 17892 17903 17907 18098 
+	}
+
+	history = {
+		owner = KBK
+		
+		victory_points = { 28 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KBK
+	}
+
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 331
+	name = "STATE_331"
+	manpower = 125956
+
+	state_category = town
+
+	provinces = {
+		2117 2968 3935 4220 4635 4855 6186 6520 6768 8484 10071 14537 14611 14670 14753 14770 14791 14804 14837 14862 14869 16919 
+	}
+
+	history = {
+		owner = ATY
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		
+		add_core_of = ATY
+	}
+
+}

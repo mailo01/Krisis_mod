@@ -1,0 +1,25 @@
+state = {
+	id = 366
+	name = "STATE_366"
+	manpower = 77588
+
+	state_category = town
+
+	provinces = {
+		22 594 5074 9897 14807 14858 
+	}
+
+	history = {
+		owner = KAL
+		
+		victory_points = { 22 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KAL
+	}
+
+}

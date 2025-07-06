@@ -1,0 +1,25 @@
+state = {
+	id = 376
+	name = "STATE_376"
+	manpower = 43916
+
+	state_category = town
+
+	provinces = {
+		328 2099 8609 12858 12923 12960 12961 16910 17738 17762 18370 18376 18378 
+	}
+
+	history = {
+		owner = KHR
+		
+		victory_points = { 12960 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KHR
+	}
+
+}

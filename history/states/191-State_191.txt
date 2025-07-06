@@ -1,0 +1,32 @@
+state = {
+	id = 191
+	name = "STATE_191"
+	manpower = 292425
+
+	state_category = large_town
+
+	provinces = {
+		1425 2118 2142 2198 3439 3560 3743 4573 6613 6704 8750 9180 9509 9549 14922 14954 14965 15009 15030 15045 15062 15073 15076 15082 15100 15127 15132 15136 15166 
+	}
+
+	resources = {
+		tungsten = 97
+	}
+
+	history = {
+		owner = PRI
+		
+		victory_points = { 9180 15 }
+		victory_points = { 9509 15 }
+		victory_points = { 15100 15 }
+		victory_points = { 15132 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = PRI
+	}
+
+}

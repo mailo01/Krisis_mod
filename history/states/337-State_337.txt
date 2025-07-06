@@ -1,0 +1,25 @@
+state = {
+	id = 337
+	name = "STATE_337"
+	manpower = 45552
+
+	state_category = town
+
+	provinces = {
+		4924 18035 18058 18060 18077 18081 18083 18084 
+	}
+
+	history = {
+		owner = KCS
+		
+		victory_points = { 18083 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KCS
+	}
+
+}

@@ -1,0 +1,10 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+3040;13400;sea;17340;-1;-1;-1;-1;;Kerch
+4892;5560;sea;17425;-1;-1;-1;-1;;Sakhalin
+8509;15360;sea;18180;-1;-1;-1;-1;;Baikal isl.
+7828;13511;sea;18143;-1;-1;-1;-1;;Ulianovsk
+5531;16753;sea;18067;-1;-1;-1;-1;;Estonian Isles
+16753;16747;sea;18067;-1;-1;-1;-1;;Estonian Isles
+6718;16756;sea;18067;-1;-1;-1;-1;;Estonian Isles
+16756;16749;sea;18067;-1;-1;-1;-1;;Estonian Isles
+-1;-1;;-1;-1;-1;-1;-1;;

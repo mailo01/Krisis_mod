@@ -1,0 +1,25 @@
+state = {
+	id = 511
+	name = "STATE_511"
+	manpower = 402108
+
+	state_category = town
+
+	provinces = {
+		6338 13020 13051 13081 13109 
+	}
+
+	history = {
+		owner = MEL
+		
+		victory_points = { 13051 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MEL
+	}
+
+}

@@ -1,0 +1,37 @@
+state = {
+	id = 201
+	name = "STATE_201"
+	manpower = 1913822
+
+	state_category = large_town
+
+	provinces = {
+		180 1345 1491 1763 2835 2848 2977 3142 4082 4630 6093 6128 6793 7476 7860 7916 8395 9878 13801 13873 13958 13969 14017 14034 14037 14115 14162 
+	}
+
+	resources = {
+		chromium = 3
+		steel = 113
+		aluminium = 66
+		tungsten = 12
+	}
+
+	history = {
+		owner = EKB
+		
+		victory_points = { 3142 15 }
+		victory_points = { 4082 50 }
+		victory_points = { 9878 15 }
+		victory_points = { 14017 15 }
+		victory_points = { 14037 15 }
+		victory_points = { 14162 15 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		
+		add_core_of = EKB
+	}
+
+}

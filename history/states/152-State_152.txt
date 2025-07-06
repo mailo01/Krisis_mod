@@ -1,0 +1,25 @@
+state = {
+	id = 152
+	name = "STATE_152"
+	manpower = 197472
+
+	state_category = town
+
+	provinces = {
+		9601 18102 
+	}
+
+	history = {
+		owner = ING
+		
+		victory_points = { 9601 50 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = ING
+	}
+
+}

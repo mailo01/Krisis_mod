@@ -1,0 +1,29 @@
+state = {
+	id = 471
+	name = "STATE_471"
+	manpower = 483751
+
+	state_category = town
+
+	provinces = {
+		3194 3550 4017 6347 7201 8912 9442 9969 13829 13917 13945 14007 14045 14099 14119 14161 14232 14304 
+	}
+
+	resources = {
+		steel = 24
+	}
+
+	history = {
+		owner = SAR
+		
+		victory_points = { 9442 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SAR
+	}
+
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 537
+	name = "STATE_537"
+	manpower = 174335
+
+	state_category = town
+
+	provinces = {
+		947 2007 5932 7318 9578 
+	}
+
+	resources = {
+		steel = 9
+	}
+
+	history = {
+		owner = TLO
+		
+		victory_points = { 9578 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TLO
+	}
+
+}

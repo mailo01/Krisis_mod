@@ -1,0 +1,30 @@
+state = {
+	id = 342
+	name = "STATE_342"
+	manpower = 316605
+
+	state_category = town
+
+	provinces = {
+		5548 17505 18346 18350 18353 18354 
+	}
+
+	resources = {
+		oil = 17
+		tungsten = 30
+	}
+
+	history = {
+		owner = CCH
+		
+		victory_points = { 5548 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CCH
+	}
+
+}

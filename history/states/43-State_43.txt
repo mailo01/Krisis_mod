@@ -1,0 +1,23 @@
+state = {
+	id = 43
+	name = "STATE_43"
+	manpower = 624728
+
+	state_category = large_town
+
+	provinces = {
+		237 1078 2627 2704 3461 3650 3895 4228 4665 4886 5079 5337 5461 6184 6259 8123 8273 8349 9131 10861 10889 10996 11027 11486 11554 11610 11664 11731 11736 11779 12577 12583 12604 16799 16816 16818 
+	}
+
+	history = {
+		owner = NIO
+		
+		victory_points = { 10861 5 }
+		victory_points = { 8349 5 }
+		victory_points = { 11554 5 }
+		victory_points = { 8273 50 }
+		
+		add_core_of = NIO
+	}
+
+}

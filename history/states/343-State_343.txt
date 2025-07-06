@@ -1,0 +1,27 @@
+state = {
+	id = 343
+	name = "STATE_343"
+	manpower = 125269
+
+	state_category = town
+
+	provinces = {
+		3446 3972 17545 17702 17962 17968 17971 17976 18024 18025 18026 
+	}
+
+	history = {
+		owner = KCS
+		
+		victory_points = { 3446 5 }
+		victory_points = { 3972 15 }
+		victory_points = { 17971 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KCS
+	}
+
+}

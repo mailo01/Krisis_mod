@@ -1,0 +1,29 @@
+state = {
+	id = 465
+	name = "STATE_465"
+	manpower = 397202
+
+	state_category = town
+
+	provinces = {
+		567 866 2038 4776 6803 7964 9240 14456 14461 14538 
+	}
+
+	resources = {
+		aluminium = 27
+	}
+
+	history = {
+		owner = BSH
+		
+		victory_points = { 4776 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BSH
+	}
+
+}

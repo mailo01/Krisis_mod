@@ -1,0 +1,25 @@
+state = {
+	id = 294
+	name = "STATE_294"
+	manpower = 183023
+
+	state_category = town
+
+	provinces = {
+		9326 9898 17572 17715 18225 18234 18238 18241 18247 18325 
+	}
+
+	history = {
+		owner = KHR
+		
+		victory_points = { 9898 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KHR
+	}
+
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 26
+	name = "STATE_26"
+	manpower = 1534186
+
+	state_category = large_town
+
+	provinces = {
+		1893 2626 2724 6939 7777 8936 12670 12873 
+	}
+
+	resources = {
+		aluminium = 11
+	}
+
+	history = {
+		owner = KNR
+		
+		victory_points = { 2626 15 }
+		victory_points = { 8936 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		
+		add_core_of = KNR
+	}
+
+}

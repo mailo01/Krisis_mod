@@ -1,0 +1,25 @@
+state = {
+	id = 563
+	name = "STATE_563"
+	manpower = 11773
+
+	state_category = town
+
+	provinces = {
+		321 818 1552 1642 1944 2590 2783 3247 3998 4346 4929 4946 5104 6646 7115 7195 7343 7457 7693 7982 8035 8114 8897 9318 9331 9563 9861 9951 9980 10124 10125 10127 10128 10130 10131 10132 10135 10137 10138 10139 10140 10141 10142 10144 10145 10146 
+	}
+
+	history = {
+		owner = CHK
+		
+		victory_points = { 321 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHK
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 149
+	name = "STATE_149"
+	manpower = 1549792
+
+	state_category = large_town
+
+	provinces = {
+		15138 15152 
+	}
+
+	history = {
+		owner = DST
+		
+		victory_points = { 15152 50 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = DST
+	}
+
+}

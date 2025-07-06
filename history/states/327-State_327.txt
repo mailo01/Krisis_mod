@@ -1,0 +1,25 @@
+state = {
+	id = 327
+	name = "STATE_327"
+	manpower = 212151
+
+	state_category = town
+
+	provinces = {
+		5593 6100 7003 8772 15684 
+	}
+
+	history = {
+		owner = KOS
+		
+		victory_points = { 7003 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KOS
+	}
+
+}

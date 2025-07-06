@@ -1,0 +1,25 @@
+state = {
+	id = 510
+	name = "STATE_510"
+	manpower = 316243
+
+	state_category = town
+
+	provinces = {
+		242 1497 1750 2352 2369 2405 3199 3921 6231 6488 7235 7868 8126 8814 12709 12746 12757 12799 12845 12859 12903 12919 12936 12957 12965 12966 12995 12998 13008 13134 13135 
+	}
+
+	history = {
+		owner = KRV
+		
+		victory_points = { 3199 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KRV
+	}
+
+}

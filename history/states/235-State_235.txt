@@ -1,0 +1,23 @@
+state = {
+	id = 235
+	name = "STATE_235"
+	manpower = 46059
+
+	state_category = town
+
+	provinces = {
+		1144 1403 2691 5078 5357 6003 7251 7885 10678 10686 10694 10698 10714 10720 10729 10738 10752 10753 10768 10785 10830 10839 10849 10865 10902 16769 
+	}
+
+	history = {
+		owner = KRL
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = KRL
+	}
+
+}

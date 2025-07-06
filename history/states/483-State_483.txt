@@ -1,0 +1,25 @@
+state = {
+	id = 483
+	name = "STATE_483"
+	manpower = 268353
+
+	state_category = town
+
+	provinces = {
+		1992 2135 4100 6515 7013 8299 9279 12889 
+	}
+
+	history = {
+		owner = VZH
+		
+		victory_points = { 8299 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VZH
+	}
+
+}

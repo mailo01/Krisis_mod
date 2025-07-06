@@ -1,0 +1,27 @@
+state = {
+	id = 361
+	name = "STATE_361"
+	manpower = 426010
+
+	state_category = town
+
+	provinces = {
+		2962 3700 5765 6053 6465 9317 9959 10067 14095 14144 14230 
+	}
+
+	resources = {
+		tungsten = 11
+	}
+
+	history = {
+		owner = KRK
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KRK
+	}
+
+}

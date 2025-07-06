@@ -1,0 +1,26 @@
+state = {
+	id = 140
+	name = "STATE_140"
+	manpower = 586397
+
+	state_category = large_town
+
+	provinces = {
+		151 2183 3260 4523 5160 5997 6199 6643 6858 7022 7167 7405 7466 7798 8022 8627 9366 15192 15209 15258 15280 15291 15294 15322 15336 15351 15354 15363 15421 15433 15458 15467 
+	}
+
+	history = {
+		owner = AKM
+		
+		victory_points = { 15258 50 }
+		victory_points = { 15351 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = AKM
+	}
+
+}

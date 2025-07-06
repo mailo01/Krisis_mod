@@ -1,0 +1,61 @@
+capital = 9
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "TEO_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 10
+	communism = 10
+	democratic = 10
+	neutrality = 70
+}
+recruit_character = TEO_1_advisor_civilian
+recruit_character = TEO_2_advisor_civilian
+recruit_character = TEO_3_advisor_civilian
+recruit_character = TEO_4_advisor_civilian
+recruit_character = TEO_5_advisor_civilian
+recruit_character = TEO_6_advisor_civilian
+recruit_character = TEO_7_advisor_civilian
+recruit_character = TEO_8_advisor_civilian
+recruit_character = TEO_9_advisor_civilian
+recruit_character = TEO_10_advisor_civilian
+recruit_character = TEO_11_advisor_civilian
+recruit_character = TEO_12_advisor_civilian
+recruit_character = TEO_13_advisor_civilian
+recruit_character = TEO_14_advisor_civilian
+recruit_character = TEO_15_advisor_civilian
+recruit_character = TEO_16_advisor_civilian
+recruit_character = TEO_17_advisor_civilian
+recruit_character = TEO_18_advisor_civilian
+recruit_character = TEO_19_advisor_civilian
+recruit_character = TEO_20_advisor_civilian
+recruit_character = TEO_1_army_chief
+recruit_character = TEO_2_army_chief
+recruit_character = TEO_3_army_chief
+recruit_character = TEO_4_army_chief
+recruit_character = TEO_5_army_chief
+recruit_character = TEO_6_army_chief
+recruit_character = TEO_7_army_chief
+recruit_character = TEO_1_high_command
+recruit_character = TEO_2_high_command
+recruit_character = TEO_3_high_command
+recruit_character = TEO_4_high_command
+recruit_character = TEO_5_high_command
+recruit_character = TEO_6_high_command
+recruit_character = TEO_7_high_command
+recruit_character = TEO_8_high_command
+recruit_character = TEO_9_high_command
+
+
+

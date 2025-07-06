@@ -1,0 +1,25 @@
+state = {
+	id = 402
+	name = "STATE_402"
+	manpower = 10000
+
+	state_category = town
+
+	provinces = {
+		322 1451 4116 4483 4569 4853 4892 12733 12789 12813 12819 12830 12882 12955 13017 13021 
+	}
+
+	history = {
+		owner = HAB
+		
+		victory_points = { 12733 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = HAB
+	}
+
+}

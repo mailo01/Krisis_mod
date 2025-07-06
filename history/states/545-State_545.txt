@@ -1,0 +1,25 @@
+state = {
+	id = 545
+	name = "STATE_545"
+	manpower = 10000
+
+	state_category = town
+
+	provinces = {
+		541 1588 2102 3088 3297 4971 5261 5586 6144 6203 6441 6570 6629 8057 8559 8682 9047 14000 14032 14036 14134 14193 14214 14221 14253 14266 14280 14300 14423 
+	}
+
+	history = {
+		owner = HAB
+		
+		victory_points = { 14253 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = HAB
+	}
+
+}

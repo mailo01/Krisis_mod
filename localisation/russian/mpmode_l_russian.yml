@@ -1,0 +1,5 @@
+﻿l_russian:
+ MAPMODE_POPULATION_MAP_MODE:0 "Карта плотности населения"
+ population_map_mode:0 "Карта плотности населения"
+ MAPMODE_POPULATION_MAP_MODE_DESCRIPTION:0 "Показывает разницу в плотности населения между регионами"
+ 

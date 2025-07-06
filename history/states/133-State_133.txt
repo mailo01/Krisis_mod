@@ -1,0 +1,27 @@
+state = {
+	id = 133
+	name = "STATE_133"
+	manpower = 134216
+
+	state_category = rural
+
+	provinces = {
+		768 980 1242 1427 1538 1705 1933 2196 2644 2865 3299 3802 4540 4591 4947 5345 5781 6139 6260 6413 6808 6899 7064 7100 7496 7747 7763 8241 8264 8426 8437 8482 8520 8546 8731 8829 8928 9528 9568 9605 9896 10058 15584 15602 15607 15627 15675 15676 15722 15766 15781 15785 15817 15869 15874 15902 15904 15930 
+	}
+
+	history = {
+		owner = TYV
+		
+		victory_points = { 3299 15 }
+		victory_points = { 6899 50 }
+		victory_points = { 15874 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		add_core_of = TYV
+	}
+
+}

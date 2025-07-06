@@ -1,0 +1,61 @@
+capital = 94
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "ROV_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 10
+	communism = 10
+	democratic = 10
+	neutrality = 70
+}
+recruit_character = ROV_1_advisor_civilian
+recruit_character = ROV_2_advisor_civilian
+recruit_character = ROV_3_advisor_civilian
+recruit_character = ROV_4_advisor_civilian
+recruit_character = ROV_5_advisor_civilian
+recruit_character = ROV_6_advisor_civilian
+recruit_character = ROV_7_advisor_civilian
+recruit_character = ROV_8_advisor_civilian
+recruit_character = ROV_9_advisor_civilian
+recruit_character = ROV_10_advisor_civilian
+recruit_character = ROV_11_advisor_civilian
+recruit_character = ROV_12_advisor_civilian
+recruit_character = ROV_13_advisor_civilian
+recruit_character = ROV_14_advisor_civilian
+recruit_character = ROV_15_advisor_civilian
+recruit_character = ROV_16_advisor_civilian
+recruit_character = ROV_17_advisor_civilian
+recruit_character = ROV_18_advisor_civilian
+recruit_character = ROV_19_advisor_civilian
+recruit_character = ROV_20_advisor_civilian
+recruit_character = ROV_1_army_chief
+recruit_character = ROV_2_army_chief
+recruit_character = ROV_3_army_chief
+recruit_character = ROV_4_army_chief
+recruit_character = ROV_5_army_chief
+recruit_character = ROV_6_army_chief
+recruit_character = ROV_7_army_chief
+recruit_character = ROV_1_high_command
+recruit_character = ROV_2_high_command
+recruit_character = ROV_3_high_command
+recruit_character = ROV_4_high_command
+recruit_character = ROV_5_high_command
+recruit_character = ROV_6_high_command
+recruit_character = ROV_7_high_command
+recruit_character = ROV_8_high_command
+recruit_character = ROV_9_high_command
+
+
+

@@ -1,0 +1,25 @@
+state = {
+	id = 234
+	name = "STATE_234"
+	manpower = 124990
+
+	state_category = town
+
+	provinces = {
+		2060 2306 2649 2912 4730 5180 5252 6099 6364 6528 6880 8684 10611 10623 10631 10644 10667 
+	}
+
+	history = {
+		owner = MUO
+		
+		victory_points = { 2912 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MUO
+	}
+
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 177
+	name = "STATE_177"
+	manpower = 531141
+
+	state_category = large_town
+
+	provinces = {
+		3660 4144 4336 5294 6437 6445 7255 8213 9184 14781 14882 14888 16918 
+	}
+
+	resources = {
+		oil = 35
+	}
+
+	history = {
+		owner = AST
+		
+		victory_points = { 3660 50 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = AST
+	}
+
+}

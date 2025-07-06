@@ -1,0 +1,25 @@
+state = {
+	id = 365
+	name = "STATE_365"
+	manpower = 486868
+
+	state_category = town
+
+	provinces = {
+		2907 5751 6687 14043 14060 
+	}
+
+	history = {
+		owner = KRK
+		
+		victory_points = { 6687 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KRK
+	}
+
+}

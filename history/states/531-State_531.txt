@@ -1,0 +1,25 @@
+state = {
+	id = 531
+	name = "STATE_531"
+	manpower = 596545
+
+	state_category = town
+
+	provinces = {
+		2499 4231 4857 5292 5744 13209 13259 13349 13380 13417 13468 13533 
+	}
+
+	history = {
+		owner = PRM
+		
+		victory_points = { 2499 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = PRM
+	}
+
+}

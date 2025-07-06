@@ -1,0 +1,26 @@
+state = {
+	id = 447
+	name = "STATE_447"
+	manpower = 789225
+
+	state_category = town
+
+	provinces = {
+		5158 6918 9227 12678 12734 
+	}
+
+	history = {
+		owner = BGR
+		
+		victory_points = { 12678 50 }
+		victory_points = { 12734 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BGR
+	}
+
+}

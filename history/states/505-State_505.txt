@@ -1,0 +1,29 @@
+state = {
+	id = 505
+	name = "STATE_505"
+	manpower = 267650
+
+	state_category = town
+
+	provinces = {
+		777 8767 9972 11547 11548 11614 11644 
+	}
+
+	resources = {
+		rubber = 21
+	}
+
+	history = {
+		owner = TVR
+		
+		victory_points = { 8767 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TVR
+	}
+
+}

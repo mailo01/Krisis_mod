@@ -1,0 +1,25 @@
+state = {
+	id = 367
+	name = "STATE_367"
+	manpower = 304938
+
+	state_category = town
+
+	provinces = {
+		3884 8390 8617 9909 13107 13258 17578 17689 17767 17775 17806 17862 17867 17878 17879 17886 
+	}
+
+	history = {
+		owner = LNR
+		
+		victory_points = { 9909 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = LNR
+	}
+
+}

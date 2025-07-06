@@ -1,0 +1,28 @@
+state = {
+	id = 394
+	name = "STATE_394"
+	manpower = 102842
+
+	state_category = town
+
+	provinces = {
+		118 1409 1760 1902 2017 2480 3736 4759 4911 7663 7844 8668 9615 9879 15528 15657 15672 15678 15702 15715 
+	}
+
+	history = {
+		owner = BUR
+		
+		victory_points = { 1409 15 }
+		victory_points = { 1760 15 }
+		victory_points = { 9879 15 }
+		victory_points = { 15657 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BUR
+	}
+
+}

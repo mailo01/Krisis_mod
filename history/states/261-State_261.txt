@@ -1,0 +1,25 @@
+state = {
+	id = 261
+	name = "STATE_261"
+	manpower = 229006
+
+	state_category = town
+
+	provinces = {
+		4211 6592 11258 11392 11439 
+	}
+
+	history = {
+		owner = MIO
+		
+		victory_points = { 6592 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		add_core_of = MIO
+	}
+
+}

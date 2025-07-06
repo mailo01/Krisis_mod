@@ -1,0 +1,25 @@
+state = {
+	id = 17
+	name = "STATE_17"
+	manpower = 73194
+
+	state_category = rural
+
+	provinces = {
+		2012 4492 8342 9872 
+	}
+
+	history = {
+		owner = EAO
+		
+		victory_points = { 8342 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		add_core_of = EAO
+	}
+
+}

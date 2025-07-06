@@ -1,0 +1,30 @@
+state = {
+	id = 160
+	name = "STATE_160"
+	manpower = 648543
+
+	state_category = large_town
+
+	provinces = {
+		2023 2462 2986 3827 4798 5801 7271 7703 8907 14863 14984 15019 15025 
+	}
+
+	resources = {
+		steel = 75
+		oil = 105
+	}
+
+	history = {
+		owner = AKT
+		
+		victory_points = { 7703 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = AKT
+	}
+
+}

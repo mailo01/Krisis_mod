@@ -1,0 +1,18 @@
+state = {
+	id = 10
+	name = "STATE_10"
+	manpower = 54343
+
+	state_category = large_town
+
+	provinces = {
+		6431 8027 12761 16805 16813 16838 16848 16868 16909 
+	}
+
+	history = {
+		owner = SAH
+		
+		add_core_of = SAH
+	}
+
+}

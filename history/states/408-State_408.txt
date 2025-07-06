@@ -1,0 +1,25 @@
+state = {
+	id = 408
+	name = "STATE_408"
+	manpower = 30909
+
+	state_category = town
+
+	provinces = {
+		717 2087 4934 5038 6776 9943 15740 15789 15821 
+	}
+
+	history = {
+		owner = TYV
+		
+		victory_points = { 717 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TYV
+	}
+
+}

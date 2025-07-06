@@ -1,0 +1,31 @@
+state = {
+	id = 137
+	name = "STATE_137"
+	manpower = 595888
+
+	state_category = rural
+
+	provinces = {
+		306 656 1343 1435 1605 2765 3176 3399 3450 3497 3726 5812 6071 6361 6607 6651 7352 8187 8725 8759 9013 9190 9364 9560 9582 9631 9771 15934 15978 15985 16000 16012 16038 16044 16052 16066 16073 16075 16076 16083 16095 16098 16119 16141 16163 16183 16196 16228 
+	}
+
+	resources = {
+		oil = 84
+	}
+
+	history = {
+		owner = KYZ
+		
+		victory_points = { 3726 50 }
+		victory_points = { 9560 15 }
+		victory_points = { 16196 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KYZ
+	}
+
+}

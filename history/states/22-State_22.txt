@@ -1,0 +1,29 @@
+state = {
+	id = 22
+	name = "STATE_22"
+	manpower = 640371
+
+	state_category = large_town
+
+	provinces = {
+		1141 6953 10026 13362 17498 17526 17577 17587 17864 17865 17893 
+	}
+
+	resources = {
+		steel = 38
+	}
+
+	history = {
+		owner = LNR
+		
+		victory_points = { 6953 50 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		
+		add_core_of = LNR
+	}
+
+}

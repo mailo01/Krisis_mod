@@ -1,0 +1,25 @@
+state = {
+	id = 360
+	name = "STATE_360"
+	manpower = 52224
+
+	state_category = town
+
+	provinces = {
+		17483 17550 17583 18005 18015 18016 18018 18019 
+	}
+
+	history = {
+		owner = ADG
+		
+		victory_points = { 17583 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ADG
+	}
+
+}

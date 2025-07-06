@@ -1,0 +1,30 @@
+state = {
+	id = 542
+	name = "STATE_542"
+	manpower = 665687
+
+	state_category = town
+
+	provinces = {
+		769 780 2542 2894 3123 3433 4486 4566 4593 4738 4834 5229 5233 5272 5408 6449 6472 6919 7103 7615 7884 7902 8120 8420 8495 8543 8601 8798 9179 9952 10011 15381 15399 15423 15473 15477 15486 15513 15516 15546 15560 15573 15615 15650 15686 15691 15701 15726 15737 15739 15759 15762 15763 15771 15780 15786 
+	}
+
+	resources = {
+		rubber = 9
+		aluminium = 14
+	}
+
+	history = {
+		owner = KSK
+		
+		victory_points = { 5229 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = KSK
+	}
+
+}

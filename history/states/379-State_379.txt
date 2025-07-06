@@ -1,0 +1,26 @@
+state = {
+	id = 379
+	name = "STATE_379"
+	manpower = 116787
+
+	state_category = town
+
+	provinces = {
+		1679 4138 5198 7926 17772 17813 17820 17823 
+	}
+
+	history = {
+		owner = DNR
+		
+		victory_points = { 7926 15 }
+		victory_points = { 17823 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = DNR
+	}
+
+}

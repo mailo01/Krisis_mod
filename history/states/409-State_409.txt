@@ -1,0 +1,25 @@
+state = {
+	id = 409
+	name = "STATE_409"
+	manpower = 418918
+
+	state_category = town
+
+	provinces = {
+		187 1407 1687 2731 2815 2960 3760 4482 4872 4897 4923 5363 6827 6982 7653 8379 8807 9660 14527 14530 14559 14560 14602 14632 14676 14782 14835 
+	}
+
+	history = {
+		owner = OMO
+		
+		victory_points = { 14782 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = OMO
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 263
+	name = "STATE_263"
+	manpower = 781370
+
+	state_category = town
+
+	provinces = {
+		7163 7563 11537 11597 11647 
+	}
+
+	history = {
+		owner = MGO
+		
+		victory_points = { 11597 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MGO
+	}
+
+}

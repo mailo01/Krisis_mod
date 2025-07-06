@@ -1,0 +1,26 @@
+state = {
+	id = 173
+	name = "STATE_173"
+	manpower = 100895
+
+	state_category = rural
+
+	provinces = {
+		314 4371 4698 5260 6744 6837 7629 7644 8157 14411 14526 14548 14612 14626 14631 
+	}
+
+	history = {
+		owner = KGS
+		
+		victory_points = { 5260 15 }
+		victory_points = { 14612 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KGS
+	}
+
+}

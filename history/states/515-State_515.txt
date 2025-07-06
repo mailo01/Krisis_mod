@@ -1,0 +1,26 @@
+state = {
+	id = 515
+	name = "STATE_515"
+	manpower = 367758
+
+	state_category = town
+
+	provinces = {
+		1704 6560 8423 11162 11178 11184 11219 11225 11260 11270 11271 
+	}
+
+	history = {
+		owner = NVG
+		
+		victory_points = { 11184 15 }
+		victory_points = { 11219 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = NVG
+	}
+
+}

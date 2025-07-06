@@ -1,0 +1,25 @@
+state = {
+	id = 150
+	name = "STATE_150"
+	manpower = 290344
+
+	state_category = large_town
+
+	provinces = {
+		4429 5935 7034 14884 14924 14932 14933 14992 14993 
+	}
+
+	history = {
+		owner = NOK
+		
+		victory_points = { 4429 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		add_core_of = NOK
+	}
+
+}

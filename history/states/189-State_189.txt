@@ -1,0 +1,30 @@
+state = {
+	id = 189
+	name = "STATE_189"
+	manpower = 1827217
+
+	state_category = large_town
+
+	provinces = {
+		195 386 479 929 2537 3056 4264 4620 4683 7017 7110 7232 8301 8938 9486 9728 13581 13614 13674 13827 13828 13872 13888 13889 13929 13930 13965 13986 14016 14022 14141 14160 
+	}
+
+	resources = {
+		steel = 48
+	}
+
+	history = {
+		owner = VLG
+		
+		victory_points = { 13930 15 }
+		victory_points = { 14022 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		add_core_of = VLG
+	}
+
+}

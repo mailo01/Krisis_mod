@@ -1,0 +1,26 @@
+state = {
+	id = 435
+	name = "STATE_435"
+	manpower = 319329
+
+	state_category = town
+
+	provinces = {
+		7769 9798 
+	}
+
+	history = {
+		owner = POL
+		
+		victory_points = { 7769 15 }
+		victory_points = { 9798 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = POL
+	}
+
+}

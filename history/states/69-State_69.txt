@@ -1,0 +1,31 @@
+state = {
+	id = 69
+	name = "STATE_69"
+	manpower = 326362
+
+	state_category = large_town
+
+	provinces = {
+		510 959 2443 4255 5423 7238 8915 8920 9126 10621 10645 10666 10670 10684 10706 10715 10716 10746 10747 
+	}
+
+	resources = {
+		chromium = 41
+	}
+
+	history = {
+		owner = MUO
+		
+		victory_points = { 959 15 }
+		victory_points = { 8915 15 }
+		victory_points = { 10645 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = MUO
+	}
+
+}

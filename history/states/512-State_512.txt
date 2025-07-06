@@ -1,0 +1,25 @@
+state = {
+	id = 512
+	name = "STATE_512"
+	manpower = 76251
+
+	state_category = town
+
+	provinces = {
+		1252 3696 7221 13282 13343 13401 13422 
+	}
+
+	history = {
+		owner = TAT
+		
+		victory_points = { 13282 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TAT
+	}
+
+}

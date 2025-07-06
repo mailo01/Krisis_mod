@@ -1,0 +1,25 @@
+state = {
+	id = 484
+	name = "STATE_484"
+	manpower = 189693
+
+	state_category = town
+
+	provinces = {
+		5039 5287 6156 14582 14694 
+	}
+
+	history = {
+		owner = AST
+		
+		victory_points = { 6156 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = AST
+	}
+
+}

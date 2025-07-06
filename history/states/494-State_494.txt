@@ -1,0 +1,25 @@
+state = {
+	id = 494
+	name = "STATE_494"
+	manpower = 242365
+
+	state_category = town
+
+	provinces = {
+		1379 1794 3018 3071 6317 6421 7290 7633 8677 11562 11656 11668 11772 
+	}
+
+	history = {
+		owner = VGD
+		
+		victory_points = { 1794 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VGD
+	}
+
+}

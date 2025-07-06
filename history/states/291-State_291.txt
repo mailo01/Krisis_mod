@@ -1,0 +1,25 @@
+state = {
+	id = 291
+	name = "STATE_291"
+	manpower = 158317
+
+	state_category = town
+
+	provinces = {
+		2376 11878 11912 11919 12014 12040 
+	}
+
+	history = {
+		owner = VIN
+		
+		victory_points = { 11912 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VIN
+	}
+
+}

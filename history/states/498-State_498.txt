@@ -1,0 +1,25 @@
+state = {
+	id = 498
+	name = "STATE_498"
+	manpower = 676539
+
+	state_category = town
+
+	provinces = {
+		2862 4552 4658 7414 8192 12154 
+	}
+
+	history = {
+		owner = KLG
+		
+		victory_points = { 12154 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KLG
+	}
+
+}

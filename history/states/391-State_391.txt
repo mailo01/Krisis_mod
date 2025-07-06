@@ -1,0 +1,29 @@
+state = {
+	id = 391
+	name = "STATE_391"
+	manpower = 324087
+
+	state_category = town
+
+	provinces = {
+		7813 9285 13511 13597 13675 
+	}
+
+	resources = {
+		rubber = 31
+	}
+
+	history = {
+		owner = ULO
+		
+		victory_points = { 13675 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ULO
+	}
+
+}

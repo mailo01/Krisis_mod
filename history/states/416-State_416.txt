@@ -1,0 +1,27 @@
+state = {
+	id = 416
+	name = "STATE_416"
+	manpower = 373659
+
+	state_category = town
+
+	provinces = {
+		350 587 882 1088 1556 1634 2539 2729 3069 3177 3318 4319 4330 4467 4914 5050 5436 6030 6227 7295 7442 7559 7992 8282 8458 9001 9060 9280 9421 9935 14362 14422 14428 14435 14462 14472 14491 14505 14549 14555 14558 14570 14594 14613 14623 14641 14642 14675 14773 14798 
+	}
+
+	history = {
+		owner = TYM
+		
+		victory_points = { 4467 15 }
+		victory_points = { 7442 15 }
+		victory_points = { 14555 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TYM
+	}
+
+}

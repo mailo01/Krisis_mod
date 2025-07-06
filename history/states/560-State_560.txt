@@ -1,0 +1,25 @@
+state = {
+	id = 560
+	name = "STATE_560"
+	manpower = 168601
+
+	state_category = town
+
+	provinces = {
+		1015 1593 5915 6134 6185 7589 9245 9751 12469 12486 12524 12549 12566 
+	}
+
+	history = {
+		owner = KSM
+		
+		victory_points = { 12549 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KSM
+	}
+
+}

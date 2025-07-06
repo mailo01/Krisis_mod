@@ -1,0 +1,29 @@
+state = {
+	id = 437
+	name = "STATE_437"
+	manpower = 375305
+
+	state_category = town
+
+	provinces = {
+		5002 5399 5861 8921 14339 14405 
+	}
+
+	resources = {
+		rubber = 6
+	}
+
+	history = {
+		owner = CHL
+		
+		victory_points = { 14405 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHL
+	}
+
+}

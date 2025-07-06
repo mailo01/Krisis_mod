@@ -1,0 +1,23 @@
+state = {
+	id = 443
+	name = "STATE_443"
+	manpower = 116554
+
+	state_category = town
+
+	provinces = {
+		502 1725 3118 3520 3623 4132 4559 5285 5533 5957 8674 9215 9273 9496 9642 11899 11954 11995 12030 12066 12076 12138 12199 12204 12273 12298 12349 12387 12435 16815 16820 16822 
+	}
+
+	history = {
+		owner = YNO
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		
+		add_core_of = YNO
+	}
+
+}

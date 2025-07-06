@@ -1,0 +1,25 @@
+state = {
+	id = 414
+	name = "STATE_414"
+	manpower = 41424
+
+	state_category = town
+
+	provinces = {
+		1869 2061 2280 3977 4504 5170 5380 5655 7804 9800 15880 15899 15927 15945 15949 15950 15983 16004 
+	}
+
+	history = {
+		owner = ALR
+		
+		victory_points = { 15950 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ALR
+	}
+
+}

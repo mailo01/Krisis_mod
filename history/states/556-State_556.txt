@@ -1,0 +1,29 @@
+state = {
+	id = 556
+	name = "STATE_556"
+	manpower = 356204
+
+	state_category = town
+
+	provinces = {
+		1107 3816 9175 13302 13363 13386 13445 
+	}
+
+	resources = {
+		rubber = 19
+	}
+
+	history = {
+		owner = PEO
+		
+		victory_points = { 3816 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = PEO
+	}
+
+}

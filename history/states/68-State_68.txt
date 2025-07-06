@@ -1,0 +1,27 @@
+state = {
+	id = 68
+	name = "STATE_68"
+	manpower = 247756
+
+	state_category = large_town
+
+	provinces = {
+		1966 2745 6351 6579 6815 9295 11759 11863 11887 11932 
+	}
+
+	history = {
+		owner = SML
+		
+		victory_points = { 6351 15 }
+		victory_points = { 9295 15 }
+		victory_points = { 11759 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SML
+	}
+
+}

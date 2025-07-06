@@ -1,0 +1,25 @@
+state = {
+	id = 220
+	name = "STATE_220"
+	manpower = 576933
+
+	state_category = large_town
+
+	provinces = {
+		3087 5728 7759 8339 11331 11388 11430 18612 
+	}
+
+	history = {
+		owner = VIT
+		
+		victory_points = { 11388 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VIT
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 333
+	name = "STATE_333"
+	manpower = 291553
+
+	state_category = town
+
+	provinces = {
+		265 815 1293 3553 4210 4532 5215 5472 5828 6782 6841 7791 14917 14989 14996 15010 15020 15039 15074 15093 15121 
+	}
+
+	history = {
+		owner = KOS
+		
+		victory_points = { 14989 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KOS
+	}
+
+}

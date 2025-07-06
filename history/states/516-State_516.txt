@@ -1,0 +1,25 @@
+state = {
+	id = 516
+	name = "STATE_516"
+	manpower = 184691
+
+	state_category = town
+
+	provinces = {
+		1083 3136 5721 7908 9917 11741 11786 11794 11872 
+	}
+
+	history = {
+		owner = SML
+		
+		victory_points = { 11794 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SML
+	}
+
+}

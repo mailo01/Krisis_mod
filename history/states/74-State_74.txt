@@ -1,0 +1,25 @@
+state = {
+	id = 74
+	name = "STATE_74"
+	manpower = 550778
+
+	state_category = rural
+
+	provinces = {
+		5832 5901 7698 7979 13260 13288 13396 
+	}
+
+	history = {
+		owner = CHO
+		
+		victory_points = { 7979 50 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHO
+	}
+
+}

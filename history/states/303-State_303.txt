@@ -1,0 +1,26 @@
+state = {
+	id = 303
+	name = "STATE_303"
+	manpower = 258298
+
+	state_category = town
+
+	provinces = {
+		572 1196 2322 2685 2989 3025 4299 4445 4636 5273 5368 5870 8293 8745 9573 15876 15893 15908 15920 15967 15969 15999 16017 
+	}
+
+	history = {
+		owner = KYZ
+		
+		victory_points = { 5273 15 }
+		victory_points = { 5368 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KYZ
+	}
+
+}

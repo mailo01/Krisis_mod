@@ -1,0 +1,25 @@
+state = {
+	id = 385
+	name = "STATE_385"
+	manpower = 158120
+
+	state_category = town
+
+	provinces = {
+		95 1461 1553 1615 2917 3233 4816 9844 10395 10739 11998 12107 12189 16624 16627 16628 16652 16655 16656 16658 16659 16663 16668 16674 16682 16685 16690 16692 16702 16727 
+	}
+
+	history = {
+		owner = ODO
+		
+		victory_points = { 1553 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ODO
+	}
+
+}

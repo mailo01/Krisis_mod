@@ -1,0 +1,25 @@
+state = {
+	id = 427
+	name = "STATE_427"
+	manpower = 309223
+
+	state_category = town
+
+	provinces = {
+		4903 6564 9100 11841 
+	}
+
+	history = {
+		owner = ZHT
+		
+		victory_points = { 4903 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZHT
+	}
+
+}

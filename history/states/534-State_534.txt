@@ -1,0 +1,25 @@
+state = {
+	id = 534
+	name = "STATE_534"
+	manpower = 141568
+
+	state_category = town
+
+	provinces = {
+		967 2969 4544 6072 13500 13573 
+	}
+
+	history = {
+		owner = PEO
+		
+		victory_points = { 4544 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = PEO
+	}
+
+}

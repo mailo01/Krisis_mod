@@ -1,0 +1,25 @@
+state = {
+	id = 311
+	name = "STATE_311"
+	manpower = 96781
+
+	state_category = town
+
+	provinces = {
+		709 4056 8290 15047 15075 15109 
+	}
+
+	history = {
+		owner = NOK
+		
+		victory_points = { 8290 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = NOK
+	}
+
+}

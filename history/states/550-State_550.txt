@@ -1,0 +1,25 @@
+state = {
+	id = 550
+	name = "STATE_550"
+	manpower = 106330
+
+	state_category = town
+
+	provinces = {
+		9415 12366 
+	}
+
+	history = {
+		owner = IVO
+		
+		victory_points = { 12366 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = IVO
+	}
+
+}

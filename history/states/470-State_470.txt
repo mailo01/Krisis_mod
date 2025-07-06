@@ -1,0 +1,30 @@
+state = {
+	id = 470
+	name = "STATE_470"
+	manpower = 1370726
+
+	state_category = town
+
+	provinces = {
+		417 726 3626 3823 3993 5675 5953 6439 8295 8304 13751 13847 13918 13957 14001 14002 
+	}
+
+	resources = {
+		rubber = 11
+		steel = 5
+	}
+
+	history = {
+		owner = SAM
+		
+		victory_points = { 726 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SAM
+	}
+
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 128
+	name = "STATE_128"
+	manpower = 1063386
+
+	state_category = rural
+
+	provinces = {
+		2190 3986 4250 6168 7347 8626 10041 16291 16315 
+	}
+
+	resources = {
+		aluminium = 3
+		rubber = 63
+	}
+
+	history = {
+		owner = SOK
+		
+		victory_points = { 6168 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = SOK
+	}
+
+}

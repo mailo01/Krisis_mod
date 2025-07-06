@@ -1,0 +1,25 @@
+state = {
+	id = 496
+	name = "STATE_496"
+	manpower = 217943
+
+	state_category = town
+
+	provinces = {
+		1230 1557 1663 2209 2314 4421 5122 5877 6283 6322 6640 6746 6817 8827 8957 11419 11476 11513 11553 11617 11641 11667 11679 11825 
+	}
+
+	history = {
+		owner = TVR
+		
+		victory_points = { 5877 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TVR
+	}
+
+}

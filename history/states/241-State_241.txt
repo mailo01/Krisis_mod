@@ -1,0 +1,23 @@
+state = {
+	id = 241
+	name = "STATE_241"
+	manpower = 187460
+
+	state_category = town
+
+	provinces = {
+		16747 16749 16753 16756 
+	}
+
+	history = {
+		owner = EST
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		
+		add_core_of = EST
+	}
+
+}

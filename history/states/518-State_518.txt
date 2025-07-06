@@ -1,0 +1,25 @@
+state = {
+	id = 518
+	name = "STATE_518"
+	manpower = 125240
+
+	state_category = town
+
+	provinces = {
+		446 5705 9111 12462 
+	}
+
+	history = {
+		owner = ORL
+		
+		victory_points = { 446 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ORL
+	}
+
+}

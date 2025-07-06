@@ -1,0 +1,25 @@
+state = {
+	id = 283
+	name = "STATE_283"
+	manpower = 10000
+
+	state_category = town
+
+	provinces = {
+		7618 11429 11475 
+	}
+
+	history = {
+		owner = ROV
+		
+		victory_points = { 7618 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ROV
+	}
+
+}

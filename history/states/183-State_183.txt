@@ -1,0 +1,27 @@
+state = {
+	id = 183
+	name = "STATE_183"
+	manpower = 7759
+
+	state_category = town
+
+	provinces = {
+		90 560 590 1971 3098 3949 4182 5632 5693 5710 6176 6263 7233 7897 8032 9120 9277 9389 9506 14177 14374 14381 14403 14478 14502 14533 14545 14581 14590 14618 14619 14680 14700 14733 14734 14764 
+	}
+
+	resources = {
+		tungsten = 13
+	}
+
+	history = {
+		owner = KAL
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = KAL
+	}
+
+}

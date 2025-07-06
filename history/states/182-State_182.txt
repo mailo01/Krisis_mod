@@ -1,0 +1,29 @@
+state = {
+	id = 182
+	name = "STATE_182"
+	manpower = 246183
+
+	state_category = large_town
+
+	provinces = {
+		2112 2457 3607 3677 4627 5970 7316 8229 14272 14281 14290 14322 14325 14338 14345 14351 14369 14375 14399 14400 14434 14460 
+	}
+
+	resources = {
+		oil = 150
+	}
+
+	history = {
+		owner = ZOK
+		
+		victory_points = { 8229 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZOK
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 480
+	name = "STATE_480"
+	manpower = 193302
+
+	state_category = town
+
+	provinces = {
+		403 1583 3295 9649 12021 
+	}
+
+	history = {
+		owner = BRY
+		
+		victory_points = { 3295 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BRY
+	}
+
+}

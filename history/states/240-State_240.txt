@@ -1,0 +1,20 @@
+state = {
+	id = 240
+	name = "STATE_240"
+	manpower = 380330
+
+	state_category = town
+
+	provinces = {
+		4592 5722 7186 8634 9746 11102 11120 11146 11163 
+	}
+
+	history = {
+		owner = LNO
+		
+		victory_points = { 4592 15 }
+		
+		add_core_of = LNO
+	}
+
+}

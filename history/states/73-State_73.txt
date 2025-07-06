@@ -1,0 +1,25 @@
+state = {
+	id = 73
+	name = "STATE_73"
+	manpower = 251997
+
+	state_category = large_town
+
+	provinces = {
+		529 963 1241 1814 2016 3174 3303 3713 3765 4237 4305 5718 5749 6104 6178 6778 7594 7967 8020 8667 9031 11373 11436 11437 11454 11479 11510 11540 11565 11611 11621 11766 11798 18602 18605 
+	}
+
+	history = {
+		owner = LAT
+		
+		victory_points = { 6778 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		
+		add_core_of = LAT
+	}
+
+}

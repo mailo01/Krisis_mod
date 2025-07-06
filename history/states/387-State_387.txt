@@ -1,0 +1,25 @@
+state = {
+	id = 387
+	name = "STATE_387"
+	manpower = 390000
+
+	state_category = town
+
+	provinces = {
+		5965 12942 17613 18316 18334 18476 
+	}
+
+	history = {
+		owner = ZPZ
+		
+		victory_points = { 12942 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZPZ
+	}
+
+}

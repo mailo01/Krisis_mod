@@ -1,0 +1,25 @@
+state = {
+	id = 264
+	name = "STATE_264"
+	manpower = 150263
+
+	state_category = town
+
+	provinces = {
+		3393 8049 11694 11765 
+	}
+
+	history = {
+		owner = MGO
+		
+		victory_points = { 3393 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MGO
+	}
+
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 62
+	name = "STATE_62"
+	manpower = 1420491
+
+	state_category = metropolis
+
+	provinces = {
+		16344 
+	}
+
+	resources = {
+		rubber = 68
+	}
+
+	history = {
+		owner = ALM
+		
+		victory_points = { 16344 50 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		
+		add_core_of = ALM
+	}
+
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 186
+	name = "STATE_186"
+	manpower = 2191696
+
+	state_category = large_town
+
+	provinces = {
+		1678 3965 4605 9822 14140 14334 14433 14459 
+	}
+
+	history = {
+		owner = STV
+		
+		victory_points = { 4605 15 }
+		victory_points = { 9822 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = STV
+	}
+
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 270
+	name = "STATE_270"
+	manpower = 47329
+
+	state_category = town
+
+	provinces = {
+		3454 5030 5305 11703 
+	}
+
+	history = {
+		owner = HOM
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = HOM
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 501
+	name = "STATE_501"
+	manpower = 160282
+
+	state_category = town
+
+	provinces = {
+		48 2111 2170 3804 7700 8000 8496 13416 13510 
+	}
+
+	history = {
+		owner = VLG
+		
+		victory_points = { 8000 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VLG
+	}
+
+}

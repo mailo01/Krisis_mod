@@ -1,0 +1,30 @@
+state = {
+	id = 127
+	name = "STATE_127"
+	manpower = 76811
+
+	state_category = rural
+
+	provinces = {
+		149 201 224 1766 2955 6149 6732 8060 9780 15758 15765 15830 15928 15931 17585 
+	}
+
+	resources = {
+		tungsten = 70
+	}
+
+	history = {
+		owner = ALR
+		
+		victory_points = { 8060 15 }
+		victory_points = { 15830 50 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = ALR
+	}
+
+}

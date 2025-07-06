@@ -1,0 +1,25 @@
+state = {
+	id = 503
+	name = "STATE_503"
+	manpower = 188245
+
+	state_category = town
+
+	provinces = {
+		183 1021 1900 2131 2383 2441 2857 2932 3140 3558 3740 5404 7761 8081 8145 8914 9239 9552 9554 9653 9776 12317 12336 12396 12423 12463 12510 12525 12532 12573 12617 12653 12662 12663 12675 12740 
+	}
+
+	history = {
+		owner = KOR
+		
+		victory_points = { 12423 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = KOR
+	}
+
+}

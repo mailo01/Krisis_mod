@@ -1,0 +1,25 @@
+state = {
+	id = 383
+	name = "STATE_383"
+	manpower = 287850
+
+	state_category = town
+
+	provinces = {
+		274 2874 6287 9867 11810 11885 
+	}
+
+	history = {
+		owner = VIN
+		
+		victory_points = { 9867 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VIN
+	}
+
+}

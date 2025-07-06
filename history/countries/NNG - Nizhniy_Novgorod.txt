@@ -1,0 +1,61 @@
+capital = 29
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "NNG_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 10
+	communism = 10
+	democratic = 10
+	neutrality = 70
+}
+recruit_character = NNG_1_advisor_civilian
+recruit_character = NNG_2_advisor_civilian
+recruit_character = NNG_3_advisor_civilian
+recruit_character = NNG_4_advisor_civilian
+recruit_character = NNG_5_advisor_civilian
+recruit_character = NNG_6_advisor_civilian
+recruit_character = NNG_7_advisor_civilian
+recruit_character = NNG_8_advisor_civilian
+recruit_character = NNG_9_advisor_civilian
+recruit_character = NNG_10_advisor_civilian
+recruit_character = NNG_11_advisor_civilian
+recruit_character = NNG_12_advisor_civilian
+recruit_character = NNG_13_advisor_civilian
+recruit_character = NNG_14_advisor_civilian
+recruit_character = NNG_15_advisor_civilian
+recruit_character = NNG_16_advisor_civilian
+recruit_character = NNG_17_advisor_civilian
+recruit_character = NNG_18_advisor_civilian
+recruit_character = NNG_19_advisor_civilian
+recruit_character = NNG_20_advisor_civilian
+recruit_character = NNG_1_army_chief
+recruit_character = NNG_2_army_chief
+recruit_character = NNG_3_army_chief
+recruit_character = NNG_4_army_chief
+recruit_character = NNG_5_army_chief
+recruit_character = NNG_6_army_chief
+recruit_character = NNG_7_army_chief
+recruit_character = NNG_1_high_command
+recruit_character = NNG_2_high_command
+recruit_character = NNG_3_high_command
+recruit_character = NNG_4_high_command
+recruit_character = NNG_5_high_command
+recruit_character = NNG_6_high_command
+recruit_character = NNG_7_high_command
+recruit_character = NNG_8_high_command
+recruit_character = NNG_9_high_command
+
+
+

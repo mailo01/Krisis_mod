@@ -1,0 +1,25 @@
+state = {
+	id = 371
+	name = "STATE_371"
+	manpower = 209487
+
+	state_category = town
+
+	provinces = {
+		2789 3940 7123 9620 9966 14477 
+	}
+
+	history = {
+		owner = KAL
+		
+		victory_points = { 9620 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KAL
+	}
+
+}

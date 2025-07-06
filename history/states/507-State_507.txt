@@ -1,0 +1,29 @@
+state = {
+	id = 507
+	name = "STATE_507"
+	manpower = 129375
+
+	state_category = town
+
+	provinces = {
+		8953 
+	}
+
+	resources = {
+		steel = 13
+	}
+
+	history = {
+		owner = KSM
+		
+		victory_points = { 8953 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KSM
+	}
+
+}

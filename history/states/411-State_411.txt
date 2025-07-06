@@ -1,0 +1,30 @@
+state = {
+	id = 411
+	name = "STATE_411"
+	manpower = 327464
+
+	state_category = town
+
+	provinces = {
+		3572 6050 7915 14871 14897 14923 
+	}
+
+	resources = {
+		rubber = 9
+		steel = 14
+	}
+
+	history = {
+		owner = ORO
+		
+		victory_points = { 14923 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ORO
+	}
+
+}

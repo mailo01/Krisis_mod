@@ -1,0 +1,25 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	manpower = 1744294
+
+	state_category = large_town
+
+	provinces = {
+		2890 6475 8554 9524 13050 13101 13121 13133 13233 
+	}
+
+	history = {
+		owner = VZH
+		
+		victory_points = { 2890 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+		add_core_of = VZH
+	}
+
+}

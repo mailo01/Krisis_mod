@@ -1,0 +1,61 @@
+capital = 200
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "DNR_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 5
+	communism = 20
+	democratic = 65
+	neutrality = 10
+}
+recruit_character = DNR_1_advisor_civilian
+recruit_character = DNR_2_advisor_civilian
+recruit_character = DNR_3_advisor_civilian
+recruit_character = DNR_4_advisor_civilian
+recruit_character = DNR_5_advisor_civilian
+recruit_character = DNR_6_advisor_civilian
+recruit_character = DNR_7_advisor_civilian
+recruit_character = DNR_8_advisor_civilian
+recruit_character = DNR_9_advisor_civilian
+recruit_character = DNR_10_advisor_civilian
+recruit_character = DNR_11_advisor_civilian
+recruit_character = DNR_12_advisor_civilian
+recruit_character = DNR_13_advisor_civilian
+recruit_character = DNR_14_advisor_civilian
+recruit_character = DNR_15_advisor_civilian
+recruit_character = DNR_16_advisor_civilian
+recruit_character = DNR_17_advisor_civilian
+recruit_character = DNR_18_advisor_civilian
+recruit_character = DNR_19_advisor_civilian
+recruit_character = DNR_20_advisor_civilian
+recruit_character = DNR_1_army_chief
+recruit_character = DNR_2_army_chief
+recruit_character = DNR_3_army_chief
+recruit_character = DNR_4_army_chief
+recruit_character = DNR_5_army_chief
+recruit_character = DNR_6_army_chief
+recruit_character = DNR_7_army_chief
+recruit_character = DNR_1_high_command
+recruit_character = DNR_2_high_command
+recruit_character = DNR_3_high_command
+recruit_character = DNR_4_high_command
+recruit_character = DNR_5_high_command
+recruit_character = DNR_6_high_command
+recruit_character = DNR_7_high_command
+recruit_character = DNR_8_high_command
+recruit_character = DNR_9_high_command
+
+
+

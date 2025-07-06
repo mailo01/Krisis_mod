@@ -1,0 +1,25 @@
+state = {
+	id = 535
+	name = "STATE_535"
+	manpower = 258781
+
+	state_category = town
+
+	provinces = {
+		2428 5054 9571 
+	}
+
+	history = {
+		owner = TAM
+		
+		victory_points = { 5054 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TAM
+	}
+
+}

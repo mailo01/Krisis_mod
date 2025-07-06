@@ -1,0 +1,25 @@
+state = {
+	id = 532
+	name = "STATE_532"
+	manpower = 502578
+
+	state_category = town
+
+	provinces = {
+		4377 9858 12912 12979 13022 
+	}
+
+	history = {
+		owner = KNR
+		
+		victory_points = { 4377 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KNR
+	}
+
+}

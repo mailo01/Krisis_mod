@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2030.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "MOS"
+		default = yes
+		
+		"MOS"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"EKB"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"PGD"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"AMR"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"ALM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"KIV"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"MIN"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

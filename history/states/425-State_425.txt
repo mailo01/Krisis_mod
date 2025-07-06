@@ -1,0 +1,25 @@
+state = {
+	id = 425
+	name = "STATE_425"
+	manpower = 147476
+
+	state_category = town
+
+	provinces = {
+		2446 12158 12197 12255 
+	}
+
+	history = {
+		owner = CHG
+		
+		victory_points = { 12197 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHG
+	}
+
+}

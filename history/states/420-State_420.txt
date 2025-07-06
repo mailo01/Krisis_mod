@@ -1,0 +1,25 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	manpower = 164422
+
+	state_category = town
+
+	provinces = {
+		658 4985 8259 9450 12949 13030 
+	}
+
+	history = {
+		owner = BGR
+		
+		victory_points = { 4985 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BGR
+	}
+
+}

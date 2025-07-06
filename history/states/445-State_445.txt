@@ -1,0 +1,25 @@
+state = {
+	id = 445
+	name = "STATE_445"
+	manpower = 183447
+
+	state_category = town
+
+	provinces = {
+		4868 4977 5484 6537 6847 9335 11226 11323 
+	}
+
+	history = {
+		owner = PSK
+		
+		victory_points = { 6537 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = PSK
+	}
+
+}

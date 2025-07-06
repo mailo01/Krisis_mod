@@ -1,0 +1,25 @@
+state = {
+	id = 552
+	name = "STATE_552"
+	manpower = 878097
+
+	state_category = town
+
+	provinces = {
+		1118 1734 3237 4701 5775 8835 12326 12390 
+	}
+
+	history = {
+		owner = MSO
+		
+		victory_points = { 12326 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MSO
+	}
+
+}

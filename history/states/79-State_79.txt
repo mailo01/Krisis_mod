@@ -1,0 +1,26 @@
+state = {
+	id = 79
+	name = "STATE_79"
+	manpower = 960104
+
+	state_category = large_town
+
+	provinces = {
+		2393 4739 8940 11474 11493 11545 11600 18616 
+	}
+
+	history = {
+		owner = HML
+		
+		victory_points = { 11493 15 }
+		victory_points = { 11600 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		
+		add_core_of = HML
+	}
+
+}

@@ -1,0 +1,30 @@
+state = {
+	id = 80
+	name = "STATE_80"
+	manpower = 255448
+
+	state_category = large_town
+
+	provinces = {
+		7105 8711 9513 11613 
+	}
+
+	resources = {
+		steel = 23
+		rubber = 33
+	}
+
+	history = {
+		owner = MGO
+		
+		victory_points = { 11613 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MGO
+	}
+
+}

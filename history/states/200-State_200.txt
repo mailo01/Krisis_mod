@@ -1,0 +1,29 @@
+state = {
+	id = 200
+	name = "STATE_200"
+	manpower = 2102167
+
+	state_category = large_town
+
+	provinces = {
+		1702 3901 5057 13208 13301 17593 17657 17660 17698 17729 17821 17910 17914 18188 18244 18321 18357 18359 18387 
+	}
+
+	resources = {
+		steel = 160
+	}
+
+	history = {
+		owner = DNR
+		
+		victory_points = { 13208 50 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+		}
+		
+		add_core_of = DNR
+	}
+
+}

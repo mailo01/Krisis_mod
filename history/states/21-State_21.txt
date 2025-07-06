@@ -1,0 +1,30 @@
+state = {
+	id = 21
+	name = "STATE_21"
+	manpower = 390584
+
+	state_category = city
+
+	provinces = {
+		13164 
+	}
+
+	history = {
+		owner = SVS
+		
+		victory_points = { 13164 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+			13164 = { 
+				bunker = 1
+				coastal_bunker = 3
+			}
+		}
+		
+		add_core_of = SVS
+	}
+
+}

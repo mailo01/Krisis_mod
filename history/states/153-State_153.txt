@@ -1,0 +1,12 @@
+state = {
+	id = 153
+	name = "STATE_153"
+	manpower = 10000
+
+	state_category = large_town
+
+	provinces = {
+		1510 3639 5152 
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 332
+	name = "STATE_332"
+	manpower = 88449
+
+	state_category = town
+
+	provinces = {
+		1384 2271 6272 14525 14584 14621 14656 
+	}
+
+	history = {
+		owner = ZOK
+		
+		victory_points = { 14525 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZOK
+	}
+
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 502
+	name = "STATE_502"
+	manpower = 1095498
+
+	state_category = town
+
+	provinces = {
+		254 2547 3609 5360 7056 8214 13685 13686 13752 13815 13848 13874 13948 13949 14012 
+	}
+
+	resources = {
+		rubber = 17
+	}
+
+	history = {
+		owner = EKB
+		
+		victory_points = { 7056 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = EKB
+	}
+
+}

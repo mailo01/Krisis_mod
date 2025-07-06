@@ -1,0 +1,29 @@
+state = {
+	id = 169
+	name = "STATE_169"
+	manpower = 7821352
+
+	state_category = metropolis
+
+	provinces = {
+		3478 
+	}
+
+	resources = {
+		steel = 98
+	}
+
+	history = {
+		owner = PGD
+		
+		victory_points = { 3478 50 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+		}
+		
+		add_core_of = PGD
+	}
+
+}

@@ -1,0 +1,61 @@
+capital = 132
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "ALK_1900"
+set_politics = {
+	ruling_party = fascism
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 5
+	communism = 20
+	democratic = 65
+	neutrality = 10
+}
+recruit_character = ALK_1_advisor_civilian
+recruit_character = ALK_2_advisor_civilian
+recruit_character = ALK_3_advisor_civilian
+recruit_character = ALK_4_advisor_civilian
+recruit_character = ALK_5_advisor_civilian
+recruit_character = ALK_6_advisor_civilian
+recruit_character = ALK_7_advisor_civilian
+recruit_character = ALK_8_advisor_civilian
+recruit_character = ALK_9_advisor_civilian
+recruit_character = ALK_10_advisor_civilian
+recruit_character = ALK_11_advisor_civilian
+recruit_character = ALK_12_advisor_civilian
+recruit_character = ALK_13_advisor_civilian
+recruit_character = ALK_14_advisor_civilian
+recruit_character = ALK_15_advisor_civilian
+recruit_character = ALK_16_advisor_civilian
+recruit_character = ALK_17_advisor_civilian
+recruit_character = ALK_18_advisor_civilian
+recruit_character = ALK_19_advisor_civilian
+recruit_character = ALK_20_advisor_civilian
+recruit_character = ALK_1_army_chief
+recruit_character = ALK_2_army_chief
+recruit_character = ALK_3_army_chief
+recruit_character = ALK_4_army_chief
+recruit_character = ALK_5_army_chief
+recruit_character = ALK_6_army_chief
+recruit_character = ALK_7_army_chief
+recruit_character = ALK_1_high_command
+recruit_character = ALK_2_high_command
+recruit_character = ALK_3_high_command
+recruit_character = ALK_4_high_command
+recruit_character = ALK_5_high_command
+recruit_character = ALK_6_high_command
+recruit_character = ALK_7_high_command
+recruit_character = ALK_8_high_command
+recruit_character = ALK_9_high_command
+
+
+

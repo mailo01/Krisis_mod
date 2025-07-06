@@ -1,0 +1,27 @@
+state = {
+	id = 321
+	name = "STATE_321"
+	manpower = 174018
+
+	state_category = town
+
+	provinces = {
+		298 1072 3539 4219 4267 4641 5672 6198 6457 6650 6758 8197 8225 8272 8351 8401 8531 8650 8778 8793 9661 9708 14796 14816 14911 14935 14947 14966 14995 15006 15065 15083 15147 15250 
+	}
+
+	history = {
+		owner = ATY
+		
+		victory_points = { 6198 5 }
+		victory_points = { 8197 5 }
+		victory_points = { 14995 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ATY
+	}
+
+}

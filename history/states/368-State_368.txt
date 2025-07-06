@@ -1,0 +1,25 @@
+state = {
+	id = 368
+	name = "STATE_368"
+	manpower = 973226
+
+	state_category = town
+
+	provinces = {
+		6035 13300 13342 17638 17706 17722 18327 18335 18336 18338 18360 18362 18365 
+	}
+
+	history = {
+		owner = DNR
+		
+		victory_points = { 13342 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = DNR
+	}
+
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 419
+	name = "STATE_419"
+	manpower = 73841
+
+	state_category = town
+
+	provinces = {
+		8176 11386 11417 13430 13431 13495 13583 
+	}
+
+	history = {
+		owner = TEO
+		
+		victory_points = { 13431 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TEO
+	}
+
+}

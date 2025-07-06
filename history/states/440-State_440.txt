@@ -1,0 +1,25 @@
+state = {
+	id = 440
+	name = "STATE_440"
+	manpower = 87299
+
+	state_category = town
+
+	provinces = {
+		1832 2674 3927 4754 5422 6518 7526 7776 8955 9206 9953 9992 14126 14265 14286 14324 14409 14410 14451 14467 
+	}
+
+	history = {
+		owner = AMR
+		
+		victory_points = { 14410 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		
+		add_core_of = AMR
+	}
+
+}

@@ -1,0 +1,26 @@
+state = {
+	id = 449
+	name = "STATE_449"
+	manpower = 704481
+
+	state_category = town
+
+	provinces = {
+		1329 1526 3377 3697 13142 13143 13246 13281 
+	}
+
+	history = {
+		owner = MRD
+		
+		victory_points = { 1329 50 }
+		victory_points = { 1526 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MRD
+	}
+
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 520517
+
+	state_category = large_town
+
+	provinces = {
+		269 438 856 1223 2255 2294 2995 3325 3706 5157 5854 6246 6582 6831 7328 7360 8620 8641 9297 9462 15929 15948 15952 15968 15996 16001 16011 16084 16091 16097 16107 16110 16112 16113 16124 16157 
+	}
+
+	resources = {
+		steel = 112
+		rubber = 30
+	}
+
+	history = {
+		owner = VOK
+		
+		victory_points = { 269 15 }
+		victory_points = { 15968 15 }
+		victory_points = { 16011 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VOK
+	}
+
+}

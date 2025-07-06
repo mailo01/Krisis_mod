@@ -1,0 +1,31 @@
+state = {
+	id = 111
+	name = "STATE_111"
+	manpower = 436946
+
+	state_category = town
+
+	provinces = {
+		43 111 1313 1985 2083 2965 3000 4321 4442 5061 5171 5391 5587 6082 6447 7572 7610 8288 8361 8413 9296 9967 16217 16226 16236 16254 16259 16261 16262 16270 16273 16274 16283 16295 16298 
+	}
+
+	resources = {
+		aluminium = 56
+		rubber = 24
+	}
+
+	history = {
+		owner = ZHM
+		
+		victory_points = { 43 50 }
+		victory_points = { 9296 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		
+		add_core_of = ZHM
+	}
+
+}

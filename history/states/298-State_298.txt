@@ -1,0 +1,25 @@
+state = {
+	id = 298
+	name = "STATE_298"
+	manpower = 449009
+
+	state_category = town
+
+	provinces = {
+		2579 2746 2850 3388 3631 3938 4590 6538 6638 7154 7574 7670 7870 8599 16209 16227 16247 16277 16287 16299 16302 16311 16320 16322 
+	}
+
+	history = {
+		owner = ALO
+		
+		victory_points = { 16322 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ALO
+	}
+
+}

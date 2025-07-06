@@ -1,0 +1,25 @@
+state = {
+	id = 381
+	name = "STATE_381"
+	manpower = 288031
+
+	state_category = town
+
+	provinces = {
+		1649 11595 
+	}
+
+	history = {
+		owner = HML
+		
+		victory_points = { 1649 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = HML
+	}
+
+}

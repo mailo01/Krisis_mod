@@ -1,0 +1,25 @@
+state = {
+	id = 288
+	name = "STATE_288"
+	manpower = 126955
+
+	state_category = town
+
+	provinces = {
+		8445 9492 
+	}
+
+	history = {
+		owner = ZAK
+		
+		victory_points = { 9492 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZAK
+	}
+
+}

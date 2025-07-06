@@ -1,0 +1,25 @@
+state = {
+	id = 462
+	name = "STATE_462"
+	manpower = 95425
+
+	state_category = town
+
+	provinces = {
+		1965 4589 4817 12004 12008 12062 12153 
+	}
+
+	history = {
+		owner = CHG
+		
+		victory_points = { 4589 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHG
+	}
+
+}

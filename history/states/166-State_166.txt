@@ -1,0 +1,25 @@
+state = {
+	id = 166
+	name = "STATE_166"
+	manpower = 917644
+
+	state_category = large_town
+
+	provinces = {
+		2933 3513 4748 
+	}
+
+	history = {
+		owner = BRS
+		
+		victory_points = { 4748 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = BRS
+	}
+
+}

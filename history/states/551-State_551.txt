@@ -1,0 +1,25 @@
+state = {
+	id = 551
+	name = "STATE_551"
+	manpower = 156724
+
+	state_category = town
+
+	provinces = {
+		8201 12564 12598 12660 
+	}
+
+	history = {
+		owner = VLM
+		
+		victory_points = { 12660 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VLM
+	}
+
+}

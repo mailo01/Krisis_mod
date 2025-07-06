@@ -1,0 +1,29 @@
+state = {
+	id = 446
+	name = "STATE_446"
+	manpower = 704426
+
+	state_category = town
+
+	provinces = {
+		3324 4515 7332 7411 7504 8380 10044 13185 13245 13384 
+	}
+
+	resources = {
+		steel = 11
+	}
+
+	history = {
+		owner = VZH
+		
+		victory_points = { 13185 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = VZH
+	}
+
+}

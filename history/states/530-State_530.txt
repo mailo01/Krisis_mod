@@ -1,0 +1,25 @@
+state = {
+	id = 530
+	name = "STATE_530"
+	manpower = 813924
+
+	state_category = town
+
+	provinces = {
+		2699 3169 3385 3629 3832 3875 4564 5282 6006 6217 6901 7370 8164 8939 9988 10047 10085 14038 14062 14086 14116 14142 14172 14194 14201 14210 14274 14341 14350 14376 
+	}
+
+	history = {
+		owner = EKB
+		
+		victory_points = { 6006 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = EKB
+	}
+
+}

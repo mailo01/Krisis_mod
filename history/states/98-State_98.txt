@@ -1,0 +1,25 @@
+state = {
+	id = 98
+	name = "STATE_98"
+	manpower = 601715
+
+	state_category = large_town
+
+	provinces = {
+		73 2420 3453 3651 3704 5543 5759 5979 7234 8193 9209 9321 9546 9839 10802 10823 10862 10872 10900 10938 10971 11367 11425 
+	}
+
+	history = {
+		owner = LIT
+		
+		victory_points = { 3651 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
+		
+		add_core_of = LIT
+	}
+
+}

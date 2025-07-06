@@ -1,0 +1,24 @@
+state = {
+	id = 211
+	name = "STATE_211"
+	manpower = 1051501
+
+	state_category = large_town
+
+	provinces = {
+		844 1628 2253 2346 4793 6350 6791 9078 11022 11055 11091 11126 
+	}
+
+	resources = {
+		rubber = 24
+	}
+
+	history = {
+		owner = LNO
+		
+		victory_points = { 11055 50 }
+		
+		add_core_of = LNO
+	}
+
+}

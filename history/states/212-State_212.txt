@@ -1,0 +1,26 @@
+state = {
+	id = 212
+	name = "STATE_212"
+	manpower = 150389
+
+	state_category = rural
+
+	provinces = {
+		863 2173 2409 2602 3419 3664 4441 5734 7758 9453 11206 11269 11311 11365 11431 
+	}
+
+	history = {
+		owner = NVG
+		
+		victory_points = { 2602 15 }
+		victory_points = { 3664 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = NVG
+	}
+
+}

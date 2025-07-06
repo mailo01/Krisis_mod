@@ -1,0 +1,76 @@
+strategic_region = {
+	id = 36
+	name = "STRATEGICREGION_36"
+
+	provinces = {
+		770 8313 10068 10433 16662 16664 16665 16669 16671 16675 16677 16678 16679 16680 16681 16683 16684 16686 16687 16688 16691 16693 16694 16695 16696 16698 16700 16704 17281 17382 
+	}
+
+	weather = {
+		period = {
+			between = { 0.0 15.2 }
+			temperature = { -17.3 -15.3 }
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0
+			arctic_water = 0
+			mud = 0
+			sandstorm = 0
+			min_snow_level = 1
+		}
+		period = {
+			between = { 16.2 15.5 }
+			temperature = { -11.2 -4.4 }
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0
+			arctic_water = 0
+			mud = 0
+			sandstorm = 0
+			min_snow_level = 1
+		}
+		period = {
+			between = { 16.5 15.7 }
+			temperature = { -4.4 1.2 }
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0
+			arctic_water = 0
+			mud = 0
+			sandstorm = 0
+			min_snow_level = 1
+		}
+		period = {
+			between = { 16.7 15.9 }
+			temperature = { -10.3 3.2 }
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0
+			arctic_water = 0
+			mud = 0
+			sandstorm = 0
+			min_snow_level = 1
+		}
+		period = {
+			between = { 16.9 31.12 }
+			temperature = { -10.9 -10.3 }
+			no_phenomenon = 0.5
+			rain_light = 0
+			rain_heavy = 0
+			snow = 0.4
+			blizzard = 0
+			arctic_water = 0
+			mud = 0
+			sandstorm = 0
+			min_snow_level = 1
+		}
+	}
+}

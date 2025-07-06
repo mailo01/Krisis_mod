@@ -1,0 +1,29 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	manpower = 790757
+
+	state_category = town
+
+	provinces = {
+		3158 4956 6177 6878 7784 7970 9282 12015 12135 12190 12240 12254 12276 12315 12325 
+	}
+
+	history = {
+		owner = CHS
+		
+		victory_points = { 3158 50 }
+		victory_points = { 6878 15 }
+		victory_points = { 9282 15 }
+		victory_points = { 12254 15 }
+		victory_points = { 12276 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		
+		add_core_of = CHS
+	}
+
+}

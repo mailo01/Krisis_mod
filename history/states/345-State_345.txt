@@ -1,0 +1,29 @@
+state = {
+	id = 345
+	name = "STATE_345"
+	manpower = 116891
+
+	state_category = town
+
+	provinces = {
+		14669 17479 17528 17582 17888 17909 17944 
+	}
+
+	resources = {
+		tungsten = 13
+	}
+
+	history = {
+		owner = KBK
+		
+		victory_points = { 14669 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KBK
+	}
+
+}

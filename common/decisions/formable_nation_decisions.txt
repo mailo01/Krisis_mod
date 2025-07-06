@@ -1,0 +1,3434 @@
+forming_category = {
+	
+	form_baltia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_baltia_flag }
+				NOT = { has_country_flag = created_country }
+				is_baltic_country = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_estonia
+				controls_state = 243
+				controls_state = 99
+				controls_state = 242
+				controls_state = 241
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_latvia
+				controls_state = 246
+				controls_state = 73
+				controls_state = 245
+				controls_state = 244
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_lithuania
+				controls_state = 247
+				controls_state = 249
+				controls_state = 98
+				controls_state = 248
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kaliningrad
+				controls_state = 250
+				controls_state = 252
+				controls_state = 251
+				controls_state = 78
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = KGD
+				original_tag = LIT
+				original_tag = LAT
+				original_tag = EST
+			}
+			NOT = { has_global_flag = form_baltia_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = BALT_UNIF
+			custom_effect_tooltip = form_baltia_et
+			hidden_effect = {
+				set_global_flag = form_baltia_flag
+				set_country_flag = created_country
+				73 = { add_core_of = ROOT }
+				98 = { add_core_of = ROOT }
+				99 = { add_core_of = ROOT }
+				241 = { add_core_of = ROOT }
+				242 = { add_core_of = ROOT }
+				243 = { add_core_of = ROOT }
+				244 = { add_core_of = ROOT }
+				245 = { add_core_of = ROOT }
+				246 = { add_core_of = ROOT }
+				247 = { add_core_of = ROOT }
+				248 = { add_core_of = ROOT }
+				249 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_sever = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+				NOT = { has_global_flag = form_sever_flag }
+				NOT = { has_country_flag = created_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_murmansk_region
+				controls_state = 232
+				controls_state = 69
+				controls_state = 233
+				controls_state = 234
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_karelia_region
+				controls_state = 235
+				controls_state = 70
+				controls_state = 236
+				controls_state = 237
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_leningrad_region
+				controls_state = 239
+				controls_state = 240
+				controls_state = 238
+				controls_state = 211
+				controls_state = 169
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_pskov_region
+				controls_state = 514
+				controls_state = 164
+				controls_state = 445
+				controls_state = 478
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_novgorod_region
+				controls_state = 515
+				controls_state = 212
+				controls_state = 497
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_vologda_region
+				controls_state = 88
+				controls_state = 494
+				controls_state = 549
+				controls_state = 504
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_arkhangelsk_region
+				controls_state = 526
+				controls_state = 162
+				controls_state = 93
+				controls_state = 202
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_nao_region
+				controls_state = 487
+				controls_state = 167
+				controls_state = 380
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_komi_region
+				controls_state = 486
+				controls_state = 544
+				controls_state = 503
+				controls_state = 63
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KGD
+				original_tag = PGD
+				original_tag = LNO
+				original_tag = KRL
+				original_tag = MUO
+				original_tag = ARH
+				original_tag = NAO
+				original_tag = KOR
+				original_tag = VGD
+				original_tag = NVG
+				original_tag = PSK
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_sever_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SEVER_UNIF
+			custom_effect_tooltip = form_sever_et
+			hidden_effect = {
+				63 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				70 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				232 = { add_core_of = ROOT }
+				233 = { add_core_of = ROOT }
+				234 = { add_core_of = ROOT }
+				235 = { add_core_of = ROOT }
+				236 = { add_core_of = ROOT }
+				237 = { add_core_of = ROOT }
+				239 = { add_core_of = ROOT }
+				240 = { add_core_of = ROOT }
+				238 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				514 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				478 = { add_core_of = ROOT }
+				515 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				497 = { add_core_of = ROOT }
+				494 = { add_core_of = ROOT }
+				549 = { add_core_of = ROOT }
+				504 = { add_core_of = ROOT }
+				526 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				487 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				380 = { add_core_of = ROOT }
+				486 = { add_core_of = ROOT }
+				544 = { add_core_of = ROOT }
+				503 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				set_global_flag = form_sever_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_centr = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_centr_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_russia_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_belgorod_region
+				controls_state = 447
+				controls_state = 30
+				controls_state = 433
+				controls_state = 420
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_bryansk_region
+				controls_state = 58
+				controls_state = 517
+				controls_state = 480
+				controls_state = 475
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_vladimir_region
+				controls_state = 508
+				controls_state = 45
+				controls_state = 561
+				controls_state = 551
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_voronezh_region
+				controls_state = 483
+				controls_state = 432
+				controls_state = 446
+				controls_state = 210
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_ivanovo_region
+				controls_state = 509
+				controls_state = 550
+				controls_state = 567
+				controls_state = 38
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_kaluga_region
+				controls_state = 481
+				controls_state = 53
+				controls_state = 498
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_kostroma_region
+				controls_state = 507
+				controls_state = 48
+				controls_state = 560
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_kursk_region
+				controls_state = 519
+				controls_state = 548
+				controls_state = 40
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_lipetsk_region
+				controls_state = 473
+				controls_state = 482
+				controls_state = 28
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_moscow_region
+				controls_state = 552
+				controls_state = 538
+				controls_state = 54
+				controls_state = 46
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_orel_region
+				controls_state = 37
+				controls_state = 518
+				controls_state = 474
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_ryazan_region
+				controls_state = 536
+				controls_state = 32
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_smolensk_region
+				controls_state = 479
+				controls_state = 68
+				controls_state = 547
+				controls_state = 516
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_tambov_region
+				controls_state = 209
+				controls_state = 535
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_tver_region
+				controls_state = 84
+				controls_state = 496
+				controls_state = 505
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_tula_region
+				controls_state = 537
+				controls_state = 36
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_yaroslavl_region
+				controls_state = 559
+				controls_state = 57
+				controls_state = 506
+				controls_state = 495
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = BGR
+				original_tag = BRY
+				original_tag = VLM
+				original_tag = VZH
+				original_tag = IVO
+				original_tag = KLG
+				original_tag = KSM
+				original_tag = KRS
+				original_tag = LPC
+				original_tag = MOS
+				original_tag = MSO
+				original_tag = ORL
+				original_tag = RYZ
+				original_tag = SML
+				original_tag = TAM
+				original_tag = TVR
+				original_tag = TLO
+				original_tag = YAR
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_centr_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CENTR_UNIF
+			custom_effect_tooltip = form_centr_et
+			hidden_effect = {				
+				447 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				433 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				517 = { add_core_of = ROOT }
+				480 = { add_core_of = ROOT }
+				475 = { add_core_of = ROOT }
+				508 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+				561 = { add_core_of = ROOT }
+				551 = { add_core_of = ROOT }
+				483 = { add_core_of = ROOT }
+				432 = { add_core_of = ROOT }
+				446 = { add_core_of = ROOT }
+				210 = { add_core_of = ROOT }
+				509 = { add_core_of = ROOT }
+				550 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				38 = { add_core_of = ROOT }
+				481 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				498 = { add_core_of = ROOT }
+				507 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				519 = { add_core_of = ROOT }
+				548 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				473 = { add_core_of = ROOT }
+				482 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				552 = { add_core_of = ROOT }
+				538 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				37 = { add_core_of = ROOT }
+				518 = { add_core_of = ROOT }
+				474 = { add_core_of = ROOT }
+				536 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				479 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				547 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				535 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				496 = { add_core_of = ROOT }
+				505 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				559 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				506 = { add_core_of = ROOT }
+				497 = { add_core_of = ROOT }
+				set_global_flag = form_centr_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_yug = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_yug_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_russia_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_adygea_region
+				controls_state = 350
+				controls_state = 18
+				controls_state = 352
+				controls_state = 360
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_astrakhan_region
+				controls_state = 177
+				controls_state = 484
+				controls_state = 451
+				controls_state = 477
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_volgograd_region
+				controls_state = 438
+				controls_state = 189
+				controls_state = 527
+				controls_state = 501
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kalmykia_region
+				controls_state = 366
+				controls_state = 183
+				controls_state = 371
+				controls_state = 362
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_krasnodar_region
+				controls_state = 85
+				controls_state = 361
+				controls_state = 365
+				controls_state = 359
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_rostov_region
+				controls_state = 370
+				controls_state = 188
+				controls_state = 389
+				controls_state = 372
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = AST
+				original_tag = KAL
+				original_tag = VLG
+				original_tag = RST
+				original_tag = KRK
+				original_tag = ADG
+				original_tag = KRM
+				original_tag = SVS
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_yug_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = YUZHNI_UNIF
+			custom_effect_tooltip = form_yug_et
+			hidden_effect = {
+				350 = { add_core_of = ROOT }
+				18 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				360 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				484 = { add_core_of = ROOT }
+				451 = { add_core_of = ROOT }
+				477 = { add_core_of = ROOT }
+				438 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				527 = { add_core_of = ROOT }
+				501 = { add_core_of = ROOT }
+				366 = { add_core_of = ROOT }
+				183 = { add_core_of = ROOT }
+				371 = { add_core_of = ROOT }
+				362 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				361 = { add_core_of = ROOT }
+				365 = { add_core_of = ROOT }
+				359 = { add_core_of = ROOT }
+				370 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+				372 = { add_core_of = ROOT }
+				21 = { add_core_of = ROOT }
+				375 = { add_core_of = ROOT }
+				208 = { add_core_of = ROOT }
+				369 = { add_core_of = ROOT }
+				358 = { add_core_of = ROOT }
+				ROOT = {
+					add_state_claim	= 367
+					add_state_claim = 22
+					add_state_claim = 373
+					add_state_claim = 388
+					add_state_claim = 374
+					add_state_claim = 379
+					add_state_claim = 200
+					add_state_claim = 368
+					add_state_claim = 206
+					add_state_claim = 289
+					add_state_claim = 387
+					add_state_claim = 390
+					add_state_claim = 376
+					add_state_claim = 386
+					add_state_claim = 294
+					add_state_claim = 25
+				}
+				set_global_flag = form_yug_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_kavkaz = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+				NOT = { has_global_flag = form_kavkaz_flag }
+				NOT = { has_country_flag = created_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_dagestan_region
+				controls_state = 341
+				controls_state = 149
+				controls_state = 349
+				controls_state = 355
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chechnya_region
+				controls_state = 342
+				controls_state = 351
+				controls_state = 151
+				controls_state = 348
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ingushetia_region
+				controls_state = 353
+				controls_state = 347
+				controls_state = 152
+				controls_state = 340
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_osetia_region
+				controls_state = 339
+				controls_state = 354
+				controls_state = 15
+				controls_state = 346
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kabardino_balkaria_region
+				controls_state = 158
+				controls_state = 338
+				controls_state = 345
+				controls_state = 344
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_karachaevo_cherkessia_region
+				controls_state = 337
+				controls_state = 356
+				controls_state = 172
+				controls_state = 343
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_stavropol_region
+				controls_state = 357
+				controls_state = 364
+				controls_state = 363
+				controls_state = 186
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = DST
+				original_tag = CCH
+				original_tag = ING
+				original_tag = OST
+				original_tag = KBK
+				original_tag = KCS
+				original_tag = STV
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_kavkaz_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KAVKAZ_UNIF
+			custom_effect_tooltip = form_kavkaz_et
+			hidden_effect = {
+				341 = { add_core_of = ROOT }
+				149 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				351 = { add_core_of = ROOT }
+				151 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				337 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				357 = { add_core_of = ROOT }
+				364 = { add_core_of = ROOT }
+				363 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				set_global_flag = form_kavkaz_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_volga = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_volga_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_russia_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_bashkortostan_region
+				controls_state = 529
+				controls_state = 192
+				controls_state = 465
+				controls_state = 466
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kirov_region
+				controls_state = 493
+				controls_state = 39
+				controls_state = 510
+				controls_state = 520
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_mariy_el_region
+				controls_state = 205
+				controls_state = 511
+				controls_state = 500
+				controls_state = 448
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_mordovia_region
+				controls_state = 207
+				controls_state = 449
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_nizhny_novgorod_region
+				controls_state = 209
+				controls_state = 553
+				controls_state = 562
+				controls_state = 525
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_orenburg_region
+				controls_state = 469
+				controls_state = 411
+				controls_state = 194
+				controls_state = 468
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_penza_region
+				controls_state = 534
+				controls_state = 556
+				controls_state = 203
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_perm_region
+				controls_state = 5
+				controls_state = 491
+				controls_state = 531
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_samara_region
+				controls_state = 513
+				controls_state = 187
+				controls_state = 470
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_saratov_region
+				controls_state = 431
+				controls_state = 471
+				controls_state = 86
+				controls_state = 472
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_tatarstan_region
+				controls_state = 528
+				controls_state = 463
+				controls_state = 485
+				controls_state = 196
+				controls_state = 512
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_udmurtia_region
+				controls_state = 464
+				controls_state = 492
+				controls_state = 199
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ulyanovsk_region
+				controls_state = 391
+				controls_state = 75
+				controls_state = 430
+				controls_state = 441
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chuvashia_region
+				controls_state = 23
+				controls_state = 499
+				controls_state = 450
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = BSH
+				original_tag = KRV
+				original_tag = MEL
+				original_tag = MRD
+				original_tag = NNG
+				original_tag = ORO
+				original_tag = PEO
+				original_tag = PRM
+				original_tag = SAM
+				original_tag = SAR
+				original_tag = TAT
+				original_tag = UDM
+				original_tag = ULO
+				original_tag = CHV
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_volga_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = VOLGAFO_UNIF
+			custom_effect_tooltip = form_volga_et
+			hidden_effect = {
+				529 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				465 = { add_core_of = ROOT }
+				466 = { add_core_of = ROOT }
+				493 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				510 = { add_core_of = ROOT }
+				520 = { add_core_of = ROOT }
+				205 = { add_core_of = ROOT }
+				511 = { add_core_of = ROOT }
+				500 = { add_core_of = ROOT }
+				448 = { add_core_of = ROOT }
+				207 = { add_core_of = ROOT }
+				449 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				553 = { add_core_of = ROOT }
+				562 = { add_core_of = ROOT }
+				525 = { add_core_of = ROOT }
+				469 = { add_core_of = ROOT }
+				411 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				468 = { add_core_of = ROOT }
+				534 = { add_core_of = ROOT }
+				556 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				491 = { add_core_of = ROOT }
+				531 = { add_core_of = ROOT }
+				513 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				470 = { add_core_of = ROOT }
+				431 = { add_core_of = ROOT }
+				471 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				472 = { add_core_of = ROOT }
+				528 = { add_core_of = ROOT }
+				463 = { add_core_of = ROOT }
+				485 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				512 = { add_core_of = ROOT }
+				464 = { add_core_of = ROOT }
+				492 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				391 = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
+				430 = { add_core_of = ROOT }
+				441 = { add_core_of = ROOT }
+				23 = { add_core_of = ROOT }
+				499 = { add_core_of = ROOT }
+				450 = { add_core_of = ROOT }
+				set_global_flag = form_volga_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_sibir = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+				NOT = { has_global_flag = form_sibir_flag }
+				NOT = { has_country_flag = created_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_altai_republic_region
+				controls_state = 404
+				controls_state = 522
+				controls_state = 414
+				controls_state = 127
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_altai_krai_region
+				controls_state = 132
+				controls_state = 539
+				controls_state = 407
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_irkutsk_region
+				controls_state = 20
+				controls_state = 555
+				controls_state = 564
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kemerovo_region
+				controls_state = 558
+				controls_state = 14
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_krasnoyarsk_region
+				controls_state = 542
+				controls_state = 90
+				controls_state = 521
+				controls_state = 444
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_novosibirsk_region
+				controls_state = 523
+				controls_state = 148
+				controls_state = 418
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_omsk_region
+				controls_state = 155
+				controls_state = 417
+				controls_state = 409
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_tomsk_region
+				controls_state = 180
+				controls_state = 490
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_tyva_region
+				controls_state = 133
+				controls_state = 408
+				controls_state = 405
+				controls_state = 393
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_khakasia_region
+				controls_state = 406
+				controls_state = 144
+				controls_state = 557
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IRK
+				original_tag = KSK
+				original_tag = TYV
+				original_tag = ALK
+				original_tag = ALR
+				original_tag = NSB
+				original_tag = OMO
+				original_tag = HAK
+				original_tag = KMO
+				original_tag = TOM
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_sibir_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SIBIR_UNIF
+			custom_effect_tooltip = form_sibir_et
+			hidden_effect = {
+				404 = { add_core_of = ROOT }
+				522 = { add_core_of = ROOT }
+				414 = { add_core_of = ROOT }
+				127 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				539 = { add_core_of = ROOT }
+				407 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				558 = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
+				542 = { add_core_of = ROOT }
+				90 = { add_core_of = ROOT }
+				521 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				523 = { add_core_of = ROOT }
+				148 = { add_core_of = ROOT }
+				418 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				417 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				180 = { add_core_of = ROOT }
+				490 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				393 = { add_core_of = ROOT }
+				406 = { add_core_of = ROOT }
+				144 = { add_core_of = ROOT }
+				557 = { add_core_of = ROOT }
+				set_global_flag = form_sibir_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_ural = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+				NOT = { has_global_flag = form_ural_flag }
+				NOT = { has_country_flag = created_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kurgan_region
+				controls_state = 524
+				controls_state = 546
+				controls_state = 173
+				controls_state = 413
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ekb_region
+				controls_state = 415
+				controls_state = 530
+				controls_state = 201
+				controls_state = 502
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_tyumen_region
+				controls_state = 416
+				controls_state = 410
+				controls_state = 193
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_hmao_region
+				controls_state = 35
+				controls_state = 543
+				controls_state = 489
+				controls_state = 442
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chelyaba_region
+				controls_state = 185
+				controls_state = 467
+				controls_state = 437
+				controls_state = 412
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ynao_region
+				controls_state = 488
+				controls_state = 443
+				controls_state = 97
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = YNO
+				original_tag = HMO
+				original_tag = TYM
+				original_tag = EKB
+				original_tag = KGS
+				original_tag = CHL
+			}
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_ural_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = URAL_UNIF
+			custom_effect_tooltip = form_ural_et
+			hidden_effect = {
+				524 = { add_core_of = ROOT }
+				546 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
+				415 = { add_core_of = ROOT }
+				530 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				502 = { add_core_of = ROOT }
+				416 = { add_core_of = ROOT }
+				410 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				543 = { add_core_of = ROOT }
+				489 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				467 = { add_core_of = ROOT }
+				437 = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
+				488 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				97 = { add_core_of = ROOT }
+				set_global_flag = form_ural_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_dalvos = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+				NOT = { has_global_flag = form_dalvos_flag }
+				NOT = { has_country_flag = created_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_amur_region
+				controls_state = 197
+				controls_state = 403
+				controls_state = 439
+				controls_state = 440
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_buryatia_region
+				controls_state = 176
+				controls_state = 541
+				controls_state = 394
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_eao_region
+				controls_state = 17
+				controls_state = 458
+				controls_state = 457
+				controls_state = 396
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_zabaikal_region
+				controls_state = 195
+				controls_state = 395
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kamchatka_region
+				controls_state = 77
+				controls_state = 398
+				controls_state = 566
+				controls_state = 400
+				controls_state = 401
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_magadan_region
+				controls_state = 179
+				controls_state = 565
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_primorsky_region
+				controls_state = 540
+				controls_state = 191
+				controls_state = 459
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_saha_region
+				controls_state = 455
+				controls_state = 456
+				controls_state = 461
+				controls_state = 146
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_sakhalin_region
+				controls_state = 397
+				controls_state = 33
+				controls_state = 399
+				controls_state = 10
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_khabarovsk_region
+				controls_state = 545
+				controls_state = 213
+				controls_state = 402
+				controls_state = 460
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chukotka_region
+				controls_state = 56
+				controls_state = 563
+				controls_state = 554
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KCH
+				original_tag = CHK
+				original_tag = MGD
+				original_tag = YAK
+				original_tag = HAB
+				original_tag = SAH
+				original_tag = PRI
+				original_tag = AMR
+				original_tag = ZBK
+				original_tag = BUR
+				original_tag = EAO
+			}
+			
+			NOT = { has_global_flag = form_russia_flag }
+			NOT = { has_global_flag = form_dalvos_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = DALVOS_UNIF
+			custom_effect_tooltip = form_dalvos_et
+			hidden_effect = {
+				197 = { add_core_of = ROOT }
+				403 = { add_core_of = ROOT }
+				439 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				541 = { add_core_of = ROOT }
+				394 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				458 = { add_core_of = ROOT }
+				457 = { add_core_of = ROOT }
+				396 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				395 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				398 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				400 = { add_core_of = ROOT }
+				401 = { add_core_of = ROOT }
+				179 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				540 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				459 = { add_core_of = ROOT }
+				455 = { add_core_of = ROOT }
+				456 = { add_core_of = ROOT }
+				461 = { add_core_of = ROOT }
+				146 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
+				399 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				545 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				402 = { add_core_of = ROOT }
+				460 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				554 = { add_core_of = ROOT }
+				set_global_flag = form_dalvos_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	form_russia = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_russia_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = form_russia_tt
+				custom_trigger_tooltip = {
+					tooltip = controlling_kaliningrad
+					controls_state = 250
+					controls_state = 252
+					controls_state = 251
+					controls_state = 78
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_murmansk_region
+					controls_state = 232
+					controls_state = 69
+					controls_state = 233
+					controls_state = 234
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_karelia_region
+					controls_state = 235
+					controls_state = 70
+					controls_state = 236
+					controls_state = 237
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_leningrad_region
+					controls_state = 239
+					controls_state = 240
+					controls_state = 238
+					controls_state = 211
+					controls_state = 169
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_pskov_region
+					controls_state = 514
+					controls_state = 164
+					controls_state = 445
+					controls_state = 478
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_novgorod_region
+					controls_state = 515
+					controls_state = 212
+					controls_state = 497
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_vologda_region
+					controls_state = 88
+					controls_state = 494
+					controls_state = 549
+					controls_state = 504
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_arkhangelsk_region
+					controls_state = 526
+					controls_state = 162
+					controls_state = 93
+					controls_state = 202
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_nao_region
+					controls_state = 487
+					controls_state = 167
+					controls_state = 380
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_komi_region
+					controls_state = 486
+					controls_state = 544
+					controls_state = 503
+					controls_state = 63
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_belgorod_region
+					controls_state = 447
+					controls_state = 30
+					controls_state = 433
+					controls_state = 420
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_bryansk_region
+					controls_state = 58
+					controls_state = 517
+					controls_state = 480
+					controls_state = 475
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_vladimir_region
+					controls_state = 508
+					controls_state = 45
+					controls_state = 561
+					controls_state = 551
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_voronezh_region
+					controls_state = 483
+					controls_state = 432
+					controls_state = 446
+					controls_state = 210
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_ivanovo_region
+					controls_state = 509
+					controls_state = 550
+					controls_state = 567
+					controls_state = 38
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_kaluga_region
+					controls_state = 481
+					controls_state = 53
+					controls_state = 498
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_kostroma_region
+					controls_state = 507
+					controls_state = 48
+					controls_state = 560
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_kursk_region
+					controls_state = 519
+					controls_state = 548
+					controls_state = 40
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_lipetsk_region
+					controls_state = 473
+					controls_state = 482
+					controls_state = 28
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_moscow_region
+					controls_state = 552
+					controls_state = 538
+					controls_state = 54
+					controls_state = 46
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_orel_region
+					controls_state = 37
+					controls_state = 518
+					controls_state = 474
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_ryazan_region
+					controls_state = 536
+					controls_state = 32
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_smolensk_region
+					controls_state = 479
+					controls_state = 68
+					controls_state = 547
+					controls_state = 516
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_tambov_region
+					controls_state = 209
+					controls_state = 535
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_tver_region
+					controls_state = 84
+					controls_state = 496
+					controls_state = 505
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_tula_region
+					controls_state = 537
+					controls_state = 36
+				}
+				custom_trigger_tooltip = {
+					tooltip = form_yaroslavl_region
+					controls_state = 559
+					controls_state = 57
+					controls_state = 506
+					controls_state = 497
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_adygea_region
+					controls_state = 350
+					controls_state = 18
+					controls_state = 352
+					controls_state = 360
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_astrakhan_region
+					controls_state = 177
+					controls_state = 484
+					controls_state = 451
+					controls_state = 477
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_volgograd_region
+					controls_state = 438
+					controls_state = 189
+					controls_state = 527
+					controls_state = 501
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kalmykia_region
+					controls_state = 366
+					controls_state = 183
+					controls_state = 371
+					controls_state = 362
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_krasnodar_region
+					controls_state = 85
+					controls_state = 361
+					controls_state = 365
+					controls_state = 359
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_rostov_region
+					controls_state = 370
+					controls_state = 188
+					controls_state = 389
+					controls_state = 372
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_dagestan_region
+					controls_state = 341
+					controls_state = 149
+					controls_state = 349
+					controls_state = 355
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_chechnya_region
+					controls_state = 342
+					controls_state = 351
+					controls_state = 151
+					controls_state = 348
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_ingushetia_region
+					controls_state = 353
+					controls_state = 347
+					controls_state = 152
+					controls_state = 340
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_osetia_region
+					controls_state = 339
+					controls_state = 354
+					controls_state = 15
+					controls_state = 346
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kabardino_balkaria_region
+					controls_state = 158
+					controls_state = 338
+					controls_state = 345
+					controls_state = 344
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_karachaevo_cherkessia_region
+					controls_state = 337
+					controls_state = 356
+					controls_state = 172
+					controls_state = 343
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_stavropol_region
+					controls_state = 357
+					controls_state = 364
+					controls_state = 363
+					controls_state = 186
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_bashkortostan_region
+					controls_state = 529
+					controls_state = 192
+					controls_state = 465
+					controls_state = 466
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kirov_region
+					controls_state = 493
+					controls_state = 39
+					controls_state = 510
+					controls_state = 520
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_mariy_el_region
+					controls_state = 205
+					controls_state = 511
+					controls_state = 500
+					controls_state = 448
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_mordovia_region
+					controls_state = 207
+					controls_state = 449
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_nizhny_novgorod_region
+					controls_state = 29
+					controls_state = 553
+					controls_state = 562
+					controls_state = 525
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_orenburg_region
+					controls_state = 469
+					controls_state = 411
+					controls_state = 194
+					controls_state = 468
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_penza_region
+					controls_state = 534
+					controls_state = 556
+					controls_state = 203
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_perm_region
+					controls_state = 5
+					controls_state = 491
+					controls_state = 531
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_samara_region
+					controls_state = 513
+					controls_state = 187
+					controls_state = 470
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_saratov_region
+					controls_state = 431
+					controls_state = 471
+					controls_state = 86
+					controls_state = 472
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_tatarstan_region
+					controls_state = 528
+					controls_state = 463
+					controls_state = 485
+					controls_state = 196
+					controls_state = 512
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_udmurtia_region
+					controls_state = 464
+					controls_state = 492
+					controls_state = 199
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_ulyanovsk_region
+					controls_state = 391
+					controls_state = 75
+					controls_state = 430
+					controls_state = 441
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_chuvashia_region
+					controls_state = 23
+					controls_state = 499
+					controls_state = 450
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_altai_republic_region
+					controls_state = 404
+					controls_state = 522
+					controls_state = 414
+					controls_state = 127
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_altai_krai_region
+					controls_state = 132
+					controls_state = 539
+					controls_state = 407
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_irkutsk_region
+					controls_state = 20
+					controls_state = 555
+					controls_state = 564
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kemerovo_region
+					controls_state = 558
+					controls_state = 14
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_krasnoyarsk_region
+					controls_state = 542
+					controls_state = 90
+					controls_state = 521
+					controls_state = 444
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_novosibirsk_region
+					controls_state = 523
+					controls_state = 148
+					controls_state = 418
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_omsk_region
+					controls_state = 155
+					controls_state = 417
+					controls_state = 409
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_tomsk_region
+					controls_state = 180
+					controls_state = 490
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_tyva_region
+					controls_state = 133
+					controls_state = 408
+					controls_state = 405
+					controls_state = 393
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_khakasia_region
+					controls_state = 406
+					controls_state = 144
+					controls_state = 557
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kurgan_region
+					controls_state = 524
+					controls_state = 546
+					controls_state = 173
+					controls_state = 413
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_ekb_region
+					controls_state = 415
+					controls_state = 530
+					controls_state = 201
+					controls_state = 502
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_tyumen_region
+					controls_state = 416
+					controls_state = 410
+					controls_state = 193
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_hmao_region
+					controls_state = 35
+					controls_state = 543
+					controls_state = 489
+					controls_state = 442
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_chelyaba_region
+					controls_state = 185
+					controls_state = 467
+					controls_state = 437
+					controls_state = 412
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_ynao_region
+					controls_state = 488
+					controls_state = 443
+					controls_state = 97
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_amur_region
+					controls_state = 197
+					controls_state = 403
+					controls_state = 439
+					controls_state = 440
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_buryatia_region
+					controls_state = 176
+					controls_state = 541
+					controls_state = 394
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_eao_region
+					controls_state = 17
+					controls_state = 458
+					controls_state = 457
+					controls_state = 396
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_zabaikal_region
+					controls_state = 195
+					controls_state = 395
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_kamchatka_region
+					controls_state = 77
+					controls_state = 398
+					controls_state = 566
+					controls_state = 400
+					controls_state = 401
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_magadan_region
+					controls_state = 179
+					controls_state = 565
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_primorsky_region
+					controls_state = 540
+					controls_state = 191
+					controls_state = 459
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_saha_region
+					controls_state = 455
+					controls_state = 456
+					controls_state = 461
+					controls_state = 146
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_sakhalin_region
+					controls_state = 397
+					controls_state = 33
+					controls_state = 399
+					controls_state = 10
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_khabarovsk_region
+					controls_state = 545
+					controls_state = 213
+					controls_state = 402
+					controls_state = 460
+				}
+				custom_trigger_tooltip = {
+					tooltip = controlling_chukotka_region
+					controls_state = 56
+					controls_state = 563
+					controls_state = 554
+				}
+			}
+		}
+
+		visible = {
+			is_literally_russia = yes
+			NOT = { has_global_flag = form_russia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = RUSSIA_UNIF
+			custom_effect_tooltip = form_russia_et
+			hidden_effect = {
+				197 = { add_core_of = ROOT }
+				403 = { add_core_of = ROOT }
+				439 = { add_core_of = ROOT }
+				440 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				541 = { add_core_of = ROOT }
+				394 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				458 = { add_core_of = ROOT }
+				457 = { add_core_of = ROOT }
+				396 = { add_core_of = ROOT }
+				195 = { add_core_of = ROOT }
+				395 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				398 = { add_core_of = ROOT }
+				566 = { add_core_of = ROOT }
+				400 = { add_core_of = ROOT }
+				401 = { add_core_of = ROOT }
+				179 = { add_core_of = ROOT }
+				565 = { add_core_of = ROOT }
+				540 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				459 = { add_core_of = ROOT }
+				455 = { add_core_of = ROOT }
+				456 = { add_core_of = ROOT }
+				461 = { add_core_of = ROOT }
+				146 = { add_core_of = ROOT }
+				397 = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
+				399 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				545 = { add_core_of = ROOT }
+				213 = { add_core_of = ROOT }
+				402 = { add_core_of = ROOT }
+				460 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				563 = { add_core_of = ROOT }
+				554 = { add_core_of = ROOT }
+				524 = { add_core_of = ROOT }
+				546 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				413 = { add_core_of = ROOT }
+				415 = { add_core_of = ROOT }
+				530 = { add_core_of = ROOT }
+				201 = { add_core_of = ROOT }
+				502 = { add_core_of = ROOT }
+				416 = { add_core_of = ROOT }
+				410 = { add_core_of = ROOT }
+				193 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				543 = { add_core_of = ROOT }
+				489 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				467 = { add_core_of = ROOT }
+				437 = { add_core_of = ROOT }
+				412 = { add_core_of = ROOT }
+				488 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				97 = { add_core_of = ROOT }
+				404 = { add_core_of = ROOT }
+				522 = { add_core_of = ROOT }
+				414 = { add_core_of = ROOT }
+				127 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				539 = { add_core_of = ROOT }
+				407 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
+				564 = { add_core_of = ROOT }
+				558 = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
+				542 = { add_core_of = ROOT }
+				90 = { add_core_of = ROOT }
+				521 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				523 = { add_core_of = ROOT }
+				148 = { add_core_of = ROOT }
+				418 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				417 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT }
+				180 = { add_core_of = ROOT }
+				490 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				408 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				393 = { add_core_of = ROOT }
+				406 = { add_core_of = ROOT }
+				144 = { add_core_of = ROOT }
+				557 = { add_core_of = ROOT }
+				529 = { add_core_of = ROOT }
+				192 = { add_core_of = ROOT }
+				465 = { add_core_of = ROOT }
+				466 = { add_core_of = ROOT }
+				493 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				510 = { add_core_of = ROOT }
+				520 = { add_core_of = ROOT }
+				205 = { add_core_of = ROOT }
+				511 = { add_core_of = ROOT }
+				500 = { add_core_of = ROOT }
+				448 = { add_core_of = ROOT }
+				207 = { add_core_of = ROOT }
+				449 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				553 = { add_core_of = ROOT }
+				562 = { add_core_of = ROOT }
+				525 = { add_core_of = ROOT }
+				469 = { add_core_of = ROOT }
+				411 = { add_core_of = ROOT }
+				194 = { add_core_of = ROOT }
+				468 = { add_core_of = ROOT }
+				534 = { add_core_of = ROOT }
+				556 = { add_core_of = ROOT }
+				203 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				491 = { add_core_of = ROOT }
+				531 = { add_core_of = ROOT }
+				513 = { add_core_of = ROOT }
+				187 = { add_core_of = ROOT }
+				470 = { add_core_of = ROOT }
+				431 = { add_core_of = ROOT }
+				471 = { add_core_of = ROOT }
+				86 = { add_core_of = ROOT }
+				472 = { add_core_of = ROOT }
+				528 = { add_core_of = ROOT }
+				463 = { add_core_of = ROOT }
+				485 = { add_core_of = ROOT }
+				196 = { add_core_of = ROOT }
+				512 = { add_core_of = ROOT }
+				464 = { add_core_of = ROOT }
+				492 = { add_core_of = ROOT }
+				199 = { add_core_of = ROOT }
+				391 = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
+				430 = { add_core_of = ROOT }
+				441 = { add_core_of = ROOT }
+				23 = { add_core_of = ROOT }
+				499 = { add_core_of = ROOT }
+				450 = { add_core_of = ROOT }
+				341 = { add_core_of = ROOT }
+				149 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				342 = { add_core_of = ROOT }
+				351 = { add_core_of = ROOT }
+				151 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+				347 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				340 = { add_core_of = ROOT }
+				339 = { add_core_of = ROOT }
+				354 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				346 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				337 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				357 = { add_core_of = ROOT }
+				364 = { add_core_of = ROOT }
+				363 = { add_core_of = ROOT }
+				186 = { add_core_of = ROOT }
+				350 = { add_core_of = ROOT }
+				18 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				360 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				484 = { add_core_of = ROOT }
+				451 = { add_core_of = ROOT }
+				477 = { add_core_of = ROOT }
+				438 = { add_core_of = ROOT }
+				189 = { add_core_of = ROOT }
+				527 = { add_core_of = ROOT }
+				501 = { add_core_of = ROOT }
+				366 = { add_core_of = ROOT }
+				183 = { add_core_of = ROOT }
+				371 = { add_core_of = ROOT }
+				362 = { add_core_of = ROOT }
+				85 = { add_core_of = ROOT }
+				361 = { add_core_of = ROOT }
+				365 = { add_core_of = ROOT }
+				359 = { add_core_of = ROOT }
+				370 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+				372 = { add_core_of = ROOT }
+				447 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				433 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				517 = { add_core_of = ROOT }
+				480 = { add_core_of = ROOT }
+				475 = { add_core_of = ROOT }
+				508 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+				561 = { add_core_of = ROOT }
+				551 = { add_core_of = ROOT }
+				483 = { add_core_of = ROOT }
+				432 = { add_core_of = ROOT }
+				446 = { add_core_of = ROOT }
+				210 = { add_core_of = ROOT }
+				509 = { add_core_of = ROOT }
+				550 = { add_core_of = ROOT }
+				567 = { add_core_of = ROOT }
+				38 = { add_core_of = ROOT }
+				481 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				498 = { add_core_of = ROOT }
+				507 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				519 = { add_core_of = ROOT }
+				548 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				473 = { add_core_of = ROOT }
+				482 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				552 = { add_core_of = ROOT }
+				538 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				37 = { add_core_of = ROOT }
+				518 = { add_core_of = ROOT }
+				474 = { add_core_of = ROOT }
+				536 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				479 = { add_core_of = ROOT }
+				68 = { add_core_of = ROOT }
+				547 = { add_core_of = ROOT }
+				516 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				535 = { add_core_of = ROOT }
+				84 = { add_core_of = ROOT }
+				496 = { add_core_of = ROOT }
+				505 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				559 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				506 = { add_core_of = ROOT }
+				497 = { add_core_of = ROOT }
+				63 = { add_core_of = ROOT }
+				69 = { add_core_of = ROOT }
+				70 = { add_core_of = ROOT }
+				88 = { add_core_of = ROOT }
+				93 = { add_core_of = ROOT }
+				232 = { add_core_of = ROOT }
+				233 = { add_core_of = ROOT }
+				234 = { add_core_of = ROOT }
+				235 = { add_core_of = ROOT }
+				236 = { add_core_of = ROOT }
+				237 = { add_core_of = ROOT }
+				239 = { add_core_of = ROOT }
+				240 = { add_core_of = ROOT }
+				238 = { add_core_of = ROOT }
+				211 = { add_core_of = ROOT }
+				514 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }
+				445 = { add_core_of = ROOT }
+				478 = { add_core_of = ROOT }
+				515 = { add_core_of = ROOT }
+				212 = { add_core_of = ROOT }
+				497 = { add_core_of = ROOT }
+				494 = { add_core_of = ROOT }
+				549 = { add_core_of = ROOT }
+				504 = { add_core_of = ROOT }
+				526 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				202 = { add_core_of = ROOT }
+				487 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				380 = { add_core_of = ROOT }
+				486 = { add_core_of = ROOT }
+				544 = { add_core_of = ROOT }
+				503 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				250 = { add_core_of = ROOT }
+				252 = { add_core_of = ROOT }
+				251 = { add_core_of = ROOT }
+				78 = { add_core_of = ROOT }
+				set_global_flag = form_russia_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_south_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_south_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_almaty_region
+				controls_state = 112
+				controls_state = 300
+				controls_state = 298
+				controls_state = 301
+				controls_state = 62
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_taraz_region
+				controls_state = 302
+				controls_state = 297
+				controls_state = 111
+				controls_state = 315
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kyzylorda_region
+				controls_state = 137
+				controls_state = 303
+				controls_state = 295
+				controls_state = 308
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_turkestan_region
+				controls_state = 296
+				controls_state = 299
+				controls_state = 304
+				controls_state = 128
+			}
+		}
+
+		visible = {
+			is_south_kazakhstan = yes
+				NOT = { has_global_flag = form_south_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SOUTH_KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_south_kazakhstan_et
+			hidden_effect = {
+				112 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				298 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				297 = { add_core_of = ROOT }
+				111 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+				295 = { add_core_of = ROOT }
+				308 = { add_core_of = ROOT }
+				296 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				set_global_flag = form_south_kazakhstan_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_west_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_west_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_aktobe_region
+				controls_state = 323
+				controls_state = 317
+				controls_state = 328
+				controls_state = 160
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_aktau_region
+				controls_state = 143
+				controls_state = 319
+				controls_state = 330
+				controls_state = 320
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_atyrau_region
+				controls_state = 318
+				controls_state = 321
+				controls_state = 156
+				controls_state = 331
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_uralsk_region
+				controls_state = 316
+				controls_state = 332
+				controls_state = 182
+				controls_state = 322
+			}
+		}
+
+		visible = {
+			is_west_kazakhstan = yes
+			NOT = { has_global_flag = form_west_kazakhstan_flag }
+			NOT = { has_country_flag = created_country }
+			NOT = { has_global_flag = form_kazakhstan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = WEST_KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_west_kazakhstan_et
+			hidden_effect = {
+				323 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				328 = { add_core_of = ROOT }
+				160 = { add_core_of = ROOT }
+				143 = { add_core_of = ROOT }
+				319 = { add_core_of = ROOT }
+				330 = { add_core_of = ROOT }
+				320 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
+				321 = { add_core_of = ROOT }
+				156 = { add_core_of = ROOT }
+				331 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				332 = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
+				322 = { add_core_of = ROOT }
+				set_global_flag = form_west_kazakhstan_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_east_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			has_stability > 0.8
+			hidden_trigger = {
+				NOT = { has_global_flag = form_east_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_region
+				controls_state = 126
+				controls_state = 315
+				controls_state = 314
+				controls_state = 307
+			}
+		}
+
+		visible = {
+			is_east_kazakhstan = yes
+			NOT = { has_global_flag = form_east_kazakhstan_flag }
+			NOT = { has_country_flag = created_country }
+			NOT = { has_global_flag = form_kazakhstan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = EAST_KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_east_kazakhstan_et
+			hidden_effect = {
+				126 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				314 = { add_core_of = ROOT }
+				307 = { add_core_of = ROOT }
+				set_global_flag = form_east_kazakhstan_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_north_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_north_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_pavlodar_region
+				controls_state = 313
+				controls_state = 312
+				controls_state = 13
+				controls_state = 309
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_akmolinsk_region
+				controls_state = 140
+				controls_state = 334
+				controls_state = 326
+				controls_state = 325
+				controls_state = 44
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kostanai_region
+				controls_state = 157
+				controls_state = 333
+				controls_state = 324
+				controls_state = 327
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_north_region
+				controls_state = 306
+				controls_state = 311
+				controls_state = 310
+				controls_state = 150
+			}
+		}
+
+		visible = {
+			is_north_kazakhstan = yes
+			NOT = { has_global_flag = form_north_kazakhstan_flag }
+			NOT = { has_country_flag = created_country }
+			NOT = { has_global_flag = form_kazakhstan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = NORTH_KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_north_kazakhstan_et
+			hidden_effect = {
+				313 = { add_core_of = ROOT }
+				312 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				309 = { add_core_of = ROOT }
+				140 = { add_core_of = ROOT }
+				334 = { add_core_of = ROOT }
+				326 = { add_core_of = ROOT }
+				325 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
+				333 = { add_core_of = ROOT }
+				324 = { add_core_of = ROOT }
+				327 = { add_core_of = ROOT }
+				306 = { add_core_of = ROOT }
+				311 = { add_core_of = ROOT }
+				310 = { add_core_of = ROOT }
+				150 = { add_core_of = ROOT }
+				set_global_flag = form_north_kazakhstan_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_central_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			has_stability > 0.80
+			hidden_trigger = {
+				NOT = { has_global_flag = form_central_kazakhstan_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_kazakhstan }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_centr_region
+				controls_state = 335
+				controls_state = 138
+				controls_state = 336
+				controls_state = 329
+			}
+		}
+
+		visible = {
+			is_central_kazakhstan = yes
+			NOT = { has_global_flag = form_central_kazakhstan_flag }
+			NOT = { has_country_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CENTRAL_KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_central_kazakhstan_et
+			hidden_effect = {
+				138 = { add_core_of = ROOT }
+				335 = { add_core_of = ROOT }
+				335 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+				set_global_flag = form_central_kazakhstan_flag
+				set_country_flag = created_country
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_kazakhstan = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = controlling_almaty_region
+				controls_state = 112
+				controls_state = 300
+				controls_state = 298
+				controls_state = 301
+				controls_state = 62
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_taraz_region
+				controls_state = 302
+				controls_state = 297
+				controls_state = 111
+				controls_state = 315
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kyzylorda_region
+				controls_state = 137
+				controls_state = 303
+				controls_state = 295
+				controls_state = 308
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_turkestan_region
+				controls_state = 296
+				controls_state = 299
+				controls_state = 304
+				controls_state = 128
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_aktobe_region
+				controls_state = 323
+				controls_state = 317
+				controls_state = 328
+				controls_state = 160
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_aktau_region
+				controls_state = 143
+				controls_state = 319
+				controls_state = 330
+				controls_state = 320
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_atyrau_region
+				controls_state = 318
+				controls_state = 321
+				controls_state = 156
+				controls_state = 331
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_uralsk_region
+				controls_state = 316
+				controls_state = 332
+				controls_state = 182
+				controls_state = 322
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_region
+				controls_state = 126
+				controls_state = 315
+				controls_state = 314
+				controls_state = 307
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_pavlodar_region
+				controls_state = 313
+				controls_state = 312
+				controls_state = 13
+				controls_state = 309
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_akmolinsk_region
+				controls_state = 140
+				controls_state = 334
+				controls_state = 326
+				controls_state = 325
+				controls_state = 44
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kostanai_region
+				controls_state = 157
+				controls_state = 333
+				controls_state = 324
+				controls_state = 327
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_north_region
+				controls_state = 306
+				controls_state = 311
+				controls_state = 310
+				controls_state = 150
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_centr_region
+				controls_state = 335
+				controls_state = 138
+				controls_state = 336
+				controls_state = 329
+			}
+		}
+
+		visible = {
+			is_kazakhstan = yes
+			NOT = { has_global_flag = form_kazakhstan_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KAZAKHSTAN_UNIF
+			custom_effect_tooltip = form_kazakhstan_et
+			hidden_effect = {
+				112 = { add_core_of = ROOT }
+				300 = { add_core_of = ROOT }
+				298 = { add_core_of = ROOT }
+				301 = { add_core_of = ROOT }
+				62 = { add_core_of = ROOT }
+				302 = { add_core_of = ROOT }
+				297 = { add_core_of = ROOT }
+				111 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				303 = { add_core_of = ROOT }
+				295 = { add_core_of = ROOT }
+				308 = { add_core_of = ROOT }
+				296 = { add_core_of = ROOT }
+				299 = { add_core_of = ROOT }
+				304 = { add_core_of = ROOT }
+				323 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
+				328 = { add_core_of = ROOT }
+				160 = { add_core_of = ROOT }
+				143 = { add_core_of = ROOT }
+				319 = { add_core_of = ROOT }
+				330 = { add_core_of = ROOT }
+				320 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
+				321 = { add_core_of = ROOT }
+				156 = { add_core_of = ROOT }
+				331 = { add_core_of = ROOT }
+				316 = { add_core_of = ROOT }
+				332 = { add_core_of = ROOT }
+				182 = { add_core_of = ROOT }
+				322 = { add_core_of = ROOT }
+				126 = { add_core_of = ROOT }
+				315 = { add_core_of = ROOT }
+				314 = { add_core_of = ROOT }
+				307 = { add_core_of = ROOT }
+				313 = { add_core_of = ROOT }
+				312 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				309 = { add_core_of = ROOT }
+				140 = { add_core_of = ROOT }
+				334 = { add_core_of = ROOT }
+				326 = { add_core_of = ROOT }
+				325 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
+				333 = { add_core_of = ROOT }
+				324 = { add_core_of = ROOT }
+				327 = { add_core_of = ROOT }
+				306 = { add_core_of = ROOT }
+				311 = { add_core_of = ROOT }
+				310 = { add_core_of = ROOT }
+				150 = { add_core_of = ROOT }
+				335 = { add_core_of = ROOT }
+				138 = { add_core_of = ROOT }
+				336 = { add_core_of = ROOT }
+				329 = { add_core_of = ROOT }
+				set_global_flag = form_kazakhstan_flag
+				if = {
+					limit = {
+						NOT = { has_country_flag = created_country }
+					}
+					set_country_flag = created_country
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_rb_ukraine = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_rb_ukraine_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_ukraine }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_zakarpatje_region
+				controls_state = 285
+				controls_state = 218
+				controls_state = 288
+				controls_state = 436
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_lvov_region
+				controls_state = 278
+				controls_state = 219
+				controls_state = 284
+				controls_state = 272
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_volyn_region
+				controls_state = 275
+				controls_state = 282
+				controls_state = 117
+				controls_state = 271
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ifo_region
+				controls_state = 279
+				controls_state = 96
+				controls_state = 280
+				controls_state = 277
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernovtsy_region
+				controls_state = 287
+				controls_state = 281
+				controls_state = 74
+				controls_state = 428
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernovtsy_region
+				controls_state = 287
+				controls_state = 281
+				controls_state = 74
+				controls_state = 428
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ternopol_region
+				controls_state = 274
+				controls_state = 9
+				controls_state = 419
+				controls_state = 286
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_rovno_region
+				controls_state = 276
+				controls_state = 94
+				controls_state = 283
+				controls_state = 273
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_hmelnitsky_region
+				controls_state = 79
+				controls_state = 381
+				controls_state = 292
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_vinnitsa_region
+				controls_state = 429
+				controls_state = 60
+				controls_state = 383
+				controls_state = 291
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_odessa_region
+				controls_state = 385
+				controls_state = 52
+				controls_state = 378
+				controls_state = 293
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_nikolaev_region
+				controls_state = 290
+				controls_state = 392
+				controls_state = 43
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_novaya_kahovka_region
+				controls_state = 294
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kirovograd_region
+				controls_state = 49
+				controls_state = 384
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_cherkassy_region
+				controls_state = 51
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_west_kiev_region
+				controls_state = 7
+				controls_state = 454
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_west_dnepro_region
+				controls_state = 377
+				controls_state = 423
+			}
+		}
+
+		visible = {
+			is_rb_ukraine = yes
+			NOT = { has_global_flag = form_rb_ukraine_flag }
+			NOT = { has_country_flag = created_country }
+			NOT = { has_global_flag = form_ukraine }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = RB_UKRAINE_UNIF
+			custom_effect_tooltip = form_rb_ukraine_et
+			hidden_effect = {
+				285 = { add_core_of = ROOT }
+				218 = { add_core_of = ROOT }
+				288 = { add_core_of = ROOT }
+				436 = { add_core_of = ROOT }
+				278 = { add_core_of = ROOT }
+				219 = { add_core_of = ROOT }
+				284 = { add_core_of = ROOT }
+				272 = { add_core_of = ROOT }
+				275 = { add_core_of = ROOT }
+				282 = { add_core_of = ROOT }
+				117 = { add_core_of = ROOT }
+				271 = { add_core_of = ROOT }
+				279 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				280 = { add_core_of = ROOT }
+				277 = { add_core_of = ROOT }
+				287 = { add_core_of = ROOT }
+				281 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				428 = { add_core_of = ROOT }
+				287 = { add_core_of = ROOT }
+				281 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				428 = { add_core_of = ROOT }
+				274 = { add_core_of = ROOT }
+				9 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+				286 = { add_core_of = ROOT }
+				276 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				283 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				381 = { add_core_of = ROOT }
+				292 = { add_core_of = ROOT }
+				429 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+				383 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				385 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				378 = { add_core_of = ROOT }
+				293 = { add_core_of = ROOT }
+				290 = { add_core_of = ROOT }
+				392 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				294 = { add_core_of = ROOT }
+				49 = { add_core_of = ROOT }
+				384 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				454 = { add_core_of = ROOT }
+				377 = { add_core_of = ROOT }
+				423 = { add_core_of = ROOT }
+				set_global_flag = form_rb_ukraine_flag
+				if = {
+					limit = {
+						NOT = { has_country_flag = created_country }
+					}
+					set_country_flag = created_country
+				}
+			}
+		}
+	}
+	form_lb_ukraine = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_lb_ukraine_flag }
+				NOT = { has_country_flag = created_country }
+				NOT = { has_global_flag = form_ukraine }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kherson_region
+				controls_state = 25
+				controls_state = 386
+				controls_state = 376
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_zaporozhje_region
+				controls_state = 390
+				controls_state = 289
+				controls_state = 387
+				controls_state = 206
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_donetsk_region
+				controls_state = 368
+				controls_state = 200
+				controls_state = 374
+				controls_state = 379
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_lugansk_region
+				controls_state = 373
+				controls_state = 388
+				controls_state = 22
+				controls_state = 367
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kharkov_region
+				controls_state = 532
+				controls_state = 26
+				controls_state = 421
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_dnepro_region
+				controls_state = 27
+				controls_state = 422
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_poltava_region
+				controls_state = 41
+				controls_state = 533
+				controls_state = 435
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_sumy_region
+				controls_state = 452
+				controls_state = 47
+				controls_state = 453
+				controls_state = 434
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernigov_region
+				controls_state = 55
+				controls_state = 462
+				controls_state = 476
+				controls_state = 425
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_kiev_region
+				controls_state = 424
+				controls_state = 50
+			}
+		}
+
+		visible = {
+			is_lb_ukraine = yes
+			NOT = { has_global_flag = form_lb_ukraine_flag }
+			NOT = { has_global_flag = created_country }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = LB_UKRAINE_UNIF
+			custom_effect_tooltip = form_lb_ukraine_et
+			hidden_effect = {
+				25 = { add_core_of = ROOT }
+				386 = { add_core_of = ROOT }
+				376 = { add_core_of = ROOT }
+				390 = { add_core_of = ROOT }
+				289 = { add_core_of = ROOT }
+				387 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				368 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				374 = { add_core_of = ROOT }
+				379 = { add_core_of = ROOT }
+				373 = { add_core_of = ROOT }
+				388 = { add_core_of = ROOT }
+				22 = { add_core_of = ROOT }
+				367 = { add_core_of = ROOT }
+				532 = { add_core_of = ROOT }
+				26 = { add_core_of = ROOT }
+				421 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				422 = { add_core_of = ROOT }
+				41 = { add_core_of = ROOT }
+				533 = { add_core_of = ROOT }
+				435 = { add_core_of = ROOT }
+				452 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				434 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				462 = { add_core_of = ROOT }
+				476 = { add_core_of = ROOT }
+				425 = { add_core_of = ROOT }
+				424 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				set_global_flag = form_lb_ukraine_flag
+				if = {
+					limit = {
+						NOT = { has_country_flag = created_country }
+					}
+					set_country_flag = created_country
+				}
+			}
+		}
+	}	
+	form_ukraine = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_ukraine_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_zakarpatje_region
+				controls_state = 285
+				controls_state = 218
+				controls_state = 288
+				controls_state = 436
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_lvov_region
+				controls_state = 278
+				controls_state = 219
+				controls_state = 284
+				controls_state = 272
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_volyn_region
+				controls_state = 275
+				controls_state = 282
+				controls_state = 117
+				controls_state = 271
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ifo_region
+				controls_state = 279
+				controls_state = 96
+				controls_state = 280
+				controls_state = 277
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernovtsy_region
+				controls_state = 287
+				controls_state = 281
+				controls_state = 74
+				controls_state = 428
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernovtsy_region
+				controls_state = 287
+				controls_state = 281
+				controls_state = 74
+				controls_state = 428
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_ternopol_region
+				controls_state = 274
+				controls_state = 9
+				controls_state = 419
+				controls_state = 286
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_rovno_region
+				controls_state = 276
+				controls_state = 94
+				controls_state = 283
+				controls_state = 273
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_hmelnitsky_region
+				controls_state = 79
+				controls_state = 381
+				controls_state = 292
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_vinnitsa_region
+				controls_state = 429
+				controls_state = 60
+				controls_state = 383
+				controls_state = 291
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_odessa_region
+				controls_state = 385
+				controls_state = 52
+				controls_state = 378
+				controls_state = 293
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_nikolaev_region
+				controls_state = 290
+				controls_state = 392
+				controls_state = 43
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_novaya_kahovka_region
+				controls_state = 294
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kirovograd_region
+				controls_state = 49
+				controls_state = 384
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_cherkassy_region
+				controls_state = 51
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_west_kiev_region
+				controls_state = 7
+				controls_state = 454
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_west_dnepro_region
+				controls_state = 377
+				controls_state = 423
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kherson_region
+				controls_state = 25
+				controls_state = 386
+				controls_state = 376
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_zaporozhje_region
+				controls_state = 390
+				controls_state = 289
+				controls_state = 387
+				controls_state = 206
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_donetsk_region
+				controls_state = 368
+				controls_state = 200
+				controls_state = 374
+				controls_state = 379
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_lugansk_region
+				controls_state = 373
+				controls_state = 388
+				controls_state = 22
+				controls_state = 367
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_kharkov_region
+				controls_state = 532
+				controls_state = 26
+				controls_state = 421
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_dnepro_region
+				controls_state = 27
+				controls_state = 422
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_poltava_region
+				controls_state = 41
+				controls_state = 533
+				controls_state = 435
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_sumy_region
+				controls_state = 452
+				controls_state = 47
+				controls_state = 453
+				controls_state = 434
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_chernigov_region
+				controls_state = 55
+				controls_state = 462
+				controls_state = 476
+				controls_state = 425
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_east_kiev_region
+				controls_state = 424
+				controls_state = 50
+			}
+		}
+
+		visible = {
+			OR = {
+				is_rb_ukraine = yes
+				is_lb_ukraine = yes
+			}
+			NOT = { has_global_flag = form_ukraine_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = UKRAINE_UNIF
+			custom_effect_tooltip = form_ukraine_et
+			hidden_effect = {
+				285 = { add_core_of = ROOT }
+				218 = { add_core_of = ROOT }
+				288 = { add_core_of = ROOT }
+				436 = { add_core_of = ROOT }
+				278 = { add_core_of = ROOT }
+				219 = { add_core_of = ROOT }
+				284 = { add_core_of = ROOT }
+				272 = { add_core_of = ROOT }
+				275 = { add_core_of = ROOT }
+				282 = { add_core_of = ROOT }
+				117 = { add_core_of = ROOT }
+				271 = { add_core_of = ROOT }
+				279 = { add_core_of = ROOT }
+				96 = { add_core_of = ROOT }
+				280 = { add_core_of = ROOT }
+				277 = { add_core_of = ROOT }
+				287 = { add_core_of = ROOT }
+				281 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				428 = { add_core_of = ROOT }
+				287 = { add_core_of = ROOT }
+				281 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				428 = { add_core_of = ROOT }
+				274 = { add_core_of = ROOT }
+				9 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+				286 = { add_core_of = ROOT }
+				276 = { add_core_of = ROOT }
+				94 = { add_core_of = ROOT }
+				283 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
+				79 = { add_core_of = ROOT }
+				381 = { add_core_of = ROOT }
+				292 = { add_core_of = ROOT }
+				429 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+				383 = { add_core_of = ROOT }
+				291 = { add_core_of = ROOT }
+				385 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				378 = { add_core_of = ROOT }
+				293 = { add_core_of = ROOT }
+				290 = { add_core_of = ROOT }
+				392 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				294 = { add_core_of = ROOT }
+				49 = { add_core_of = ROOT }
+				384 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				454 = { add_core_of = ROOT }
+				377 = { add_core_of = ROOT }
+				423 = { add_core_of = ROOT }
+				25 = { add_core_of = ROOT }
+				386 = { add_core_of = ROOT }
+				376 = { add_core_of = ROOT }
+				390 = { add_core_of = ROOT }
+				289 = { add_core_of = ROOT }
+				387 = { add_core_of = ROOT }
+				206 = { add_core_of = ROOT }
+				368 = { add_core_of = ROOT }
+				200 = { add_core_of = ROOT }
+				374 = { add_core_of = ROOT }
+				379 = { add_core_of = ROOT }
+				373 = { add_core_of = ROOT }
+				388 = { add_core_of = ROOT }
+				22 = { add_core_of = ROOT }
+				367 = { add_core_of = ROOT }
+				532 = { add_core_of = ROOT }
+				26 = { add_core_of = ROOT }
+				421 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				422 = { add_core_of = ROOT }
+				41 = { add_core_of = ROOT }
+				533 = { add_core_of = ROOT }
+				435 = { add_core_of = ROOT }
+				452 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				434 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				462 = { add_core_of = ROOT }
+				476 = { add_core_of = ROOT }
+				425 = { add_core_of = ROOT }
+				424 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				set_global_flag = form_ukraine_flag
+				if = {
+					limit = {
+						NOT = { has_country_flag = created_country }
+					}
+					set_country_flag = created_country
+				}
+			}
+		}
+	}	
+	form_belarus = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			always = yes
+		}
+
+		available = {
+			is_subject = no
+			hidden_trigger = {
+				NOT = { has_global_flag = form_belarus_flag }
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_vitebsk_region
+				controls_state = 266
+				controls_state = 267
+				controls_state = 220
+				controls_state = 265
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_mogilev_region
+				controls_state = 262
+				controls_state = 263
+				controls_state = 264
+				controls_state = 80
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_minsk_region
+				controls_state = 259
+				controls_state = 217
+				controls_state = 260
+				controls_state = 261
+				controls_state = 95
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_grodno_region
+				controls_state = 254
+				controls_state = 253
+				controls_state = 216
+				controls_state = 255
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_brest_region
+				controls_state = 257
+				controls_state = 256
+				controls_state = 258
+				controls_state = 166
+			}
+			custom_trigger_tooltip = {
+				tooltip = controlling_homel_region
+				controls_state = 83
+				controls_state = 269
+				controls_state = 270
+				controls_state = 268
+			}
+		}
+
+		visible = {
+			is_belarus = yes
+			NOT = { has_global_flag = form_belarus_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = BELARUS_UNIF
+			custom_effect_tooltip = form_belarus_et
+			hidden_effect = {
+				266 = { add_core_of = ROOT }
+				267 = { add_core_of = ROOT }
+				220 = { add_core_of = ROOT }
+				265 = { add_core_of = ROOT }
+				262 = { add_core_of = ROOT }
+				263 = { add_core_of = ROOT }
+				264 = { add_core_of = ROOT }
+				80 = { add_core_of = ROOT }
+				259 = { add_core_of = ROOT }
+				217 = { add_core_of = ROOT }
+				260 = { add_core_of = ROOT }
+				261 = { add_core_of = ROOT }
+				95 = { add_core_of = ROOT }
+				254 = { add_core_of = ROOT }
+				253 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				255 = { add_core_of = ROOT }
+				257 = { add_core_of = ROOT }
+				256 = { add_core_of = ROOT }
+				258 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				83 = { add_core_of = ROOT }
+				269 = { add_core_of = ROOT }
+				270 = { add_core_of = ROOT }
+				268 = { add_core_of = ROOT }
+				set_global_flag = form_belarus_flag
+			}
+		}
+	}
+}

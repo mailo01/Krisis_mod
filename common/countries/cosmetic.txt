@@ -1,0 +1,80 @@
+DALVOS_UNIF = {
+	color = rgb { 90 110 170 }
+	color_ui = rgb { 70 90 150 }
+}
+SIBIR_UNIF = {
+	color = rgb { 170 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+URAL_UNIF = {
+	color = rgb { 50 50 170 }
+	color_ui = rgb { 30 30 150  }
+}
+VOLGAFO_UNIF = {
+	color = rgb { 50 165 110 }
+	color_ui = rgb { 30 145 90 }
+}
+YUZHNI_UNIF = {
+	color = rgb { 190 165 115 }
+	color_ui = rgb { 170 145 95 }
+}
+KAVKAZ_UNIF = {
+	color = rgb { 190 80 0 }
+	color_ui = rgb { 170 60 0 }
+}
+CENTR_UNIF = {
+	color = rgb { 80 70 110 }
+	color_ui = rgb { 60 50 90 }
+}
+SEVER_UNIF = {
+	color = rgb { 110 100 110 }
+	color_ui = rgb { 90 80 90 }
+}
+BALT_UNIF = {
+	color = rgb { 110 100 190 }
+	color_ui = rgb { 90 80 170 }
+}
+RUSSIA_UNIF = {
+	color = rgb { 0 130 30 }
+	color_ui = rgb { 0 110 10 }
+} 
+EAST_KAZAKHSTAN_UNIF = { 
+	color = rgb { 35 160 145 }
+	color_ui = rgb { 15 140 125 }
+}
+WEST_KAZAKHSTAN_UNIF = { 
+	color = rgb { 170 30 110 }
+	color_ui = rgb { 150 10 90 }
+}
+NORTH_KAZAKHSTAN_UNIF = { 
+	color = rgb { 30 50 170 }
+	color_ui = rgb { 10 30 150 }
+}
+SOUTH_KAZAKHSTAN_UNIF = { 
+	color = rgb { 130 70 70}
+	color_ui = rgb { 130 70 70 }
+}
+CENTRAL_KAZAKHSTAN_UNIF = { 
+	color = rgb { 170 190 10 }
+	color_ui = rgb { 150 170 0 }
+}
+KAZAKHSTAN_UNIF = { 
+	color = rgb { 75 90 145 }
+	color_ui = rgb { 55 70 125 }
+}
+BELARUS_UNIF = {
+	color = rgb { 155 180 175 }
+	color_ui = rgb { 135 160 155 }
+}
+UKRAINE_UNIF = {
+	color = rgb { 100 145 235 }
+	color_ui = rgb { 80 125 215 }
+}
+RB_UKRAINE_UNIF = {
+	color = rgb { 20 60 145 }
+	color_ui = rgb { 0 40 125 }
+}
+LB_UKRAINE_UNIF = {
+	color = rgb { 205 115 30 }
+	color_ui = rgb { 185 95 10 }
+}

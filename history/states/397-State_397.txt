@@ -1,0 +1,27 @@
+state = {
+	id = 397
+	name = "STATE_397"
+	manpower = 219030
+
+	state_category = town
+
+	provinces = {
+		428 672 2553 3126 5865 6751 7333 7605 7994 13308 13392 
+	}
+
+	history = {
+		owner = SAH
+		
+		victory_points = { 5865 50 }
+		victory_points = { 7605 15 }
+		victory_points = { 13392 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = SAH
+	}
+
+}

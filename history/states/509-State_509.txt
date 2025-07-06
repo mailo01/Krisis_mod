@@ -1,0 +1,27 @@
+state = {
+	id = 509
+	name = "STATE_509"
+	manpower = 57800
+
+	state_category = town
+
+	provinces = {
+		5897 
+	}
+
+	resources = {
+		steel = 19
+	}
+
+	history = {
+		owner = IVO
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = IVO
+	}
+
+}

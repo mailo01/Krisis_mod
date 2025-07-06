@@ -1,0 +1,25 @@
+state = {
+	id = 326
+	name = "STATE_326"
+	manpower = 192036
+
+	state_category = town
+
+	provinces = {
+		1161 3085 4724 5136 6576 8014 9808 9851 15580 15619 15621 15654 15720 15734 
+	}
+
+	history = {
+		owner = AKM
+		
+		victory_points = { 3085 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = AKM
+	}
+
+}

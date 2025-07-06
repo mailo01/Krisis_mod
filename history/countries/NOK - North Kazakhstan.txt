@@ -1,0 +1,61 @@
+capital = 150
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "NOK_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 10
+	communism = 10
+	democratic = 10
+	neutrality = 70
+}
+recruit_character = NOK_1_advisor_civilian
+recruit_character = NOK_2_advisor_civilian
+recruit_character = NOK_3_advisor_civilian
+recruit_character = NOK_4_advisor_civilian
+recruit_character = NOK_5_advisor_civilian
+recruit_character = NOK_6_advisor_civilian
+recruit_character = NOK_7_advisor_civilian
+recruit_character = NOK_8_advisor_civilian
+recruit_character = NOK_9_advisor_civilian
+recruit_character = NOK_10_advisor_civilian
+recruit_character = NOK_11_advisor_civilian
+recruit_character = NOK_12_advisor_civilian
+recruit_character = NOK_13_advisor_civilian
+recruit_character = NOK_14_advisor_civilian
+recruit_character = NOK_15_advisor_civilian
+recruit_character = NOK_16_advisor_civilian
+recruit_character = NOK_17_advisor_civilian
+recruit_character = NOK_18_advisor_civilian
+recruit_character = NOK_19_advisor_civilian
+recruit_character = NOK_20_advisor_civilian
+recruit_character = NOK_1_army_chief
+recruit_character = NOK_2_army_chief
+recruit_character = NOK_3_army_chief
+recruit_character = NOK_4_army_chief
+recruit_character = NOK_5_army_chief
+recruit_character = NOK_6_army_chief
+recruit_character = NOK_7_army_chief
+recruit_character = NOK_1_high_command
+recruit_character = NOK_2_high_command
+recruit_character = NOK_3_high_command
+recruit_character = NOK_4_high_command
+recruit_character = NOK_5_high_command
+recruit_character = NOK_6_high_command
+recruit_character = NOK_7_high_command
+recruit_character = NOK_8_high_command
+recruit_character = NOK_9_high_command
+
+
+

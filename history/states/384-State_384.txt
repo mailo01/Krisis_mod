@@ -1,0 +1,27 @@
+state = {
+	id = 384
+	name = "STATE_384"
+	manpower = 119605
+
+	state_category = town
+
+	provinces = {
+		1228 7607 8261 12314 12362 12417 12442 
+	}
+
+	history = {
+		owner = KGR
+		
+		victory_points = { 1228 15 }
+		victory_points = { 12417 15 }
+		victory_points = { 12442 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KGR
+	}
+
+}

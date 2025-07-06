@@ -1,0 +1,27 @@
+state = {
+	id = 38
+	name = "STATE_38"
+	manpower = 245377
+
+	state_category = large_town
+
+	provinces = {
+		3905 7613 7669 8708 12278 12365 
+	}
+
+	history = {
+		owner = IVO
+		
+		victory_points = { 7613 15 }
+		victory_points = { 8708 15 }
+		victory_points = { 12365 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = IVO
+	}
+
+}

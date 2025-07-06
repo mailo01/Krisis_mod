@@ -1,0 +1,26 @@
+state = {
+	id = 485
+	name = "STATE_485"
+	manpower = 845425
+
+	state_category = town
+
+	provinces = {
+		5588 8386 8795 13552 
+	}
+
+	history = {
+		owner = TAT
+		
+		victory_points = { 8795 15 }
+		victory_points = { 13552 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = TAT
+	}
+
+}

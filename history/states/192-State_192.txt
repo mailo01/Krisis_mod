@@ -1,0 +1,35 @@
+state = {
+	id = 192
+	name = "STATE_192"
+	manpower = 1319012
+
+	state_category = large_town
+
+	provinces = {
+		1945 2030 2039 2471 2693 4401 4942 4973 4981 5147 5403 5413 5800 5827 6320 6332 6402 6757 6838 6960 7288 7658 7676 7913 8943 9077 9827 9918 13901 13947 14003 14024 14085 14130 14156 14182 14216 14225 14259 14285 14312 14384 14392 14404 14420 14489 
+	}
+
+	resources = {
+		oil = 42
+	}
+
+	history = {
+		owner = BSH
+		
+		victory_points = { 2471 15 }
+		victory_points = { 4981 15 }
+		victory_points = { 6402 15 }
+		victory_points = { 6757 50 }
+		victory_points = { 7288 15 }
+		victory_points = { 8943 15 }
+		victory_points = { 14024 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		add_core_of = BSH
+	}
+
+}

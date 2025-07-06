@@ -1,0 +1,25 @@
+state = {
+	id = 482
+	name = "STATE_482"
+	manpower = 575276
+
+	state_category = town
+
+	provinces = {
+		1661 9956 
+	}
+
+	history = {
+		owner = LPC
+		
+		victory_points = { 1661 50 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = LPC
+	}
+
+}

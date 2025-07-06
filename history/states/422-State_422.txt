@@ -1,0 +1,25 @@
+state = {
+	id = 422
+	name = "STATE_422"
+	manpower = 541410
+
+	state_category = town
+
+	provinces = {
+		789 1982 2464 4691 8278 12767 12993 13078 
+	}
+
+	history = {
+		owner = DPR
+		
+		victory_points = { 12767 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = DPR
+	}
+
+}

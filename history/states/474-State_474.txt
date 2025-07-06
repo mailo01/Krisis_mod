@@ -1,0 +1,25 @@
+state = {
+	id = 474
+	name = "STATE_474"
+	manpower = 107043
+
+	state_category = town
+
+	provinces = {
+		1708 1918 4495 9899 12530 
+	}
+
+	history = {
+		owner = ORL
+		
+		victory_points = { 9899 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ORL
+	}
+
+}

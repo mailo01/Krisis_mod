@@ -1,0 +1,29 @@
+state = {
+	id = 143
+	name = "STATE_143"
+	manpower = 440358
+
+	state_category = large_town
+
+	provinces = {
+		730 1972 2144 3848 4018 4631 5100 5615 5741 5925 5928 6195 9192 15316 15378 15386 15404 15410 15411 15415 15420 15440 15447 15450 15455 15469 15470 15480 15488 15507 15525 16922 16924 
+	}
+
+	resources = {
+		oil = 176
+	}
+
+	history = {
+		owner = MAN
+		
+		victory_points = { 15469 50 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		add_core_of = MAN
+	}
+
+}

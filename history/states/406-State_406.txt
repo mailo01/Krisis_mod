@@ -1,0 +1,25 @@
+state = {
+	id = 406
+	name = "STATE_406"
+	manpower = 123433
+
+	state_category = town
+
+	provinces = {
+		1808 3714 5471 5958 6407 6446 7430 15376 15429 15485 15523 15541 
+	}
+
+	history = {
+		owner = HAK
+		
+		victory_points = { 6446 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = HAK
+	}
+
+}

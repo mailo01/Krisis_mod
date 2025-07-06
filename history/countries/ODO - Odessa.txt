@@ -1,0 +1,61 @@
+capital = 52
+set_technology = {
+	infantry_weapons = 1
+}
+set_convoys = 0
+add_political_power = 0
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.5
+set_oob = "ODO_1900"
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 10
+	communism = 10
+	democratic = 10
+	neutrality = 70
+}
+recruit_character = ODO_1_advisor_civilian
+recruit_character = ODO_2_advisor_civilian
+recruit_character = ODO_3_advisor_civilian
+recruit_character = ODO_4_advisor_civilian
+recruit_character = ODO_5_advisor_civilian
+recruit_character = ODO_6_advisor_civilian
+recruit_character = ODO_7_advisor_civilian
+recruit_character = ODO_8_advisor_civilian
+recruit_character = ODO_9_advisor_civilian
+recruit_character = ODO_10_advisor_civilian
+recruit_character = ODO_11_advisor_civilian
+recruit_character = ODO_12_advisor_civilian
+recruit_character = ODO_13_advisor_civilian
+recruit_character = ODO_14_advisor_civilian
+recruit_character = ODO_15_advisor_civilian
+recruit_character = ODO_16_advisor_civilian
+recruit_character = ODO_17_advisor_civilian
+recruit_character = ODO_18_advisor_civilian
+recruit_character = ODO_19_advisor_civilian
+recruit_character = ODO_20_advisor_civilian
+recruit_character = ODO_1_army_chief
+recruit_character = ODO_2_army_chief
+recruit_character = ODO_3_army_chief
+recruit_character = ODO_4_army_chief
+recruit_character = ODO_5_army_chief
+recruit_character = ODO_6_army_chief
+recruit_character = ODO_7_army_chief
+recruit_character = ODO_1_high_command
+recruit_character = ODO_2_high_command
+recruit_character = ODO_3_high_command
+recruit_character = ODO_4_high_command
+recruit_character = ODO_5_high_command
+recruit_character = ODO_6_high_command
+recruit_character = ODO_7_high_command
+recruit_character = ODO_8_high_command
+recruit_character = ODO_9_high_command
+
+
+

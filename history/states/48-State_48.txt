@@ -1,0 +1,27 @@
+state = {
+	id = 48
+	name = "STATE_48"
+	manpower = 390191
+
+	state_category = large_town
+
+	provinces = {
+		124 942 1842 3271 3980 4206 5032 5129 5335 5936 6076 6877 7203 7249 8131 12159 12229 12241 12288 12304 12305 12385 12443 12458 12485 12546 12548 
+	}
+
+	history = {
+		owner = KSM
+		
+		victory_points = { 5129 15 }
+		victory_points = { 12241 50 }
+		victory_points = { 12304 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = KSM
+	}
+
+}

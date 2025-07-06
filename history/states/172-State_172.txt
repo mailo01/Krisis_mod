@@ -1,0 +1,30 @@
+state = {
+	id = 172
+	name = "STATE_172"
+	manpower = 290396
+
+	state_category = town
+
+	provinces = {
+		3790 14445 17556 17604 17983 18000 18004 18027 18066 
+	}
+
+	resources = {
+		tungsten = 30
+	}
+
+	history = {
+		owner = KCS
+		
+		victory_points = { 14445 50 }
+		victory_points = { 17556 15 }
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		
+		add_core_of = KCS
+	}
+
+}

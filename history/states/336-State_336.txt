@@ -1,0 +1,25 @@
+state = {
+	id = 336
+	name = "STATE_336"
+	manpower = 90375
+
+	state_category = town
+
+	provinces = {
+		779 1271 1346 1560 1917 2291 2403 2514 3150 4047 4238 4339 4799 5568 5709 5920 6112 6213 6522 7050 7244 7417 8153 8415 8855 9113 9351 9579 15773 15799 15800 15804 15819 15834 15837 15853 15879 15889 15940 15956 15960 15986 16036 
+	}
+
+	history = {
+		owner = KAR
+		
+		victory_points = { 2291 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KAR
+	}
+
+}

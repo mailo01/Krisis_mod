@@ -1,0 +1,25 @@
+state = {
+	id = 495
+	name = "STATE_495"
+	manpower = 156045
+
+	state_category = town
+
+	provinces = {
+		1860 2119 3155 9700 11879 11943 
+	}
+
+	history = {
+		owner = YAR
+		
+		victory_points = { 11943 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = YAR
+	}
+
+}

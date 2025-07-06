@@ -1,0 +1,25 @@
+state = {
+	id = 302
+	name = "STATE_302"
+	manpower = 37069
+
+	state_category = town
+
+	provinces = {
+		1186 4130 4455 6293 6519 8659 9491 9600 16185 16203 16215 16218 16256 16271 
+	}
+
+	history = {
+		owner = ZHM
+		
+		victory_points = { 16215 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = ZHM
+	}
+
+}

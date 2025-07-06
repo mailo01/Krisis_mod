@@ -1,0 +1,26 @@
+state = {
+	id = 523
+	name = "STATE_523"
+	manpower = 794135
+
+	state_category = town
+
+	provinces = {
+		1864 2565 3447 4392 4454 4463 4931 7270 8209 9255 9555 9567 15204 15306 15375 15395 15401 15428 15444 15452 15483 
+	}
+
+	history = {
+		owner = NSB
+		
+		victory_points = { 3447 15 }
+		victory_points = { 15428 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = NSB
+	}
+
+}

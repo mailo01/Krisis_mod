@@ -1,0 +1,25 @@
+state = {
+	id = 500
+	name = "STATE_500"
+	manpower = 142805
+
+	state_category = town
+
+	provinces = {
+		8638 12867 12925 12943 
+	}
+
+	history = {
+		owner = MEL
+		
+		victory_points = { 8638 5 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = MEL
+	}
+
+}

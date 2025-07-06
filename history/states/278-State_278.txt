@@ -1,0 +1,25 @@
+state = {
+	id = 278
+	name = "STATE_278"
+	manpower = 451608
+
+	state_category = town
+
+	provinces = {
+		535 4348 4772 7531 7805 8602 11187 12139 
+	}
+
+	history = {
+		owner = LVV
+		
+		victory_points = { 11187 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = LVV
+	}
+
+}

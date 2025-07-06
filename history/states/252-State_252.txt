@@ -1,0 +1,25 @@
+state = {
+	id = 252
+	name = "STATE_252"
+	manpower = 345277
+
+	state_category = town
+
+	provinces = {
+		3171 6348 6932 7732 11351 
+	}
+
+	history = {
+		owner = KGD
+		
+		victory_points = { 6348 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = KGD
+	}
+
+}

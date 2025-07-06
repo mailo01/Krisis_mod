@@ -1,0 +1,29 @@
+state = {
+	id = 413
+	name = "STATE_413"
+	manpower = 20364
+
+	state_category = town
+
+	provinces = {
+		5638 6593 
+	}
+
+	resources = {
+		steel = 23
+	}
+
+	history = {
+		owner = KGS
+		
+		victory_points = { 6593 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = KGS
+	}
+
+}

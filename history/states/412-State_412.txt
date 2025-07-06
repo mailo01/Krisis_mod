@@ -1,0 +1,29 @@
+state = {
+	id = 412
+	name = "STATE_412"
+	manpower = 549227
+
+	state_category = town
+
+	provinces = {
+		35 1643 3145 4354 5872 6386 9383 14554 14578 14601 14640 14657 14688 14701 14771 14809 14834 14877 14891 14937 
+	}
+
+	resources = {
+		steel = 107
+	}
+
+	history = {
+		owner = CHL
+		
+		victory_points = { 14601 15 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = CHL
+	}
+
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 458
+	name = "STATE_458"
+	manpower = 18374
+
+	state_category = town
+
+	provinces = {
+		3886 5822 14398 
+	}
+
+	history = {
+		owner = EAO
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+		add_core_of = EAO
+	}
+
+}

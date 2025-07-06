@@ -1,0 +1,27 @@
+state = {
+	id = 40
+	name = "STATE_40"
+	manpower = 158887
+
+	state_category = rural
+
+	provinces = {
+		2219 3253 6321 8039 12354 12389 
+	}
+
+	history = {
+		owner = KRS
+		
+		victory_points = { 3253 15 }
+		victory_points = { 6321 15 }
+		victory_points = { 12389 15 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = KRS
+	}
+
+}
