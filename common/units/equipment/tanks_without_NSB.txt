@@ -1,0 +1,348 @@
+equipments = {
+	pre_war_OPV_equipment_archetype = {
+		year = 2000
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		max_strength = 3
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+	}
+	pre_war_OPV_equipment = {
+		year = 2010
+		archetype = pre_war_OPV_equipment_archetype
+		priority = 5
+		visual_level = 0
+		interface_category = interface_category_armor
+	}
+	#Массовые танки
+	basic_mass_OPF_equipment = {
+		year = 2020
+		archetype = pre_war_OPV_equipment_archetype
+		priority = 5
+		visual_level = 0
+		max_strength = 3.5
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.6
+		#Защитные свойства
+		defense = 4
+		breakthrough = 4
+		armor_value = 4
+		#Наступательные способности
+		soft_attack = 8
+		hard_attack = 8
+		ap_attack = 2
+		hardness = 0.05
+		build_cost_ic = 70
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+		fuel_consumption = 12
+	}
+	improved_mass_OPF_equipment = {
+		year = 2025
+		archetype = pre_war_OPV_equipment_archetype
+		parent = basic_mass_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 4
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.55
+		#Защитные свойства
+		defense = 6
+		breakthrough = 4
+		armor_value = 4
+		#Наступательные способности
+		soft_attack = 9
+		hard_attack = 9
+		ap_attack = 4
+		hardness = 0.1
+		build_cost_ic = 70
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+		fuel_consumption = 12
+	}
+	advanced_mass_OPF_equipment = {
+		year = 2030
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_mass_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 4.5
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.5
+		#Защитные свойства
+		defense = 8
+		breakthrough = 6
+		armor_value = 6
+		#Наступательные способности
+		soft_attack = 10
+		hard_attack = 10
+		ap_attack = 6
+		hardness = 0.125
+		build_cost_ic = 70
+		resources = {
+			steel = 8
+			chromium = 1
+		}
+		fuel_consumption = 16
+	}
+	mass_OPF_of_the_future_equipment = {
+		year = 2040
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_mass_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5
+		#Различные способности
+		maximum_speed = 5
+		reliability = 0.5
+		#Защитные свойства
+		defense = 10
+		breakthrough = 10
+		armor_value = 8
+		#Наступательные способности
+		soft_attack = 11
+		hard_attack = 11
+		ap_attack = 8
+		hardness = 0.15
+		build_cost_ic = 75
+		resources = {
+			steel = 8
+			chromium = 1
+		}
+		fuel_consumption = 16
+	}
+	#Специализированные танки
+	basic_specialized_OPF_equipment = {
+		year = 2020
+		archetype = pre_war_OPV_equipment_archetype
+		priority = 5
+		visual_level = 0
+		max_strength = 4.5
+		maximum_speed = 4
+		soft_attack = 8
+		hard_attack = 8
+		defense = 7
+		breakthrough = 6
+		armor_value = 4
+		ap_attack = 4
+		hardness = 0.06
+		fuel_consumption = 14
+		reliability = 0.55
+		build_cost_ic = 80
+		resources = {
+			steel = 6
+			chromium = 1
+		}
+	}
+	improved_specialized_OPF_equipment = {
+		year = 2025
+		archetype = pre_war_OPV_equipment_archetype
+		parent = basic_specialized_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5
+		maximum_speed = 4
+		soft_attack = 9
+		hard_attack = 9
+		defense = 9
+		breakthrough = 10
+		armor_value = 6
+		ap_attack = 7
+		hardness = 0.08
+		fuel_consumption = 16
+		reliability = 0.6
+		build_cost_ic = 85
+		resources = {
+			steel = 6
+			chromium = 1
+			tungsten = 1
+		}
+	}
+	advanced_specialized_OPF_equipment = {
+		year = 2030
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_specialized_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5.25
+		maximum_speed = 4
+		soft_attack = 10
+		hard_attack = 10
+		defense = 11
+		breakthrough = 12
+		armor_value = 8
+		ap_attack = 9
+		hardness = 0.14
+		fuel_consumption = 18
+		reliability = 0.65
+		build_cost_ic = 87.5
+		resources = {
+			steel = 6
+			chromium = 2
+			tungsten = 2
+		}
+	}
+	specialized_OPF_of_the_future_equipment = {
+		year = 2040
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_specialized_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5.5
+		maximum_speed = 5
+		soft_attack = 12
+		hard_attack = 12
+		defense = 12
+		breakthrough = 14
+		armor_value = 10
+		ap_attack = 12
+		hardness = 0.18
+		fuel_consumption = 22
+		reliability = 0.7
+		build_cost_ic = 90
+		resources = {
+			steel = 8
+			chromium = 2
+			tungsten = 2
+		}
+	}
+	#�?�? - танки
+	basic_ai_OPF_equipment = {
+		year = 2020
+		archetype = pre_war_OPV_equipment_archetype
+		priority = 5
+		visual_level = 0
+		max_strength = 4.5
+		maximum_speed = 4
+		soft_attack = 9
+		hard_attack = 9
+		defense = 6
+		breakthrough = 8
+		armor_value = 6
+		ap_attack = 7
+		hardness = 0.14
+		fuel_consumption = 18
+		reliability = 0.35
+		build_cost_ic = 85
+		resources = {
+			steel = 3
+			chromium = 4
+			tungsten = 1
+		}
+	}
+	improved_ai_OPF_equipment = {
+		year = 2025
+		archetype = pre_war_OPV_equipment_archetype
+		parent = basic_ai_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 4.9
+		maximum_speed = 4
+		soft_attack = 10
+		hard_attack = 10
+		defense = 8
+		breakthrough = 12
+		armor_value = 8
+		ap_attack = 8
+		hardness = 0.16
+		fuel_consumption = 20
+		reliability = 0.4
+		build_cost_ic = 90
+		resources = {
+			steel = 3
+			chromium = 4
+			tungsten = 2
+		}
+	}
+	advanced_ai_OPF_equipment = {
+		year = 2030
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_ai_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5.3
+		maximum_speed = 4
+		soft_attack = 11
+		hard_attack = 11
+		defense = 10
+		breakthrough = 16
+		armor_value = 10
+		ap_attack = 11
+		hardness = 0.18
+		fuel_consumption = 22
+		reliability = 0.5
+		build_cost_ic = 95
+		resources = {
+			steel = 6
+			chromium = 4
+			tungsten = 2
+		}
+	}
+	ai_OPF_of_the_future_equipment = {
+		year = 2040
+		archetype = pre_war_OPV_equipment_archetype
+		parent = improved_ai_OPF_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		max_strength = 5.7
+		maximum_speed = 5
+		soft_attack = 13
+		hard_attack = 13
+		defense = 14
+		breakthrough = 20
+		armor_value = 12
+		ap_attack = 13
+		hardness = 0.2
+		fuel_consumption = 24
+		reliability = 0.6
+		build_cost_ic = 100
+		resources = {
+			steel = 6
+			chromium = 8
+			tungsten = 4
+		}
+	}
+}

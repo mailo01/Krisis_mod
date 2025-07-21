@@ -1,0 +1,16 @@
+#Tankoviy batalion
+TANK_ARM_01 = {
+	name = "Tankoviy batalion"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"pre_war_OPV"
+	}
+	fallback_name = "%d Tankoviy batalion"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}

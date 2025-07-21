@@ -1,0 +1,54 @@
+AGE_GREEN_REG = {
+	name = "Зеленый полк"
+	for_countries = {
+		AGE
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d-й Зеленый Полк"
+	ordered = {
+		3 = {
+			"%d-й Зеленый Полк “Жепа”"
+		}
+	}
+}
+AGE_LOC_MIL = {
+	name = "Локальное ополчение"
+	for_countries = {
+		AGE
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d-е Локальное ополчение"
+	ordered = {
+		6 = {
+			"%d-е Локальное ополчение"
+		}
+	}
+}
+AGE_TWI_DIV = {
+	name = "Сумрачный дивизион"
+	for_countries = {
+		AGE
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d-й Сумрачный дивизион"
+	ordered = {
+		4 = {
+			"%d-й Сумрачный дивизион"
+		}
+	}
+}

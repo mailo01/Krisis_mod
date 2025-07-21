@@ -1,0 +1,288 @@
+#Bandits
+BANDIT_INF_01 = {
+	name = "Bandit formation"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Bandit formation"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Bagrovie divisions
+BAGROVIE_INF_01 = {
+	name = "Bagrovie luchi"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Bagrovie luchi"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+BAGROVIE_INF_02 = {
+	name = "Bagrovie klinya"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Bagroviy klin"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Tvari
+TVARI_INF_01 = {
+	name = "Tvari"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Trari group"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Pekhotnaya gruppa
+PEKHOTNAYA_GRUPPA_01 = {
+	name = "Pekhotnaya gruppa"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Pekhotnaya gruppa"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Squads
+SQUAD_INF_01 = {
+	name = "Pervoe pokolenie squad"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s First generation squad"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+SQUAD_INF_02 = {
+	name = "Vtoroe pokolenie squad"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Second generation squad"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Punishers
+PUNISHER_INF_01 = {
+	name = "Punishers"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Punishers"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Corps
+CORPS_INF_01 = {
+	name = "Infantry Corps"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Infantry Corps"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+CORPS_INF_01 = {
+	name = "Infantry Corps"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Infantry Corps"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+CORPS_INF_02 = {
+	name = "Assault Corps"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Assault Corps"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Motorized infantry
+MOTORIZED_INF_01 = {
+	name = "Motorized infantry"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Infanterie-Division (mot)"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Loyalisti
+LOYALISTI_INF_01 = {
+	name = "Loyalisti"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%d Loyalist-Division"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#Holy armies :/
+HOLY_INF_01 = {
+	name = "Sviatoe opolchenie"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Sviatoe opolchenie"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+HOLY_INF_02 = {
+	name = "Bojiya dlan"
+	for_countries = {}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "%s Bojiya dlan"
+	#TODO: add ordered names if want something special
+	#ordered = {
+	#	1 = { "1 Aussa Yekilili Sefari" }
+	#}
+}
+#SDC armies
+SDC_CORDONIK_REG = {
+	name = "Кордонники"
+	for_countries = {
+		SDC
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "Кордонники"
+}
+SDC_CONSСRIPT_REG = {
+	name = "Призывники"
+	for_countries = {
+		SDC
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "Призывники"
+}
+TAG_REG = {
+	name = "Сельское ополчение"
+	for_countries = {
+		TAG
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "Сельское ополчение"
+}
+ARK_REG = {
+	name = "Городское ополчение"
+	for_countries = {
+		ARK
+	}
+	can_use = {
+		always = yes
+	}
+	division_types = {
+		"infantry"
+	}
+	fallback_name = "Городское ополчение"
+}

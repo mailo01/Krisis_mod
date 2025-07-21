@@ -1,44 +1,24 @@
 equipments = {
-
 	motorized_equipment = {
-		year = 1936
-
+		year = 2015
 		is_archetype = yes
-		picture = archetype_motorized_equipment		
+		picture = archetype_motorized_equipment
 		is_buildable = no
 		type = {
 			#infantry #Removing inf type 
 			motorized
 		}
 		group_by = archetype
-		
 		interface_category = interface_category_land
-		
-		maximum_speed = 12
-		reliability = 0.8
-		hardness = 0.1
-
-		breakthrough = 5
-
-		#Space taken in convoy
-		lend_lease_cost = 5
-
-		build_cost_ic = 2.5
-		resources = {
-			#oil = 1
-			rubber = 1
-			steel = 1
-		}
-		
-		fuel_consumption = 1.2
+		active = no
 		supply_truck = yes
 	}
-
-	motorized_equipment_0 = { # Introducing WW1 style trucks
-		year = 1936
-
+	motorized_equipment_1 = {
+		year = 2015
 		archetype = motorized_equipment
 		priority = 30
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		maximum_speed = 10
 		reliability = 0.65
 		breakthrough = 2			
@@ -71,25 +51,113 @@ equipments = {
 		reliability = 0.9
 		#hardness = 0
 
+=======
+		active = no
+		visual_level = 0
+		maximum_speed = 4
+>>>>>>> Stashed changes
+=======
+		active = no
+		visual_level = 0
+		maximum_speed = 4
+>>>>>>> Stashed changes
 		breakthrough = 1
-
-		#Space taken in convoy
-		lend_lease_cost = 2
-
-		build_cost_ic = 1.5
+		hardness = 0.025
+		fuel_consumption = 1.2
+		reliability = 0.4
+		build_cost_ic = 35
 		resources = {
-			#oil = 1
-			rubber = 1
 			steel = 1
+			rubber = 1
 		}
-		
-		fuel_consumption = 0.5
+		supply_truck = yes
 	}
-
-	motorbike_equipment_1 = {
-
-		archetype = motorbike_equipment
-		priority = 1 #Very low
+	motorized_equipment_2 = {
+		year = 2020
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		visual_level = 1
+		interface_category = interface_category_land
+		archetype = motorized_equipment
+		parent = motorized_equipment_1
+		maximum_speed = 4
+		breakthrough = 1
+		hardness = 0.025
+		fuel_consumption = 1.2
+		reliability = 0.425
+		build_cost_ic = 35
+		resources = {
+			steel = 1
+			rubber = 1
+		}
+		supply_truck = yes
 	}
-
+	motorized_equipment_3 = {
+		year = 2025
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		parent = motorized_equipment_2
+		interface_category = interface_category_land
+		visual_level = 2
+		archetype = motorized_equipment
+		maximum_speed = 4
+		breakthrough = 1
+		hardness = 0.025
+		fuel_consumption = 1.2
+		reliability = 0.45
+		build_cost_ic = 35
+		resources = {
+			steel = 1
+			rubber = 1
+		}
+		supply_truck = yes
+	}
+	motorized_equipment_4 = {
+		year = 2030
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		parent = motorized_equipment_3
+		interface_category = interface_category_land
+		visual_level = 3
+		archetype = motorized_equipment
+		maximum_speed = 4
+		breakthrough = 1
+		hardness = 0.025
+		fuel_consumption = 1.2
+		reliability = 0.5
+		build_cost_ic = 35
+		resources = {
+			steel = 1
+			rubber = 1
+		}
+		supply_truck = yes
+	}
+	motorized_equipment_5 = {
+		year = 2033
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		parent = motorized_equipment_4
+		interface_category = interface_category_land
+		visual_level = 4
+		archetype = motorized_equipment
+		maximum_speed = 4
+		breakthrough = 1
+		hardness = 0.025
+		fuel_consumption = 1.2
+		reliability = 0.6
+		build_cost_ic = 35
+		resources = {
+			steel = 2
+			rubber = 2
+		}
+		supply_truck = yes
+	}
 }

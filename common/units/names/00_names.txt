@@ -1,190 +1,247 @@
-﻿# Names are based on equipment types (picking equipment with highest amount from the pool)
+# Names are based on equipment types (picking equipment with highest amount from the pool)
+﻿
 # Generic are used for countries that are not scripted in.
 generic = {
 	# Ships
 	submarine = {
 		prefix = ""
-		generic = { "Submarine" }
+		generic = {
+			"Submarine"
+		}
 		unique = {}
 	}
 	destroyer = {
 		prefix = ""
-		generic = { "Destroyer" }
+		generic = {
+			"Destroyer"
+		}
 		unique = {}
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Light Cruiser" }
+		generic = {
+			"Light Cruiser"
+		}
 		unique = {}
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = { "Heavy Cruiser" }
+		generic = {
+			"Heavy Cruiser"
+		}
 		unique = {}
 	}
 	battle_cruiser = {
 		prefix = ""
-		generic = { "Battlecruiser" }
+		generic = {
+			"Battlecruiser"
+		}
 		unique = {}
 	}
 	battleship = {
 		prefix = ""
-		generic = { "Battleship" }
+		generic = {
+			"Battleship"
+		}
 		unique = {}
 	}
 	SH_battleship = {
 		prefix = ""
-		generic = { "Super Heavy Battleship" }
+		generic = {
+			"Super Heavy Battleship"
+		}
 		unique = {}
 	}
 	carrier = {
 		prefix = ""
-		generic = { "Carrier" }
+		generic = {
+			"Carrier"
+		}
 		unique = {}
 	}
-	
 	# Land units
 	infantry = {
 		prefix = ""
-		generic = { "Infantry Division" }
+		generic = {
+			"Infantry Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	marine = {
 		prefix = ""
-		generic = { "Marine Division" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	mountaineers = {
-		prefix = ""
-		generic = { "Mountain Division" }
+		generic = {
+			"Marine Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	paratrooper = {
 		prefix = ""
-		generic = { "Airborne Division" }
+		generic = {
+			"Airborne Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	motorized = {
 		prefix = ""
-		generic = { "Motorized Division" }
+		generic = {
+			"Motorized Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	mechanized = {
 		prefix = ""
-		generic = { "Mechanized Division" }
+		generic = {
+			"Mechanized Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	artillery_brigade = {
 		prefix = ""
-		generic = { "Artillery Brigade" }
+		generic = {
+			"Artillery Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	anti_tank_brigade = {
 		prefix = ""
-		generic = { "Anti-Tank Brigade" }
+		generic = {
+			"Anti-Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	anti_air_brigade = {
 		prefix = ""
-		generic = { "Anti-Air Brigade" }
+		generic = {
+			"Anti-Air Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	engineer = {
 		prefix = ""
-		generic = { "Engineer Company" }
+		generic = {
+			"Engineer Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	recon = {
 		prefix = ""
-		generic = { "Recon Company" }
+		generic = {
+			"Recon Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	field_hospital = {
 		prefix = ""
-		generic = { "Field Hospital" }
+		generic = {
+			"Field Hospital"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	logistics_company = {
 		prefix = ""
-		generic = { "Logistics Company" }
+		generic = {
+			"Logistics Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	military_police = {
 		prefix = ""
-		generic = { "Police Company" }
+		generic = {
+			"Police Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	signal_company = {
 		prefix = ""
-		generic = { "Signal Company" }
+		generic = {
+			"Signal Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	maintenance_company = {
 		prefix = ""
-		generic = { "Maintenance Company" }
+		generic = {
+			"Maintenance Company"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
-	}	
+	}
 	cavalry = {
 		prefix = ""
-		generic = { "Cavalry Division" }
+		generic = {
+			"Cavalry Division"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	light_armor = {
 		prefix = ""
-		generic = { "Light Tank Brigade" }
+		generic = {
+			"Light Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	medium_armor = {
 		prefix = ""
-		generic = { "Medium Tank Brigade" }
+		generic = {
+			"Medium Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	heavy_armor = {
 		prefix = ""
-		generic = { "Heavy Tank Brigade" }
+		generic = {
+			"Heavy Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	modern_armor = {
 		prefix = ""
-		generic = { "Modern Tank Brigade" }
+		generic = {
+			"Modern Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
 	super_heavy_armor = {
 		prefix = ""
-		generic = { "Super Heavy Tank Brigade" }
+		generic = {
+			"Super Heavy Tank Brigade"
+		}
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-
 	# Operative code names
 	codename = {
 		prefix = ""
-		generic = { "Agent" }
+		generic = {
+			"Agent"
+		}
 		generic_pattern = "OPERATIVE_GENERIC_CODENAME_PATTERN"
-		unique = { "Agent 007" }
+		unique = {
+			"Agent 007"
+		}
 	}
 }
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 # Country specific names.
 # Prefix is always appended at the begin of each generated name.
@@ -4963,3 +5020,7 @@ INS = {
 		}
 	}
 }
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes

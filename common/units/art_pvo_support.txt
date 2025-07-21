@@ -1,0 +1,120 @@
+sub_units = {
+	stvol_art_sup = {
+		abbreviation = "SAP"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+		essential = {
+			artillery_equipment
+			infantry_equipment
+		}
+		need = {
+			artillery_equipment = 6
+			infantry_equipment = 42
+		}
+		manpower = 42
+		combat_width = 3
+	}
+	towed_art_sup = {
+		abbreviation = "TAS"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+		essential = {
+			artillery_equipment
+			motorized_equipment
+			infantry_equipment
+		}
+		need = {
+			artillery_equipment = 6
+			motorized_equipment = 6
+			infantry_equipment = 154
+		}
+		manpower = 144
+		combat_width = 3
+	}
+	anti_air_art_sup = {
+		abbreviation = "AAS"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+		essential = {
+			anti_air_equipment
+			infantry_equipment
+		}
+		need = {
+			anti_air_equipment = 6
+			infantry_equipment = 24
+		}
+		manpower = 24
+		combat_width = 3
+	}
+	mlrs_art_sup = {
+		abbreviation = "MAS"
+		sprite = artillery
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		type = {
+			infantry
+			support
+		}
+		group = support
+		categories = {
+			category_support_battalions
+			category_army
+			category_artillery
+		}
+		essential = {
+			anti_tank_equipment
+			infantry_equipment
+		}
+		need = {
+			anti_tank_equipment = 6
+			infantry_equipment = 24
+		}
+		manpower = 24
+		combat_width = 3
+	}
+}

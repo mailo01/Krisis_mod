@@ -1,0 +1,537 @@
+equipments = {
+	pre_war_mass_tank_chassis = {
+		year = 2010
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+		module_slots = none
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+	}
+	pre_war_spec_tank_chassis = {
+		year = 2010
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+		module_slots = none
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		max_strength = 2
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+	}
+	pre_war_ai_tank_chassis = {
+		year = 2010
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+		module_slots = none
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+	}
+	pre_war_early_tank_chassis = {
+		year = 2010
+		is_archetype = yes
+		is_buildable = no
+		picture = archetype_light_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+		module_slots = none
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+		resources = {
+			steel = 1
+		}
+	}
+	### Ранний танк
+	early_mbt_equipment = {
+		abbreviation = "MBT0"
+		derived_variant_name = basic_mass_OPF_equipment
+		visual_level = 0
+		year = 2020
+		archetype = pre_war_mass_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.65
+		#Защитные свойства
+		defense = 2
+		breakthrough = 2
+		armor_value = 2
+		#Наступательные способности
+		soft_attack = 7
+		hard_attack = 7
+		ap_attack = 50
+		hardness = 0.05
+		build_cost_ic = 65
+		resources = {
+			steel = 3
+			chromium = 4
+		}
+		fuel_consumption = 8
+	}
+	#Массовые танки
+	mass_tank_chassis_0 = {
+		abbreviation = "MT0"
+		derived_variant_name = basic_mass_OPF_equipment
+		visual_level = 0
+		year = 2020
+		archetype = pre_war_mass_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.6
+		#Защитные свойства
+		defense = 4
+		breakthrough = 4
+		armor_value = 4
+		#Наступательные способности
+		soft_attack = 8
+		hard_attack = 8
+		ap_attack = 2
+		hardness = 0.05
+		build_cost_ic = 70
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+		fuel_consumption = 12
+	}
+	mass_tank_chassis_1 = {
+		abbreviation = "MT1"
+		derived_variant_name = basic_mass_OPF_equipment
+		parent = mass_tank_chassis_0
+		visual_level = 0
+		year = 2025
+		archetype = pre_war_mass_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.55
+		#Защитные свойства
+		defense = 6
+		breakthrough = 4
+		armor_value = 4
+		#Наступательные способности
+		soft_attack = 9
+		hard_attack = 9
+		ap_attack = 4
+		hardness = 0.1
+		build_cost_ic = 70
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+		fuel_consumption = 12
+	}
+	mass_tank_chassis_2 = {
+		abbreviation = "MT2"
+		derived_variant_name = basic_mass_OPF_equipment
+		parent = mass_tank_chassis_1
+		visual_level = 0
+		year = 2030
+		archetype = pre_war_mass_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 4
+		reliability = 0.5
+		#Защитные свойства
+		defense = 8
+		breakthrough = 6
+		armor_value = 6
+		#Наступательные способности
+		soft_attack = 10
+		hard_attack = 10
+		ap_attack = 6
+		hardness = 0.125
+		build_cost_ic = 70
+		resources = {
+			steel = 8
+			chromium = 1
+		}
+		fuel_consumption = 16
+	}
+	mass_tank_chassis_3 = {
+		abbreviation = "MT3"
+		derived_variant_name = basic_mass_OPF_equipment
+		parent = mass_tank_chassis_2
+		visual_level = 0
+		year = 2040
+		archetype = pre_war_mass_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		#Различные способности
+		maximum_speed = 5
+		reliability = 0.5
+		#Защитные свойства
+		defense = 10
+		breakthrough = 10
+		armor_value = 8
+		#Наступательные способности
+		soft_attack = 11
+		hard_attack = 11
+		ap_attack = 8
+		hardness = 0.15
+		build_cost_ic = 75
+		resources = {
+			steel = 8
+			chromium = 1
+		}
+		fuel_consumption = 16
+	}
+	#Специализированные танки
+	specialized_tank_chassis_0 = {
+		abbreviation = "ST0"
+		derived_variant_name = basic_specialized_OPF_equipment
+		visual_level = 0
+		year = 2020
+		archetype = pre_war_spec_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 8
+		hard_attack = 8
+		defense = 7
+		breakthrough = 6
+		armor_value = 4
+		ap_attack = 4
+		hardness = 0.06
+		fuel_consumption = 14
+		reliability = 0.55
+		build_cost_ic = 80
+		resources = {
+			steel = 6
+			chromium = 1
+		}
+	}
+	specialized_tank_chassis_1 = {
+		abbreviation = "ST1"
+		derived_variant_name = basic_specialized_OPF_equipment
+		parent = specialized_tank_chassis_0
+		visual_level = 0
+		year = 2025
+		archetype = pre_war_spec_tank_chassis
+		priority = 2000
+		module_slots = none
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 9
+		hard_attack = 9
+		defense = 9
+		breakthrough = 10
+		armor_value = 6
+		ap_attack = 7
+		hardness = 0.08
+		fuel_consumption = 16
+		reliability = 0.6
+		build_cost_ic = 85
+		resources = {
+			steel = 6
+			chromium = 1
+			tungsten = 1
+		}
+	}
+	specialized_tank_chassis_2 = {
+		abbreviation = "ST2"
+		derived_variant_name = basic_specialized_OPF_equipment
+		parent = specialized_tank_chassis_1
+		visual_level = 0
+		year = 2030
+		archetype = pre_war_spec_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 10
+		hard_attack = 10
+		defense = 11
+		breakthrough = 12
+		armor_value = 8
+		ap_attack = 9
+		hardness = 0.14
+		fuel_consumption = 18
+		reliability = 0.65
+		build_cost_ic = 87.5
+		resources = {
+			steel = 6
+			chromium = 2
+			tungsten = 2
+		}
+	}
+	specialized_tank_chassis_3 = {
+		abbreviation = "ST#"
+		derived_variant_name = basic_specialized_OPF_equipment
+		parent = specialized_tank_chassis_2
+		visual_level = 0
+		year = 2040
+		archetype = pre_war_spec_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 5
+		soft_attack = 12
+		hard_attack = 12
+		defense = 12
+		breakthrough = 14
+		armor_value = 10
+		ap_attack = 12
+		hardness = 0.18
+		fuel_consumption = 22
+		reliability = 0.7
+		build_cost_ic = 90
+		resources = {
+			steel = 8
+			chromium = 2
+			tungsten = 2
+		}
+	}
+	#�?�? - танки
+	ai_tank_chassis_0 = {
+		abbreviation = "AT0"
+		derived_variant_name = basic_ai_OPF_equipment
+		visual_level = 0
+		year = 2020
+		archetype = pre_war_ai_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 9
+		hard_attack = 9
+		defense = 6
+		breakthrough = 8
+		armor_value = 6
+		ap_attack = 7
+		hardness = 0.14
+		fuel_consumption = 18
+		reliability = 0.35
+		build_cost_ic = 85
+		resources = {
+			steel = 3
+			chromium = 4
+			tungsten = 1
+		}
+	}
+	ai_tank_chassis_1 = {
+		abbreviation = "AT1"
+		derived_variant_name = basic_ai_OPF_equipment
+		parent = ai_tank_chassis_0
+		visual_level = 0
+		year = 2025
+		archetype = pre_war_ai_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 10
+		hard_attack = 10
+		defense = 8
+		breakthrough = 12
+		armor_value = 8
+		ap_attack = 8
+		hardness = 0.16
+		fuel_consumption = 20
+		reliability = 0.4
+		build_cost_ic = 90
+		resources = {
+			steel = 3
+			chromium = 4
+			tungsten = 2
+		}
+	}
+	ai_tank_chassis_2 = {
+		abbreviation = "AT2"
+		derived_variant_name = basic_ai_OPF_equipment
+		parent = ai_tank_chassis_1
+		visual_level = 0
+		year = 2030
+		archetype = pre_war_ai_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 4
+		soft_attack = 11
+		hard_attack = 11
+		defense = 10
+		breakthrough = 16
+		armor_value = 10
+		ap_attack = 11
+		hardness = 0.18
+		fuel_consumption = 22
+		reliability = 0.5
+		build_cost_ic = 95
+		resources = {
+			steel = 6
+			chromium = 4
+			tungsten = 2
+		}
+	}
+	ai_tank_chassis_3 = {
+		abbreviation = "AT#"
+		derived_variant_name = basic_ai_OPF_equipment
+		parent = ai_tank_chassis_2
+		visual_level = 0
+		year = 2040
+		archetype = pre_war_ai_tank_chassis
+		priority = 2000
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		max_strength = 2
+		maximum_speed = 5
+		soft_attack = 13
+		hard_attack = 13
+		defense = 14
+		breakthrough = 20
+		armor_value = 12
+		ap_attack = 13
+		hardness = 0.2
+		fuel_consumption = 24
+		reliability = 0.6
+		build_cost_ic = 100
+		resources = {
+			steel = 6
+			chromium = 8
+			tungsten = 4
+		}
+	}
+}

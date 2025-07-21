@@ -1,0 +1,196 @@
+sub_units = {
+	OPF = {
+		sprite = "medium_armor"
+		map_icon_category = armored
+		priority = 5
+		ai_priority = 5
+		active = yes
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+		}
+		essential = {
+			pre_war_OPV_equipment_archetype
+			infantry_equipment
+			infantry_odejda
+		}
+		need = {
+			pre_war_OPV_equipment_archetype = 4
+			infantry_equipment = 12
+			infantry_odejda = 26
+		}
+		manpower = 26
+		default_morale = 0.3
+		weight = 1.5
+		supply_consumption = 0.25
+		initiative = 0.2
+		experience_loss_factor = 0.001
+		combat_width = 2
+		max_organisation = 15
+		training_time = 200
+		forest = {
+			attack = -0.3
+			movement = -0.4
+		}
+		hills = {
+			attack = -0.1
+		}
+		mountain = {
+			attack = -0.2
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.7
+		}
+	}
+	specialized_OPF = {
+		sprite = "medium_armor"
+		map_icon_category = armored
+		priority = 5
+		ai_priority = 5
+		active = no
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+		}
+		essential = {
+			basic_specialized_OPF_equipment
+			infantry_equipment
+			infantry_odejda
+		}
+		need = {
+			basic_specialized_OPF_equipment = 4
+			infantry_equipment = 12
+			infantry_odejda = 26
+		}
+		manpower = 26
+		default_morale = 0.3
+		weight = 1.75
+		supply_consumption = 0.35
+		initiative = 0.2
+		experience_loss_factor = 0.001
+		combat_width = 2
+		max_organisation = 15
+		training_time = 230
+		forest = {
+			attack = -0.3
+			movement = -0.4
+		}
+		hills = {
+			attack = -0.1
+		}
+		mountain = {
+			attack = -0.2
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.7
+		}
+	}
+	ai_OPF = {
+		sprite = "medium_armor"
+		map_icon_category = armored
+		priority = 5
+		ai_priority = 5
+		active = no
+		type = {
+			armor
+		}
+		group = armor
+		categories = {
+			category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+		}
+		essential = {
+			basic_ai_OPF_equipment
+			infantry_equipment
+		}
+		need = {
+			basic_ai_OPF_equipment = 4
+			infantry_equipment = 12
+			infantry_odejda = 26
+		}
+		manpower = 26
+		default_morale = 0.3
+		weight = 1.75
+		supply_consumption = 0.4
+		initiative = 0.2
+		experience_loss_factor = 0.001
+		combat_width = 2
+		max_organisation = 15
+		training_time = 260
+		forest = {
+			attack = -0.3
+			movement = -0.4
+		}
+		hills = {
+			attack = -0.1
+		}
+		mountain = {
+			attack = -0.2
+		}
+		jungle = {
+			attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.7
+		}
+	}
+}
